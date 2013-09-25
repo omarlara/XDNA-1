@@ -1,0 +1,60 @@
+/* ..-------------------------------------------------------... |                         COLOR PALETTE                      | |..--------------------------------------------------------..|*/
+/*...................Links.....................*/
+/*...................Headings.....................*/
+/* ..-------------------------------------------------------...
+|                 ANIMATIONS & TRANSITIONS                   |
+|..--------------------------------------------------------..|*/
+/* ..-------------------------------------------------------... |                         HELPER CLASSES                     | |..--------------------------------------------------------..|*/
+.nodisplay, .hide { display: none; }
+
+.inline { display: inline-block; }
+
+.pointer:hover { cursor: pointer; }
+
+.center { text-align: center; }
+
+.left { text-align: left; }
+
+.right { text-align: right; }
+
+.auto { margin: 0 auto; }
+
+.odd { background: #FBFBFB; }
+
+.even { background: #F2F0F1; }
+
+.letterpressed { text-shadow: 1px 1px 0 #ccc, -1px -1px- 0 #999; }
+
+.bold { font-weight: bold; }
+
+.clearfix { overflow: hidden; *zoom: 1; }
+
+.block { display: block; }
+
+.h100 { height: 100%; }
+
+.noOutline { outline: none; }
+
+.antialiased { -webkit-font-smoothing: antialiased; }
+
+.paddingL { padding-left: 1.3%; }
+
+.paddingB { padding-bottom: 1.3%; }
+
+.paddingR { padding-right: 1.3%; }
+
+.paddingT { padding-top: 1.3%; }
+
+.floatR { float: right; }
+
+.floatL { float: left; }
+
+.positionA { position: absolute; }
+
+.positionF { position: fixed; }
+
+.positionR { position: relative; }
+
+.fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
+
+body { background: black !important; }

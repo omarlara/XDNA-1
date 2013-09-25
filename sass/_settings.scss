@@ -1,0 +1,48 @@
+/* ..-------------------------------------------------------...
+  |                         COLOR PALETTE                      |
+  |..--------------------------------------------------------..|*/
+
+  $color1: #002279;
+  $color2: #004434;
+  $color3: #770000;
+  $white: #fefefe;
+  $black: #333;
+  $gray:  #999;
+  $defaultBg: $white;
+
+  $red: #773300;
+  $green: #2C944A;
+  $blue: #00b0e2;
+
+
+  $defaultFontSize: 100%;
+  $em-base: 16 !default;
+
+  $defaultFontColor: #444444;
+  $defaultLetterSpacing: 0;
+
+  $defaultBorderRadius: 7px;
+  $defaultPadding: 1.3%;
+  $defaultMargin: 10px;
+
+
+  /*...................Links.....................*/
+
+  $linkNormal: #255FA7;
+  $linkHover: lighten($linkNormal, 10%);
+  $linkActive: saturate($linkHover, 40%);
+  $linkVisited: saturate($linkNormal, 10%);
+  $linkFocus:lighten($linkHover, 10%);
+
+  /*...................Headings.....................*/
+  $headingFont: sans-serif ;
+  $headingFontWeight: bold;
+  
+  /* ..-------------------------------------------------------...
+  |                 ANIMATIONS & TRANSITIONS                   |
+  |..--------------------------------------------------------..|*/
+
+  $default-transition-property : all;
+  $default-transition-duration : 0.2s;
+  $default-transition-function : ease;    //[ ease | linear | ease-in | ease-out | ease-in-out | cubic-bezier(x1, y1, x2, y2)]
+  $default-transition-delay    : false;
