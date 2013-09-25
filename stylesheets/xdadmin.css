@@ -59,7 +59,7 @@
 
 body { background: black !important; }
 
-@media (max-width: 320px) { /* Force table to not be like tables anymore */
+@media only screen and (max-width: 768px) { /* Force table to not be like tables anymore */
   #main-content table table, #main-content table thead, #main-content table tbody, #main-content table th, #main-content table td, #main-content table tr { display: block; }
   /* Hide table headers (but not display: none;, for accessibility) */
   #main-content table thead tr { position: absolute; top: -9999px; left: -9999px; }

@@ -7,7 +7,7 @@ body{
 	background: black !important;
 }
 
-@include mobile-portrait-and-below{
+@include tablet-portrait-and-below{
 
 	/* Force table to not be like tables anymore */
 	#main-content table table, 
