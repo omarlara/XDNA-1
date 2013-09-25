@@ -8,51 +8,41 @@ body{
 }
 
 @include tablet-portrait-and-below{
-
-	/* Force table to not be like tables anymore */
-	#main-content table, 
-	#main-content thead, 
-	#main-content tbody, 
-	#main-content th, 
-	#main-content td, 
-	#main-content tr { 
-		display: block; 
+	.xd table.ms-listviewtable{
+		display: block;
+		thead, tbody, th, td, tr{
+			display: block;
+		}
+		thead tr{
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+		tr{
+			border: 1px solid #ccc;
+		}
+		td{
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee; 
+			position: relative;
+			padding-left: 50%; 
+			white-space: normal;
+			text-align:left;
+		}
+		td:before { 
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%; 
+			padding-right: 10px; 
+			white-space: nowrap;
+			text-align:left;
+			font-weight: bold;
+		}
+		td:before { content: attr(data-title); }
 	}
- 
-	/* Hide table headers (but not display: none;, for accessibility) */
-	#main-content  thead tr { 
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
- 
-	#main-content  tr { border: 1px solid #ccc; }
- 
-	#main-content  td { 
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee; 
-		position: relative;
-		padding-left: 50%; 
-		white-space: normal;
-		text-align:left;
-	}
- 
-	#main-content  td:before { 
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-		text-align:left;
-		font-weight: bold;
-	}
- 
-	/*
-	Label the data
-	*/
-	#main-content  td:before { content: attr(data-title); }
+	
 }

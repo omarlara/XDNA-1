@@ -59,12 +59,10 @@
 
 body { background: black !important; }
 
-@media only screen and (max-width: 768px) { /* Force table to not be like tables anymore */
-  #main-content table, #main-content thead, #main-content tbody, #main-content th, #main-content td, #main-content tr { display: block; }
-  /* Hide table headers (but not display: none;, for accessibility) */
-  #main-content thead tr { position: absolute; top: -9999px; left: -9999px; }
-  #main-content tr { border: 1px solid #ccc; }
-  #main-content td { /* Behave  like a "row" */ border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; white-space: normal; text-align: left; }
-  #main-content td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; text-align: left; font-weight: bold; }
-  /* Label the data */
-  #main-content td:before { content: attr(data-title); } }
+@media only screen and (max-width: 768px) { .xd table.ms-listviewtable { display: block; }
+  .xd table.ms-listviewtable thead, .xd table.ms-listviewtable tbody, .xd table.ms-listviewtable th, .xd table.ms-listviewtable td, .xd table.ms-listviewtable tr { display: block; }
+  .xd table.ms-listviewtable thead tr { position: absolute; top: -9999px; left: -9999px; }
+  .xd table.ms-listviewtable tr { border: 1px solid #ccc; }
+  .xd table.ms-listviewtable td { /* Behave  like a "row" */ border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; white-space: normal; text-align: left; }
+  .xd table.ms-listviewtable td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; text-align: left; font-weight: bold; }
+  .xd table.ms-listviewtable td:before { content: attr(data-title); } }
