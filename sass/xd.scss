@@ -3,8 +3,220 @@
 @import "helpers";
 @import "layout";
 
-table.ms-listviewtable{
-  &:hover{
-    background: black;
+body.xd{
+    .menu-icon{
+        background: darken($blue, 10%);
+        width:45px;
+        height:45px;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        right: 0;
+        @include animateAll;
+        &:hover{
+          background: darken($blue,5%);
+          @extend .pointer;
+        }
+      }
+  .mobile-submenu{
+    display: none ;
+    clear: both;
   }
+ /** .dynamic-children{
+    &:hover{
+      cursor: pointer;
+    }
+    .arrow-down{
+      width: 0;
+      height: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 7px solid lighten($blue, 10%);
+      float: right;
+      margin-left: 11px;
+
+    }
+    .arrow-right{
+      width: 0;
+      height: 0;
+      border-bottom: 7px solid transparent;
+      border-top: 7px solid transparent;
+      border-left: 7px solid lighten($blue, 10%);
+      float: right;
+      margin-left: 11px;
+
+    }
+    .additional-background{
+      .menu-item-text{
+        float: left;
+      }
+      background: none !important;
+    }
+  } **/
+  #zz15_TopNavigationMenuV4{
+    display: none;
+  }
+	@include mobile-only{
+    .menu-icon{
+      display: block;
+    }
+    .menu .ul.dynamic{
+        display: block !important;
+        left: auto !important;
+        top: auto !important;
+        position: static !important;
+        clear: both !important;
+        
+    }
+    ul.root.static{
+      @include clearfix;
+    }  
+		#zz15_TopNavigationMenuV4 .menu{
+      
+		
+			width: 100%;
+			ul{
+			
+				width: 100%;
+				> li{
+					width: 100%;
+
+
+				}
+				ul > li{
+					width: 100%;
+
+				}
+			}
+		}
+	}
+  @include tablet-landscape-and-up{
+    .menu-icon{
+      display: none;
+    }
+  }
+}
+
+
+/* ==========================================================================
+   INDEX
+   1.0 Master Page Wrappers and GLOBAL
+   2.0 Header Styles
+   3.0 Menu
+   4.0 Footer
+   5.0 Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   1.0 Master Page Wrappers
+   ========================================================================== */
+body.xd #ctl00_MSO_ContentDiv,
+body.xd #s4-bodyContainer {
+  min-width: inherit;
+}
+
+body.xd #s4-leftpanel {
+  display: none;
+}
+
+body.xd .s4-ca {
+  margin-left: 0px;
+}
+
+body.xd hr {
+  border-bottom: none;
+}
+
+body.xd {
+  background-color: #efefef;
+}
+
+/* ==========================================================================
+   2.0 Header Styles
+   ========================================================================== */
+body.xd .xd-header {
+  background-color: #009fd9;
+  padding: 30px;
+}
+
+body.xd .xd-header h1 {
+  display: inline-block;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+body.xd .xd-header h1 a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+
+body.xd .xd-header .s4-notdlg {
+  display: inline-block;
+}
+
+.xd-welcome {
+  font-size: .7em;
+  clear: both;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+  margin-right: -11px;
+}
+
+body.xd .xd-search {
+  display: inline-block;
+  float: right;
+}
+
+body.xd .xd-search .ms-sbplain {
+  background-image: none;
+}
+
+body.xd .xd-search input {
+  margin: 0px;
+  padding: 0 0 0 5px;
+  height: 19px;
+  font-size: 11px;
+  float: right;
+  background-color: #fff;
+  background-image: none;
+  box-shadow: none;
+  border: none !important;
+}
+
+/* ==========================================================================
+   3.0 Menu
+   ========================================================================== */
+.xd-menu {
+  background-color: #00b0e2;
+  padding: 0 30px;
+  border-top: solid 1px #61C3E8;
+}
+
+.xd-menu .s4-tn li.static > .menu-item {
+  height: 100%;
+  color: #7FD7F1;
+  padding: 17px 30px 15px;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+
+
+
+.xd-welcome .ms-welcomeMenu, .xd-welcome .s4-trc-container-menu {
+  background: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.xd-menu .menu ul li:first-child .menu-item {
+  color: white;
+}
+
+/* ==========================================================================
+   4.0 Footer
+   ========================================================================== */
+.xd-footer {
+  padding: 30px;
+  font-size: 0.8em;
 }
