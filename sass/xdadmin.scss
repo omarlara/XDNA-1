@@ -10,25 +10,25 @@ body{
 @include tablet-portrait-and-below{
 
 	/* Force table to not be like tables anymore */
-	#main-content table table, 
-	#main-content table thead, 
-	#main-content table tbody, 
-	#main-content table th, 
-	#main-content table td, 
-	#main-content table tr { 
+	#main-content table, 
+	#main-content thead, 
+	#main-content tbody, 
+	#main-content th, 
+	#main-content td, 
+	#main-content tr { 
 		display: block; 
 	}
  
 	/* Hide table headers (but not display: none;, for accessibility) */
-	#main-content table thead tr { 
+	#main-content  thead tr { 
 		position: absolute;
 		top: -9999px;
 		left: -9999px;
 	}
  
-	#main-content table tr { border: 1px solid #ccc; }
+	#main-content  tr { border: 1px solid #ccc; }
  
-	#main-content table td { 
+	#main-content  td { 
 		/* Behave  like a "row" */
 		border: none;
 		border-bottom: 1px solid #eee; 
@@ -38,7 +38,7 @@ body{
 		text-align:left;
 	}
  
-	#main-content table td:before { 
+	#main-content  td:before { 
 		/* Now like a table header */
 		position: absolute;
 		/* Top/left values mimic padding */
@@ -54,5 +54,5 @@ body{
 	/*
 	Label the data
 	*/
-	#main-content table td:before { content: attr(data-title); }
+	#main-content  td:before { content: attr(data-title); }
 }
