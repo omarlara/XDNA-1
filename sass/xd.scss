@@ -3,3 +3,8 @@
 @import "helpers";
 @import "layout";
 
+table.ms-listviewtable{
+  &:hover{
+    background: black;
+  }
+}

@@ -56,3 +56,5 @@
 .positionR { position: relative; }
 
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
+
+table.ms-listviewtable:hover { background: black; }
