@@ -26,6 +26,12 @@
 
  		//Sort out borders
  		th { border-bottom: 0; border-left: 0; }
+ 		th .nowrap{
+ 			border: none;
+ 			background: none;
+ 			display: block;
+ 			width: auto;
+ 		}
  		td { border-left: 0; border-right: 0; border-bottom: 0; }
  		tbody tr { border-left: 1px solid #babcbf; }
  		th:last-child, td:last-child { border-bottom: 1px solid #babcbf; }
@@ -49,7 +55,7 @@
 	}
 	tbody > tr > td {
 		border: none !important;
-		text-align: center;
+		text-align: center;	
 	}
 	td.ms-vb-itmcbx{
 		text-align: center;
