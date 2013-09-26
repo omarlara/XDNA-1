@@ -6,6 +6,7 @@ var head= $('.ms-viewheadertr'),
 
     head.parents('table').prepend(headText);
     head.remove();
+    head.replaceWith($('<thead>' + this.innerHTML + '</thead>'));
 });
 
 
