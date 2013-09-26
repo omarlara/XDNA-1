@@ -38,6 +38,9 @@
  			display: block;
  			width: auto;
  		}
+ 		th .ms-imnImgTD{
+ 			display: none;
+ 		}
  		td { 
  			border-left: 0; border-right: 0; border-bottom: 0; text-align: center;
  			font-size: 13px;
@@ -53,9 +56,7 @@
  		#idSelectAll:before{
  			content: 'Select All';
  		}
- 		.ms-imnImgTD{
- 			display: none;
- 		}
+ 		
 
  	}
  	td.ms-vb2{
