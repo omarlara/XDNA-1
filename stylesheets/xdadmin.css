@@ -84,7 +84,7 @@
   .ms-vb-icon { margin: 0 auto !important; }
   tbody > tr > td { border: none !important; text-align: center; }
   td.ms-vb-itmcbx { text-align: center; }
-  body.xd, body.xd thead td, body.xd tfoot td, body.xd td#header { background: none !important; } }
+  body, body thead td, body tfoot td, body td#header { background: none !important; } }
 table.ms-listviewtable thead { background: white; }
 
 .s4-itm-cbx, .s4-itm-inlineedit { top: 0; position: relative; }
