@@ -20,6 +20,7 @@
  		thead		{display: block; float: left;}
  		tbody 		{display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap;}
  		thead tr 	{display: block;}
+ 		thead td 	{background: none;}
  		th 			{
  			display: block;
  			height: 30px;
@@ -51,6 +52,9 @@
  		}
  		#idSelectAll:before{
  			content: 'Select All';
+ 		}
+ 		.ms-imnImgTD{
+ 			display: none;
  		}
 
  	}
