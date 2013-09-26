@@ -13,7 +13,9 @@ body.xd
 	}
 	//#s4-leftpanel{ display: block !important;}
 }
-
+.ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer{
+	border:none;
+}
 @include tablet-portrait-and-below{
  	body.xd #main-content table.ms-listviewtable {
  		width: 100%; border-collapse: collapse; border-spacing: 0;
