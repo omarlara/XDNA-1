@@ -26,7 +26,7 @@
 
  		//Sort out borders
  		th { border-bottom: 0; border-left: 0; }
- 		th .nowrap{
+ 		th span{
  			border: none;
  			background: none;
  			display: block;
@@ -35,6 +35,9 @@
  		td { border-left: 0; border-right: 0; border-bottom: 0; }
  		tbody tr { border-left: 1px solid #babcbf; }
  		th:last-child, td:last-child { border-bottom: 1px solid #babcbf; }
+ 		tr td table tbody tr{
+ 			border: none;
+ 		}
 
  	}
  	* html table.ms-listviewtable thead{ zoom: 1;}
