@@ -76,3 +76,4 @@
   * html table.ms-listviewtable thead { zoom: 1; }
   #main-content > table { width: 100%; display: block; }
   #main-content > table > tbody, #main-content > table > tbody > tr, #main-content > table > tbody > tr > td { display: block; } }
+.s4-itm-cbx, .s4-itm-inlineedit { top: 0; position: relative; }
