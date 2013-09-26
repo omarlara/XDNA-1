@@ -58,3 +58,5 @@
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
 body { background: black !important; }
+
+#s4-ribbonrow { display: block !important; }
