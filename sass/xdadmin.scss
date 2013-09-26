@@ -40,12 +40,12 @@
 			> tbody, > tbody > tr, > tbody > tr > td{
 				display: block;
 				border:none;
-				text-align: center;
+				text-align: center !!important;
 			}
 		}
 	}
 	.ms-vb-icon{
-		margin:0 auto;
+		margin:0 auto !important;
 	}
 	tbody > tr > td {
 		border: none !important;
