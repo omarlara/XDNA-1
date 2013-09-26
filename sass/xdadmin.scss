@@ -3,61 +3,36 @@
 @import "helpers";
 @import "layout";
 
-body{
-	background: black !important;
-}
-.mob-header{
-display: none;
-font-weight: bold!Important;
-float: left;
-padding-right: 1em;
-vertical-align: top;
-margin-top: -2px;
-width: 100px;
-font-size: .9em;
-}
-
-@include tablet-portrait-and-below{
- 	table {
- 		thead{
-
- 		}
-
- 	}
-
-	.mob-header
-	{
-	display:inline-block;
-	}
-	table.ms-listviewtable > tbody > tr
-	{
-	padding: 10px;
-	}
-	table.ms-listviewtable > tbody > tr > td
-	{
-	display: block;
-	text-align: left;
-	border: none!important;
-	width: 100%; /* IE8 */
-	float: left; /* IE8 */
-	}
-	table.ms-listviewtable > tbody > tr > td.ms-vb2 > a
-	{
-	font-size: 1.2em;
-	font-weight: bold;
-	}
-	table.ms-listviewtable tr.s4-itm-hover > td, table.ms-listviewtable tr.ms-itmhover:hover > td, tr.s4-itm-selected > td, tr.s4-itm-selected:hover > td
-	{
-	border: none;
-	}
-	table.ms-listviewtable .ms-viewheadertr, table.ms-listviewtable tbody tr td.ms-vb-firstCell
-	{
-	display: none;
-	}
-		
-}
 
 #s4-ribbonrow {
 	display: block !important;
 }
 
+ 
+@include tablet-portrait-and-below{
+ 	table.ms-listviewtable {
+ 		width: 100%; border-collapse: collapse; border-spacing: 0;
+
+ 		thead:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+ 		th,td  		{margin: 0; vertical-align: top;}
+ 		th 			{text-align: left;}
+ 		display: block; position: relative; width: 100%;
+ 		thead		{display: block; float: left;}
+ 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap;}
+ 		thead tr 	{display: block;}
+ 		th 			{display: block; text-align: right;}
+ 		tbody tr 	{display: inline-block; vertical-align: top;}
+ 		td 			{display: block; min-height: 1.25em; text-align: left;}
+
+ 		//Sort out borders
+ 		th { border-bottom: 0; border-left: 0; }
+ 		td { border-left: 0; border-right: 0; border-bottom: 0; }
+ 		tbody tr { border-left: 1px solid #babcbf; }
+ 		th:last-child, td:last-child { border-bottom: 1px solid #babcbf; }
+
+ 	}
+ 	* html table.ms-listviewtable thead{ zoom: 1;}
+
+	
+		
+}

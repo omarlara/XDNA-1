@@ -57,14 +57,20 @@
 
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
-body { background: black !important; }
-
-.mob-header { display: none; font-weight: bold !important; float: left; padding-right: 1em; vertical-align: top; margin-top: -2px; width: 100px; font-size: .9em; }
-
-@media only screen and (max-width: 768px) { .mob-header { display: inline-block; }
-  table.ms-listviewtable > tbody > tr { padding: 10px; }
-  table.ms-listviewtable > tbody > tr > td { display: block; text-align: left; border: none !important; width: 100%; /* IE8 */ float: left; /* IE8 */ }
-  table.ms-listviewtable > tbody > tr > td.ms-vb2 > a { font-size: 1.2em; font-weight: bold; }
-  table.ms-listviewtable tr.s4-itm-hover > td, table.ms-listviewtable tr.ms-itmhover:hover > td, tr.s4-itm-selected > td, tr.s4-itm-selected:hover > td { border: none; }
-  table.ms-listviewtable .ms-viewheadertr, table.ms-listviewtable tbody tr td.ms-vb-firstCell { display: none; } }
 #s4-ribbonrow { display: block !important; }
+
+@media only screen and (max-width: 768px) { table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
+  table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+  table.ms-listviewtable th, table.ms-listviewtable td { margin: 0; vertical-align: top; }
+  table.ms-listviewtable th { text-align: left; }
+  table.ms-listviewtable thead { display: block; float: left; }
+  table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+  table.ms-listviewtable thead tr { display: block; }
+  table.ms-listviewtable th { display: block; text-align: right; }
+  table.ms-listviewtable tbody tr { display: inline-block; vertical-align: top; }
+  table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; }
+  table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
+  table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; }
+  table.ms-listviewtable tbody tr { border-left: 1px solid #babcbf; }
+  table.ms-listviewtable th:last-child, table.ms-listviewtable td:last-child { border-bottom: 1px solid #babcbf; }
+  * html table.ms-listviewtable thead { zoom: 1; } }
