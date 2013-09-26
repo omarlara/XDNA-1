@@ -66,14 +66,16 @@
   table.ms-listviewtable thead { display: block; float: left; }
   table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap; }
   table.ms-listviewtable thead tr { display: block; }
-  table.ms-listviewtable th { display: block; text-align: right; }
+  table.ms-listviewtable th { display: block; }
   table.ms-listviewtable tbody tr { display: inline-block; vertical-align: top; }
   table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; }
   table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
   table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; }
   table.ms-listviewtable tbody tr { border-left: 1px solid #babcbf; }
-  table.ms-listviewtable th:last-child, table.ms-listviewtable td:last-child { border-bottom: 1px solid #babcbf; }
   * html table.ms-listviewtable thead { zoom: 1; }
   #main-content > table { width: 100%; display: block; }
-  #main-content > table > tbody, #main-content > table > tbody > tr, #main-content > table > tbody > tr > td { display: block; border: none; } }
+  #main-content > table > tbody, #main-content > table > tbody > tr, #main-content > table > tbody > tr > td { display: block; border: none; text-align: center; }
+  .ms-vb-icon { margin: 0 auto; } }
+table.ms-listviewtable thead { background: white; }
+
 .s4-itm-cbx, .s4-itm-inlineedit { top: 0; position: relative; }
