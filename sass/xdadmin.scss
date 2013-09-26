@@ -84,6 +84,10 @@
 	td.ms-vb-itmcbx{
 		text-align: center;
 	}
+	body.xd , body.xd thead td, body.xd tfoot td, body.xd td#header {
+		background: none !important;
+
+	}
 }
 table.ms-listviewtable{
 	thead{
