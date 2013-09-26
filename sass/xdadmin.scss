@@ -18,7 +18,7 @@
  		th 			{text-align: left;}
  		display: block; position: relative; width: 100%;
  		thead		{display: block; float: left;}
- 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap;}
+ 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap;}
  		thead tr 	{display: block;}
  		th 			{display: block; text-align: right;}
  		tbody tr 	{display: inline-block; vertical-align: top;}
@@ -33,16 +33,15 @@
  	}
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
-	
+	#main-content{
+		> table{
+			width:100%;
+			display: block;
+			> tbody, > tbody > tr, > tbody > tr > td{
+				display: block;
+			}
+		}
+	}
 		
 }
 
-#main-content{
-	> table{
-		width:100%;
-		display: block;
-		> tbody, > tbody > tr, > tbody > tr > td{
-			display: block;
-		}
-	}
-}
