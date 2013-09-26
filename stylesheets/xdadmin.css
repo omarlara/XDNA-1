@@ -59,20 +59,20 @@
 
 #s4-ribbonrow { display: block !important; }
 
-@media only screen and (max-width: 768px) { table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
-  table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-  table.ms-listviewtable th, table.ms-listviewtable td { margin: 0; vertical-align: top; }
-  table.ms-listviewtable th { text-align: left; }
-  table.ms-listviewtable thead { display: block; float: left; }
-  table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap; }
-  table.ms-listviewtable thead tr { display: block; }
-  table.ms-listviewtable th { display: block; }
-  table.ms-listviewtable tbody tr { display: inline-block; vertical-align: top; }
-  table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; border: none; }
-  table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
-  table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; }
-  table.ms-listviewtable tbody tr { border-left: 1px solid #babcbf; }
-  table.ms-listviewtable th:last-child, table.ms-listviewtable td:last-child { border-bottom: 1px solid #babcbf; }
+@media only screen and (max-width: 768px) { body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
+  body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+  body.xd #main-content table.ms-listviewtable th, body.xd #main-content table.ms-listviewtable td { margin: 0; vertical-align: top; }
+  body.xd #main-content table.ms-listviewtable th { text-align: left; }
+  body.xd #main-content table.ms-listviewtable thead { display: block; float: left; }
+  body.xd #main-content table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap; }
+  body.xd #main-content table.ms-listviewtable thead tr { display: block; }
+  body.xd #main-content table.ms-listviewtable th { display: block; }
+  body.xd #main-content table.ms-listviewtable tbody tr { display: inline-block; vertical-align: top; }
+  body.xd #main-content table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; border: none; }
+  body.xd #main-content table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
+  body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; }
+  body.xd #main-content table.ms-listviewtable tbody tr { border-left: 1px solid #babcbf; }
+  body.xd #main-content table.ms-listviewtable th:last-child, body.xd #main-content table.ms-listviewtable td:last-child { border-bottom: 1px solid #babcbf; }
   * html table.ms-listviewtable thead { zoom: 1; }
   #main-content > table { width: 100%; display: block; }
   #main-content > table > tbody, #main-content > table > tbody > tr, #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; }

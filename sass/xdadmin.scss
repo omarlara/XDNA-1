@@ -10,7 +10,7 @@
 
  
 @include tablet-portrait-and-below{
- 	table.ms-listviewtable {
+ 	body.xd #main-content table.ms-listviewtable {
  		width: 100%; border-collapse: collapse; border-spacing: 0;
 
  		thead:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
