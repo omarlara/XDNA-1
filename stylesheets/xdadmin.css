@@ -74,3 +74,5 @@
   table.ms-listviewtable tbody tr { border-left: 1px solid #babcbf; }
   table.ms-listviewtable th:last-child, table.ms-listviewtable td:last-child { border-bottom: 1px solid #babcbf; }
   * html table.ms-listviewtable .ms-viewheadertr { zoom: 1; } }
+#main-content > table { width: 100%; display: block; }
+#main-content > table > tbody, #main-content > table > tbody > tr, #main-content > table > tbody > tr > td { display: block; }

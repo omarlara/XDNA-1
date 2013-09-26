@@ -36,3 +36,13 @@
 	
 		
 }
+
+#main-content{
+	> table{
+		width:100%;
+		display: block;
+		> tbody, > tbody > tr, > tbody > tr > td{
+			display: block;
+		}
+	}
+}
