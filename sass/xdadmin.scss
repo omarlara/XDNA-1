@@ -32,11 +32,14 @@
  			display: block;
  			width: auto;
  		}
- 		td { border-left: 0; border-right: 0; border-bottom: 0; }
+ 		td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center;}
  		tbody tr { border-left: 1px solid #babcbf; }
  		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; }
  		tr td table tbody tr{
  			border: none;
+ 		}
+ 		#idSelectAll:after{
+ 			content: 'Select All';
  		}
 
  	}

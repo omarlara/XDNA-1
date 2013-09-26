@@ -71,9 +71,10 @@
   body.xd #main-content table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; border: none; }
   body.xd #main-content table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
   body.xd #main-content table.ms-listviewtable th span { border: none; background: none; display: block; width: auto; }
-  body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; }
+  body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center; }
   body.xd #main-content table.ms-listviewtable tbody tr { border-left: 1px solid #babcbf; }
   body.xd #main-content table.ms-listviewtable tr td table tbody tr { border: none; }
+  body.xd #main-content table.ms-listviewtable #idSelectAll:after { content: 'Select All'; }
   * html table.ms-listviewtable thead { zoom: 1; }
   #main-content > table { width: 100%; display: block; }
   #main-content > table > tbody, #main-content > table > tbody > tr, #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; }
