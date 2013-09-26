@@ -9,7 +9,8 @@
 body.xd
 {
 	#s4-ribbonrow{display: block !important;}
-	.s4-ca{background-color: #ffffff}
+	.s4-ca{background-color: #ffffff;  margin-left: 155px;}
+	#s4-leftpanel{ display: block !important;}
 }
 
 @include tablet-portrait-and-below{

@@ -58,7 +58,8 @@
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
 body.xd #s4-ribbonrow { display: block !important; }
-body.xd .s4-ca { background-color: #ffffff; }
+body.xd .s4-ca { background-color: #ffffff; margin-left: 155px; }
+body.xd #s4-leftpanel { display: block !important; }
 
 @media only screen and (max-width: 768px) { body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
   body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
