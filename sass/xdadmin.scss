@@ -48,7 +48,7 @@
     		padding: 6px;
  		}
 
- 		tbody tr { border-left: 1px solid #babcbf; }
+ 		> tbody > tr { border-left: 1px solid #babcbf; }
  		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; }
  		tr td table tbody tr{
  			border: none;

@@ -74,7 +74,7 @@
   body.xd #main-content table.ms-listviewtable th span { border: none; background: none; display: block; width: auto; }
   body.xd #main-content table.ms-listviewtable th .ms-imnImgTD { display: none; }
   body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center; font-size: 13px; height: 28px; padding: 6px; }
-  body.xd #main-content table.ms-listviewtable tbody tr { border-left: 1px solid #babcbf; }
+  body.xd #main-content table.ms-listviewtable > tbody > tr { border-left: 1px solid #babcbf; }
   body.xd #main-content table.ms-listviewtable tr td table tbody tr { border: none; }
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; }
   td.ms-vb2 { width: auto !important; }
