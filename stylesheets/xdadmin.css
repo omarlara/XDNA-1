@@ -83,8 +83,9 @@
   #main-content > table > tbody, #main-content > table > tbody > tr, #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; }
   .ms-vb-icon { margin: 0 auto !important; }
   tbody > tr > td { border: none !important; text-align: center; }
-  td.ms-vb-itmcbx { text-align: center; }
-  body, body thead td, body tfoot td, body td#header { background: none !important; } }
+  td.ms-vb-itmcbx { text-align: center; } }
 table.ms-listviewtable thead { background: white; }
+
+body, body thead td, body tfoot td, body td#header { background: none !important; }
 
 .s4-itm-cbx, .s4-itm-inlineedit { top: 0; position: relative; }

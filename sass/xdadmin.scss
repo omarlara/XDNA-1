@@ -85,16 +85,18 @@
 	td.ms-vb-itmcbx{
 		text-align: center;
 	}
-	body , body thead td, body tfoot td, body td#header {
-		background: none !important;
-
-	}
+	
 }
 table.ms-listviewtable{
 	thead{
 		background: white
 	}
 }
+// Override bg injected by global.css 
+body , body thead td, body tfoot td, body td#header {
+		background: none !important;
+
+	}
 .s4-itm-cbx, .s4-itm-inlineedit {
 top: 0;
 position: relative;
