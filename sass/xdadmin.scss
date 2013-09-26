@@ -4,11 +4,14 @@
 @import "layout";
 
 
-#s4-ribbonrow {
-	display: block !important;
+
+
+body.xd
+{
+	#s4-ribbonrow{display: block !important;}
+	.s4-ca{background-color: #ffffff}
 }
 
- 
 @include tablet-portrait-and-below{
  	body.xd #main-content table.ms-listviewtable {
  		width: 100%; border-collapse: collapse; border-spacing: 0;
@@ -94,10 +97,9 @@ table.ms-listviewtable{
 }
 // Override bg injected by global.css 
 body , body thead td, body tfoot td, body td#header {
-		background: none !important;
-
-	}
+	background: none !important;
+}
 .s4-itm-cbx, .s4-itm-inlineedit {
-top: 0;
-position: relative;
+	top: 0;
+	position: relative;
 }
