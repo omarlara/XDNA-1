@@ -20,7 +20,12 @@
  		thead		{display: block; float: left;}
  		tbody 		{display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap;}
  		thead tr 	{display: block;}
- 		th 			{display: block;}
+ 		th 			{
+ 			display: block;
+ 			height: 30px;
+    		padding: 5px 31px 5px 15px;
+    		font-size: 13px
+ 		}
  		tbody tr 	{display: inline-block; vertical-align: top;}
  		td 			{display: block; min-height: 1.25em; text-align: left; border:none}
 
@@ -32,7 +37,12 @@
  			display: block;
  			width: auto;
  		}
- 		td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center;}
+ 		td { 
+ 			border-left: 0; border-right: 0; border-bottom: 0; text-align: center;
+ 			font-size: 13px;
+    		height: 28px;
+    		padding: 6px;
+ 		}
  		tbody tr { border-left: 1px solid #babcbf; }
  		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; }
  		tr td table tbody tr{

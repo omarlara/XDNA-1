@@ -66,12 +66,12 @@
   body.xd #main-content table.ms-listviewtable thead { display: block; float: left; }
   body.xd #main-content table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap; }
   body.xd #main-content table.ms-listviewtable thead tr { display: block; }
-  body.xd #main-content table.ms-listviewtable th { display: block; }
+  body.xd #main-content table.ms-listviewtable th { display: block; height: 30px; padding: 5px 31px 5px 15px; font-size: 13px; }
   body.xd #main-content table.ms-listviewtable tbody tr { display: inline-block; vertical-align: top; }
   body.xd #main-content table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; border: none; }
   body.xd #main-content table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
   body.xd #main-content table.ms-listviewtable th span { border: none; background: none; display: block; width: auto; }
-  body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center; }
+  body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center; font-size: 13px; height: 28px; padding: 6px; }
   body.xd #main-content table.ms-listviewtable tbody tr { border-left: 1px solid #babcbf; }
   body.xd #main-content table.ms-listviewtable tr td table tbody tr { border: none; }
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; }
