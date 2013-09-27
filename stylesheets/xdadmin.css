@@ -69,8 +69,7 @@ body.xd .ms-viewlsts .ms-vb2 { line-height: 170%; }
 body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
 body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: none; border: none; text-align: left; background-color: #E6E7E7; font-size: 16px; line-height: 175%; font-weight: normal; color: #000; text-indent: 10px; }
 
-@media only screen and (max-width: 768px) { table tbody, table tr { display: block; width: auto; }
-  body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
+@media only screen and (max-width: 768px) { body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
   body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
   body.xd #main-content table.ms-listviewtable th, body.xd #main-content table.ms-listviewtable td { margin: 0; vertical-align: top; }
   body.xd #main-content table.ms-listviewtable th { text-align: left; background: none; }
@@ -90,6 +89,7 @@ body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: n
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
+  body.xd #main-content tbody, body.xd #main-content tr, body.xd #main-content table, body.xd #main-content td { display: block !important; }
   body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; }
   body.xd #main-content > table { width: 100%; display: block; }
   body.xd #main-content > table > tbody, body.xd #main-content > table > tbody > tr, body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }

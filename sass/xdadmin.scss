@@ -127,7 +127,7 @@ body.xd
 
 	body.xd #main-content{
 		tbody, tr, table, td{
-			display: block;
+			display: block !important;
 		}
 		td.ms-vb2{
  			width: auto !important;
