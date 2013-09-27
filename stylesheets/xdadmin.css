@@ -87,7 +87,7 @@ body.xd .s4-ca { background-color: #ffffff; }
   .ms-vb-icon { margin: 0 auto !important; }
   tbody > tr > td { border: none !important; text-align: center; }
   td.ms-vb-itmcbx { text-align: center; }
-  .ms-gb h3.ms-standardheader { text-align: center; } }
+  .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; } }
 table.ms-listviewtable thead { background: white; }
 
 body, body thead td, body tfoot td, body td#header { background: none !important; }
