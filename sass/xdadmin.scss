@@ -64,7 +64,7 @@ body.xd
 }
 
 @include tablet-portrait-and-below{
-	tbody{
+	table tbody, table tr{
 		display: block;
 		width: auto;
 	}
