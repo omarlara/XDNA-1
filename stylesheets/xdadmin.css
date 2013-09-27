@@ -96,7 +96,7 @@ body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: n
   body.xd #main-content .ms-vb2:nth-of-type(2) { display: block; }
   body.xd #main-content .ms-vb2.ms-viewlsts-noitems { display: block; }
   body.xd #main-content .ms-vb-icon { margin: 0 auto !important; }
-  body.xd #main-content tbody > tr > td { border: none !important; text-align: center; }
+  body.xd #main-content tbody > tr > td { border: none !important; text-align: center; width: auto; display: block; }
   body.xd #main-content td.ms-vb-itmcbx { text-align: center; }
   body.xd #main-content .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; }
   body.xd #main-content .ms-gb { height: 45px; }
