@@ -28,19 +28,20 @@ body.xd
 		top: 0;
 		position: relative;
 	}
-	.ms-gb h3.ms-standardheader {
+	.ms-gb {
+		h3.ms-standardheader {
 			font-size: 2em;
 			line-height: 44px;
 			color: #555;
+			margin:0;
+		}
+		border: none;
 	}
 	// Titles 
 	.ms-viewlsts .ms-vb2 > a {
 		font-size: 1.3em;
 	}
 
-	.ms-gb h3.ms-standardheader {
-		margin:0;
-	}
 }
 
 @include tablet-portrait-and-below{
@@ -108,6 +109,7 @@ body.xd
 	body.xd #main-content{
 		td.ms-vb2{
  			width: auto !important;
+ 			padding: 10px 15px;
  		}
 
  		> table{

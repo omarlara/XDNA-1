@@ -63,9 +63,9 @@ body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms
 body.xd table.ms-listviewtable thead { background: white; }
 body.xd body, body.xd body thead td, body.xd body tfoot td, body.xd body td#header { background: none !important; }
 body.xd .s4-itm-cbx, body.xd .s4-itm-inlineedit { top: 0; position: relative; }
-body.xd .ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; color: #555; }
+body.xd .ms-gb { border: none; }
+body.xd .ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; color: #555; margin: 0; }
 body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
-body.xd .ms-gb h3.ms-standardheader { margin: 0; }
 
 @media only screen and (max-width: 768px) { body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
   body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
@@ -87,7 +87,7 @@ body.xd .ms-gb h3.ms-standardheader { margin: 0; }
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
-  body.xd #main-content td.ms-vb2 { width: auto !important; }
+  body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; }
   body.xd #main-content > table { width: 100%; display: block; }
   body.xd #main-content > table > tbody, body.xd #main-content > table > tbody > tr, body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; }
   body.xd #main-content .ms-vb-icon { margin: 0 auto !important; }
