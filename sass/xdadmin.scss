@@ -12,10 +12,37 @@ body.xd
 	.s4-ca{background-color: #ffffff;  //margin-left: 155px;
 	}
 	//#s4-leftpanel{ display: block !important;}
+	.ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer{
+		border:none;
+	}
+	table.ms-listviewtable{
+		thead{
+			background: white
+		}
+	}
+	// Override bg injected by global.css 
+	body , body thead td, body tfoot td, body td#header {
+		background: none !important;
+	}
+	.s4-itm-cbx, .s4-itm-inlineedit {
+		top: 0;
+		position: relative;
+	}
+	.ms-gb h3.ms-standardheader {
+			font-size: 2em;
+			line-height: 44px;
+			color: #555;
+	}
+	// Titles 
+	.ms-viewlsts .ms-vb2 > a {
+		font-size: 1.3em;
+	}
+
+	.ms-gb h3.ms-standardheader {
+		margin:0;
+	}
 }
-.ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer{
-	border:none;
-}
+
 @include tablet-portrait-and-below{
 
  	body.xd #main-content table.ms-listviewtable {
@@ -110,25 +137,4 @@ body.xd
 		}
 	}
 }
-table.ms-listviewtable{
-	thead{
-		background: white
-	}
-}
-// Override bg injected by global.css 
-body , body thead td, body tfoot td, body td#header {
-	background: none !important;
-}
-.s4-itm-cbx, .s4-itm-inlineedit {
-	top: 0;
-	position: relative;
-}
-.ms-gb h3.ms-standardheader {
-		font-size: 2em;
-		line-height: 44px;
-		color: #555;
-}
-// Titles 
-	.ms-viewlsts .ms-vb2 > a {
-		font-size: 1.3em;
-	}
+	

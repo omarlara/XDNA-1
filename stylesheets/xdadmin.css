@@ -59,8 +59,13 @@
 
 body.xd #s4-ribbonrow { display: block !important; }
 body.xd .s4-ca { background-color: #ffffff; }
-
-.ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
+body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
+body.xd table.ms-listviewtable thead { background: white; }
+body.xd body, body.xd body thead td, body.xd body tfoot td, body.xd body td#header { background: none !important; }
+body.xd .s4-itm-cbx, body.xd .s4-itm-inlineedit { top: 0; position: relative; }
+body.xd .ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; color: #555; }
+body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
+body.xd .ms-gb h3.ms-standardheader { margin: 0; }
 
 @media only screen and (max-width: 768px) { body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
   body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
@@ -90,12 +95,3 @@ body.xd .s4-ca { background-color: #ffffff; }
   body.xd #main-content .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; }
   body.xd #main-content .ms-gb { height: 45px; }
   body.xd #main-content .ms-menutoolbar { height: auto; background: none; } }
-table.ms-listviewtable thead { background: white; }
-
-body, body thead td, body tfoot td, body td#header { background: none !important; }
-
-.s4-itm-cbx, .s4-itm-inlineedit { top: 0; position: relative; }
-
-.ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; color: #555; }
-
-.ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
