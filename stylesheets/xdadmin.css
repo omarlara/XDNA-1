@@ -74,7 +74,7 @@ body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: n
   body.xd #main-content table.ms-listviewtable th, body.xd #main-content table.ms-listviewtable td { margin: 0; vertical-align: top; }
   body.xd #main-content table.ms-listviewtable th { text-align: left; background: none; }
   body.xd #main-content table.ms-listviewtable thead { display: block; float: left; }
-  body.xd #main-content table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap; overflow: hidden; *zoom: 1; }
+  body.xd #main-content table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap; overflow: hidden; *zoom: 1; }
   body.xd #main-content table.ms-listviewtable thead tr { display: block; }
   body.xd #main-content table.ms-listviewtable thead td { background: none; }
   body.xd #main-content table.ms-listviewtable th { display: block; height: 30px; padding: 5px 31px 5px 15px; font-size: 13px; }

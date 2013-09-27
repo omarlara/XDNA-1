@@ -73,7 +73,7 @@ body.xd
  		th 			{text-align: left;background: none;}
  		display: block; position: relative; width: 100%;
  		thead		{display: block; float: left;}
- 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap;@include clearfix;}
+ 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap;@include clearfix;}
  		thead tr 	{display: block;}
  		thead td 	{background: none;}
  		th 			{
