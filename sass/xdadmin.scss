@@ -64,7 +64,10 @@ body.xd
 }
 
 @include tablet-portrait-and-below{
-
+	tbody{
+		display: block;
+		width: auto;
+	}
  	body.xd #main-content table.ms-listviewtable { 		
  		width: 100%; border-collapse: collapse; border-spacing: 0;
 
