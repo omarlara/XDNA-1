@@ -144,7 +144,7 @@ body.xd
 		.ms-vb2{
 
 			display: none;
-			&:first-child{
+			&:nth-of-type(2){
 				display: block;
 			}
 		}
