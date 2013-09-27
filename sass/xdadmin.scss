@@ -17,7 +17,9 @@ body.xd
 	border:none;
 }
 @include tablet-portrait-and-below{
+
  	body.xd #main-content table.ms-listviewtable {
+ 		
  		width: 100%; border-collapse: collapse; border-spacing: 0;
 
  		thead:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
@@ -25,7 +27,7 @@ body.xd
  		th 			{text-align: left;background: none;}
  		display: block; position: relative; width: 100%;
  		thead		{display: block; float: left;}
- 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap;}
+ 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto; overflow-y: hidden; white-space: nowrap;@include clearfix;}
  		thead tr 	{display: block;}
  		thead td 	{background: none;}
  		th 			{
@@ -62,6 +64,9 @@ body.xd
  		}
  		#idSelectAll:before{
  			content: 'Select All';
+ 			margin-left: 24px;
+			font-size: 11px;
+			color: #aaa
  		}
  		
 
@@ -92,7 +97,9 @@ body.xd
 	td.ms-vb-itmcbx{
 		text-align: center;
 	}
-	
+	.ms-gb h3.ms-standardheader {
+		text-align: center;
+	}
 }
 table.ms-listviewtable{
 	thead{
@@ -106,4 +113,9 @@ body , body thead td, body tfoot td, body td#header {
 .s4-itm-cbx, .s4-itm-inlineedit {
 	top: 0;
 	position: relative;
+}
+.ms-gb h3.ms-standardheader {
+		font-size: 2em;
+		line-height: 44px;
+		color: #555;
 }
