@@ -38,8 +38,11 @@ body.xd
 		border: none;
 	}
 	// Titles 
-	.ms-viewlsts .ms-vb2 > a {
-		font-size: 1.3em;
+	.ms-viewlsts .ms-vb2 {
+		line-height: 170%;
+		> a {
+			font-size: 1.3em;
+		}
 	}
 
 }
