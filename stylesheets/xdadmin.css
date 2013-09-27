@@ -67,6 +67,7 @@ body.xd .ms-gb { border: none; }
 body.xd .ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; color: #555; margin: 0; }
 body.xd .ms-viewlsts .ms-vb2 { line-height: 170%; }
 body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
+body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: none; border: none; text-align: left; background-color: #E6E7E7; font-size: 16px; line-height: 175%; font-weight: normal; color: #000; text-indent: 10px; }
 
 @media only screen and (max-width: 768px) { body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
   body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
@@ -90,7 +91,7 @@ body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
   * html table.ms-listviewtable thead { zoom: 1; }
   body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; }
   body.xd #main-content > table { width: 100%; display: block; }
-  body.xd #main-content > table > tbody, body.xd #main-content > table > tbody > tr, body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; }
+  body.xd #main-content > table > tbody, body.xd #main-content > table > tbody > tr, body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }
   body.xd #main-content .ms-vb2 { display: none; }
   body.xd #main-content .ms-vb2:first-child { display: block; }
   body.xd #main-content .ms-vb-icon { margin: 0 auto !important; }

@@ -44,6 +44,22 @@ body.xd
 			font-size: 1.3em;
 		}
 	}
+	td.ms-linksectionheader, th.ms-linksectionheader {
+		
+		background:none;
+
+		border:none;
+		text-align: left;
+
+		background-color: #E6E7E7;
+
+
+		font-size: 16px;
+		line-height: 175%;
+		font-weight: normal;
+		color: #000;
+		text-indent: 10px;
+	}
 
 }
 
@@ -122,6 +138,7 @@ body.xd
 				display: block;
 				border:none;
 				text-align: center !important;
+				height: auto;
 			}
 		}
 		.ms-vb2{
