@@ -45,8 +45,7 @@ body.xd
 
 @include tablet-portrait-and-below{
 
- 	body.xd #main-content table.ms-listviewtable {
- 		
+ 	body.xd #main-content table.ms-listviewtable { 		
  		width: 100%; border-collapse: collapse; border-spacing: 0;
 
  		thead:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
@@ -95,16 +94,23 @@ body.xd
 			font-size: 11px;
 			color: #aaa
  		}
- 		
-
  	}
- 	td.ms-vb2{
- 			width: auto !important;
+ 	
+ 	body.xd #main-content table.ms-viewlsts{
+ 		tbody{
+ 			tr:first-child{
+ 				display: none;
+ 			}
+ 		}
  	}
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-		> table{
+		td.ms-vb2{
+ 			width: auto !important;
+ 		}
+
+ 		> table{
 			width:100%;
 			display: block;
 			> tbody, > tbody > tr, > tbody > tr > td{
