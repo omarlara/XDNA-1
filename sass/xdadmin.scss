@@ -64,10 +64,7 @@ body.xd
 }
 
 @include tablet-portrait-and-below{
-	table tbody, table tr{
-		display: block;
-		width: auto;
-	}
+	
  	body.xd #main-content table.ms-listviewtable { 		
  		width: 100%; border-collapse: collapse; border-spacing: 0;
 
@@ -129,6 +126,9 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		tbody, tr, table, td{
+			display: block;
+		}
 		td.ms-vb2{
  			width: auto !important;
  			padding: 10px 15px;
