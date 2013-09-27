@@ -126,9 +126,7 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-		tbody, tr, table, td{
-			display: block !important;
-		}
+		
 		td.ms-vb2{
  			width: auto !important;
  			padding: 10px 15px;
@@ -177,6 +175,9 @@ body.xd
 		.ms-menutoolbar{
 			height: auto;
 			background: none;
+		}
+		tbody, tr, table, td{
+			display: block ;
 		}
 	}
 }
