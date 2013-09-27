@@ -124,6 +124,13 @@ body.xd
 				text-align: center !important;
 			}
 		}
+		.ms-vb2{
+
+			display: none;
+			&:first-child{
+				display: block;
+			}
+		}
 		.ms-vb-icon{
 			margin:0 auto !important;
 		}
