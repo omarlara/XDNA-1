@@ -76,7 +76,7 @@ body.xd
  	}
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
-	#main-content{
+	body.xd #main-content{
 		> table{
 			width:100%;
 			display: block;
@@ -86,21 +86,28 @@ body.xd
 				text-align: center !important;
 			}
 		}
-	}
-	.ms-vb-icon{
-		margin:0 auto !important;
-	}
-	tbody > tr > td {
-		border: none !important;
-		text-align: center;	
-	}
-	td.ms-vb-itmcbx{
-		text-align: center;
-	}
-	.ms-gb h3.ms-standardheader {
-		text-align: center;
-		font-size: 2em;
-		line-height: 44px;
+		.ms-vb-icon{
+			margin:0 auto !important;
+		}
+		tbody > tr > td {
+			border: none !important;
+			text-align: center;	
+		}
+		td.ms-vb-itmcbx{
+			text-align: center;
+		}
+		.ms-gb h3.ms-standardheader {
+			text-align: center;
+			font-size: 2em;
+			line-height: 44px;
+		}
+		.ms-gb {
+			height: 45px;
+		}
+		.ms-menutoolbar{
+			height: auto;
+			background: none;
+		}
 	}
 }
 table.ms-listviewtable{
@@ -121,3 +128,7 @@ body , body thead td, body tfoot td, body td#header {
 		line-height: 44px;
 		color: #555;
 }
+// Titles 
+	.ms-viewlsts .ms-vb2 > a {
+		font-size: 1.3em;
+	}
