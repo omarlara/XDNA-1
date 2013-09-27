@@ -147,6 +147,9 @@ body.xd
 			&:nth-of-type(2){
 				display: block;
 			}
+			&.ms-viewlsts-noitems{
+				display: block;
+			}
 		}
 		.ms-vb-icon{
 			margin:0 auto !important;
