@@ -176,8 +176,8 @@ body.xd
 			height: auto;
 			background: none;
 		}
-		tbody, tr, table, td{
-			//display: block ;
+		.s4-wpTopTable tbody,.s4-wpTopTable  tr, table.s4-wpTopTable, .s4-wpTopTable table , .s4-wpTopTable td{
+			display: block ;
 		}
 	}
 }
