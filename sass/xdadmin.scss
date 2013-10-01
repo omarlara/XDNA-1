@@ -140,11 +140,7 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-		
-
-		table[id*=PlaceHolderMain]{
-			margin:0 auto;
-			.ms-sectionheader{
+		.ms-sectionheader{
 				height: auto;
 				.ms-standardheader{
 					font-size: 2em;
@@ -153,6 +149,10 @@ body.xd
 					font-weight: normal;
 				}
 			}
+
+		table[id*=PlaceHolderMain]{
+			margin:0 auto;
+			
 		}
 		> div{
 			float: none !important;
