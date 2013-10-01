@@ -126,7 +126,7 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-		.ms-pageinformation{
+		> div{
 			float: none !important;
 			margin:0 auto !important;
 			width: auto !important;

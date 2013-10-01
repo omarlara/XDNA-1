@@ -89,7 +89,7 @@ body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: n
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
-  body.xd #main-content .ms-pageinformation { float: none !important; margin: 0 auto !important; width: auto !important; }
+  body.xd #main-content > div { float: none !important; margin: 0 auto !important; width: auto !important; }
   body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; }
   body.xd #main-content > table { width: 100%; display: block; }
   body.xd #main-content > table > tbody, body.xd #main-content > table > tbody > tr, body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }
