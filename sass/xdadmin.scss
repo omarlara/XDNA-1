@@ -126,11 +126,28 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		
 		> div{
 			float: none !important;
 			margin:0 auto !important;
 			width: auto !important;
 		}
+
+		.ms-linksection-level1 {
+			h3 {
+				font-size: 1.5em;
+				font-weight: 100;
+				padding: 17px 0 9px 0;
+			}			
+			ul li a {
+				font-size: 1.3em;
+				line-height: 45px;
+			}
+			img{
+				margin-top: 13px;
+			}
+		}
+
 		td.ms-vb2{
  			width: auto !important;
  			padding: 10px 15px;
