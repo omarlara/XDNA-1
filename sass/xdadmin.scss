@@ -70,7 +70,7 @@ body.xd
 		}
 	}
 
-	.xd.footer{
+	.xd-footer{
 		padding: 20px 0;
 		text-align: center;
 		margin: 30px 0 16px;
@@ -140,7 +140,9 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-		
+		div[id*=PlaceHolderMain]{
+			margin:0 auto;
+		}
 		> div{
 			float: none !important;
 			margin:0 auto !important;
