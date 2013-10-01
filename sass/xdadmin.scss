@@ -63,9 +63,18 @@ body.xd
 	#main-content{
 		> div > table{
 			margin: 20px;
+			background: none;
+		}
+		.ms-pageinformation {
+			padding: 0;
 		}
 	}
 
+	.xd.footer{
+		padding: 20px 0;
+		text-align: center;
+		margin: 30px 0 16px;
+	}
 }
 
 @include tablet-portrait-and-below{
@@ -138,7 +147,7 @@ body.xd
 			width: auto !important;
 			> table{
 				margin:0 auto;
-				background: none;
+				
 
 			}
 		}
