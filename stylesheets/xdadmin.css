@@ -77,7 +77,7 @@ body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: n
   body.xd #main-content table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap; overflow: hidden; *zoom: 1; }
   body.xd #main-content table.ms-listviewtable thead tr { display: block; }
   body.xd #main-content table.ms-listviewtable thead td { background: none; }
-  body.xd #main-content table.ms-listviewtable th { display: block; height: 30px; padding: 5px 31px 5px 15px; font-size: 13px; }
+  body.xd #main-content table.ms-listviewtable th { display: block; height: 30px; padding: 5px 20px 5px 5px; font-size: 11px; }
   body.xd #main-content table.ms-listviewtable tbody tr { display: inline-block; vertical-align: top; }
   body.xd #main-content table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; border: none; }
   body.xd #main-content table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
@@ -89,6 +89,7 @@ body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: n
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
+  body.xd #main-content .ms-pageinformation { float: none; margin: 0 auto; width: auto; }
   body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; }
   body.xd #main-content > table { width: 100%; display: block; }
   body.xd #main-content > table > tbody, body.xd #main-content > table > tbody > tr, body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }

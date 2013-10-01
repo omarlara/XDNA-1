@@ -79,8 +79,8 @@ body.xd
  		th 			{
  			display: block;
  			height: 30px;
-    		padding: 5px 31px 5px 15px;
-    		font-size: 13px
+    		padding: 5px 20px 5px 5px;
+			font-size: 11px;
  		}
  		tbody tr 	{display: inline-block; vertical-align: top;}
  		td 			{display: block; min-height: 1.25em; text-align: left; border:none}
@@ -126,7 +126,11 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-		
+		.ms-pageinformation{
+			float: none;
+			margin:0 auto;
+			width: auto;
+		}
 		td.ms-vb2{
  			width: auto !important;
  			padding: 10px 15px;
