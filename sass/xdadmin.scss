@@ -127,9 +127,9 @@ body.xd
 
 	body.xd #main-content{
 		.ms-pageinformation{
-			float: none;
-			margin:0 auto;
-			width: auto;
+			float: none !important;
+			margin:0 auto !important;
+			width: auto !!important;
 		}
 		td.ms-vb2{
  			width: auto !important;
