@@ -60,6 +60,11 @@ body.xd
 		color: #000;
 		text-indent: 10px;
 	}
+	#main-content{
+		> div > table{
+			margin: 20px;
+		}
+	}
 
 }
 
@@ -131,6 +136,9 @@ body.xd
 			float: none !important;
 			margin:0 auto !important;
 			width: auto !important;
+			> table{
+				margin:0 auto;
+			}
 		}
 
 		.ms-linksection-level1 {

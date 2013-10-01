@@ -68,6 +68,7 @@ body.xd .ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; color: 
 body.xd .ms-viewlsts .ms-vb2 { line-height: 170%; }
 body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
 body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: none; border: none; text-align: left; background-color: #E6E7E7; font-size: 16px; line-height: 175%; font-weight: normal; color: #000; text-indent: 10px; }
+body.xd #main-content > div > table { margin: 20px; }
 
 @media only screen and (max-width: 768px) { body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
   body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
@@ -90,6 +91,7 @@ body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: n
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
   body.xd #main-content > div { float: none !important; margin: 0 auto !important; width: auto !important; }
+  body.xd #main-content > div > table { margin: 0 auto; }
   body.xd #main-content .ms-linksection-level1 h3 { font-size: 1.5em; font-weight: 100; padding: 17px 0 9px 0; }
   body.xd #main-content .ms-linksection-level1 ul li a { font-size: 1.3em; line-height: 45px; }
   body.xd #main-content .ms-linksection-level1 img { margin-top: 13px; }
