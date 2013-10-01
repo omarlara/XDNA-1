@@ -58,7 +58,6 @@
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
 body.xd #s4-ribbonrow { display: block !important; }
-body.xd .s4-ca { background-color: #ffffff; }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
 body.xd table.ms-listviewtable thead { background: white; }
 body.xd body, body.xd body thead td, body.xd body tfoot td, body.xd body td#header { background: none !important; }
