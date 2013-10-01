@@ -92,9 +92,9 @@ body.xd .xd-footer { padding: 20px 0; text-align: center; margin: 30px 0 16px; }
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
-  body.xd #main-content .ms-sectionheader { height: auto; }
-  body.xd #main-content .ms-sectionheader h3 { font-size: 2em; text-align: center; line-height: 2em; font-weight: normal; }
-  body.xd #main-content div[id*=PlaceHolderMain] { margin: 0 auto; }
+  body.xd #main-content td.ms-sectionheader { height: auto; }
+  body.xd #main-content td.ms-sectionheader h3 { font-size: 2em; text-align: center; line-height: 2em; font-weight: normal; }
+  body.xd #main-content [id*=PlaceHolderMain] { margin: 0 auto; }
   body.xd #main-content > div { float: none !important; margin: 0 auto !important; width: auto !important; }
   body.xd #main-content > div > table { margin: 0 auto; }
   body.xd #main-content .ms-pageinformation th, body.xd #main-content .ms-pageinformation tr, body.xd #main-content .ms-pageinformation td, body.xd #main-content .ms-pageinformation h3 { text-align: center; font-size: 1.1em; }
