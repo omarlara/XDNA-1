@@ -143,8 +143,12 @@ body.xd
 			}
 		}
 		.ms-pageinformation{
-			th, tr, td{
+			th, tr, td, h3{
 				text-align: center;
+				font-size: 1.1em;
+			}
+			h3{
+				font-size: 1.5em;
 			}
 		}
 
@@ -156,7 +160,7 @@ body.xd
 				padding: 17px 0 9px 0;
 			}			
 			ul li a {
-				font-size: 1.3em;
+				font-size: 1.1em;
 				line-height: 45px;
 			}
 			img{
