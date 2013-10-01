@@ -1,68 +1,105 @@
-/*
-Syntax error: Invalid CSS after "			width: auto ": expected ";", was "!!important;"
-        on line 132 of C:/Users/carlos.perez.priego/Documents/GitHub/XDNA/sass/xdadmin.scss
+/* ..-------------------------------------------------------... |                         COLOR PALETTE                      | |..--------------------------------------------------------..|*/
+/*...................Links.....................*/
+/*...................Headings.....................*/
+/* ..-------------------------------------------------------...
+|                 ANIMATIONS & TRANSITIONS                   |
+|..--------------------------------------------------------..|*/
+/* ..-------------------------------------------------------... |                         HELPER CLASSES                     | |..--------------------------------------------------------..|*/
+.nodisplay, .hide { display: none; }
 
-Backtrace:
-C:/Users/carlos.perez.priego/Documents/GitHub/XDNA/sass/xdadmin.scss:132
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1146:in `expected'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1084:in `expected'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1079:in `tok!'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:586:in `block in declaration_or_ruleset'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1122:in `call'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1122:in `rethrow'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:554:in `block_child'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:546:in `block_contents'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:535:in `block'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:529:in `ruleset'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:591:in `block in declaration_or_ruleset'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1122:in `call'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1122:in `rethrow'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:554:in `block_child'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:543:in `block_contents'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:535:in `block'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:529:in `ruleset'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:591:in `block in declaration_or_ruleset'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1122:in `call'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1122:in `rethrow'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:554:in `block_child'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:546:in `block_contents'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:535:in `block'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:197:in `include_directive'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:175:in `special_directive'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:147:in `directive'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:553:in `block_child'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:546:in `block_contents'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:82:in `stylesheet'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:27:in `parse'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/engine.rb:342:in `_to_tree'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/engine.rb:315:in `_render'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/engine.rb:262:in `render'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/bin/compass:44:in `call'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-C:/Program Files (x86)/Prepros/ruby_gems/bin/prepros-compass:17:in `load'
-C:/Program Files (x86)/Prepros/ruby_gems/bin/prepros-compass:17:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"			width: auto \": expected \";\", was \"!!important;\"\A         on line 132 of C:/Users/carlos.perez.priego/Documents/GitHub/XDNA/sass/xdadmin.scss"; }
+.inline { display: inline-block; }
+
+.pointer:hover { cursor: pointer; }
+
+.center { text-align: center; }
+
+.left { text-align: left; }
+
+.right { text-align: right; }
+
+.auto { margin: 0 auto; }
+
+.odd { background: #FBFBFB; }
+
+.even { background: #F2F0F1; }
+
+.letterpressed { text-shadow: 1px 1px 0 #ccc, -1px -1px- 0 #999; }
+
+.bold { font-weight: bold; }
+
+.clearfix { overflow: hidden; *zoom: 1; }
+
+.block { display: block; }
+
+.h100 { height: 100%; }
+
+.noOutline { outline: none; }
+
+.antialiased { -webkit-font-smoothing: antialiased; }
+
+.paddingL { padding-left: 1.3%; }
+
+.paddingB { padding-bottom: 1.3%; }
+
+.paddingR { padding-right: 1.3%; }
+
+.paddingT { padding-top: 1.3%; }
+
+.floatR { float: right; }
+
+.floatL { float: left; }
+
+.positionA { position: absolute; }
+
+.positionF { position: fixed; }
+
+.positionR { position: relative; }
+
+.fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
+
+body.xd #s4-ribbonrow { display: block !important; }
+body.xd .s4-ca { background-color: #ffffff; }
+body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
+body.xd table.ms-listviewtable thead { background: white; }
+body.xd body, body.xd body thead td, body.xd body tfoot td, body.xd body td#header { background: none !important; }
+body.xd .s4-itm-cbx, body.xd .s4-itm-inlineedit { top: 0; position: relative; }
+body.xd .ms-gb { border: none; }
+body.xd .ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; color: #555; margin: 0; }
+body.xd .ms-viewlsts .ms-vb2 { line-height: 170%; }
+body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
+body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: none; border: none; text-align: left; background-color: #E6E7E7; font-size: 16px; line-height: 175%; font-weight: normal; color: #000; text-indent: 10px; }
+
+@media only screen and (max-width: 768px) { body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
+  body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+  body.xd #main-content table.ms-listviewtable th, body.xd #main-content table.ms-listviewtable td { margin: 0; vertical-align: top; }
+  body.xd #main-content table.ms-listviewtable th { text-align: left; background: none; }
+  body.xd #main-content table.ms-listviewtable thead { display: block; float: left; }
+  body.xd #main-content table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap; overflow: hidden; *zoom: 1; }
+  body.xd #main-content table.ms-listviewtable thead tr { display: block; }
+  body.xd #main-content table.ms-listviewtable thead td { background: none; }
+  body.xd #main-content table.ms-listviewtable th { display: block; height: 30px; padding: 5px 20px 5px 5px; font-size: 11px; }
+  body.xd #main-content table.ms-listviewtable tbody tr { display: inline-block; vertical-align: top; }
+  body.xd #main-content table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; border: none; }
+  body.xd #main-content table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
+  body.xd #main-content table.ms-listviewtable th span { border: none; background: none; display: block; width: auto; }
+  body.xd #main-content table.ms-listviewtable th .ms-imnImgTD { display: none; }
+  body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center; font-size: 13px; height: 28px; padding: 6px; }
+  body.xd #main-content table.ms-listviewtable > tbody > tr { border-left: 1px solid #babcbf; }
+  body.xd #main-content table.ms-listviewtable tr td table tbody tr { border: none; }
+  body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
+  body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
+  * html table.ms-listviewtable thead { zoom: 1; }
+  body.xd #main-content .ms-pageinformation { float: none !important; margin: 0 auto !important; width: auto !important; }
+  body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; }
+  body.xd #main-content > table { width: 100%; display: block; }
+  body.xd #main-content > table > tbody, body.xd #main-content > table > tbody > tr, body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }
+  body.xd #main-content .ms-vb2 { display: none; }
+  body.xd #main-content .ms-vb2:nth-of-type(2) { display: block; }
+  body.xd #main-content .ms-vb2.ms-viewlsts-noitems { display: block; }
+  body.xd #main-content .ms-vb-icon { margin: 0 auto !important; }
+  body.xd #main-content tbody > tr > td { border: none !important; text-align: center; width: auto !important; display: block; }
+  body.xd #main-content td.ms-vb-itmcbx { text-align: center; }
+  body.xd #main-content .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; }
+  body.xd #main-content .ms-gb { height: 45px; }
+  body.xd #main-content .ms-menutoolbar { height: auto; background: none; }
+  body.xd #main-content .s4-wpTopTable tbody, body.xd #main-content .s4-wpTopTable tr, body.xd #main-content table.s4-wpTopTable, body.xd #main-content .s4-wpTopTable table, body.xd #main-content .s4-wpTopTable td { display: block; } }
