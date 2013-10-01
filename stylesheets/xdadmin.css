@@ -91,7 +91,8 @@ body.xd #main-content > div > table { margin: 20px; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
   body.xd #main-content > div { float: none !important; margin: 0 auto !important; width: auto !important; }
-  body.xd #main-content > div > table { margin: 0 auto; }
+  body.xd #main-content > div > table { margin: 0 auto; background: none; }
+  body.xd #main-content .ms-pageinformation th, body.xd #main-content .ms-pageinformation tr, body.xd #main-content .ms-pageinformation td { text-align: center; }
   body.xd #main-content .ms-linksection-level1 h3 { font-size: 1.5em; font-weight: 100; padding: 17px 0 9px 0; }
   body.xd #main-content .ms-linksection-level1 ul li a { font-size: 1.3em; line-height: 45px; }
   body.xd #main-content .ms-linksection-level1 img { margin-top: 13px; }

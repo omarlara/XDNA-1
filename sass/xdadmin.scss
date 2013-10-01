@@ -138,10 +138,18 @@ body.xd
 			width: auto !important;
 			> table{
 				margin:0 auto;
+				background: none;
+
+			}
+		}
+		.ms-pageinformation{
+			th, tr, td{
+				text-align: center;
 			}
 		}
 
 		.ms-linksection-level1 {
+
 			h3 {
 				font-size: 1.5em;
 				font-weight: 100;
