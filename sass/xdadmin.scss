@@ -167,6 +167,9 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		.theme-font-pickers{
+			float:none;
+		}
 		tbody > tr > th{
 			display: none;
 		}

@@ -102,6 +102,7 @@ body.xd #main-content .ms-pageinformation { padding: 0; }
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
+  body.xd #main-content .theme-font-pickers { float: none; }
   body.xd #main-content tbody > tr > th { display: none; }
   body.xd #main-content tr td b h3 { text-align: center !important; }
   body.xd #main-content .field-name { font-weight: bold; display: block; }
