@@ -57,6 +57,11 @@
 
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
+body.xd { /**.xd-footer{
+	padding: 20px 0;
+	text-align: center;
+	margin: 30px 0 16px;
+}**/ }
 body.xd .ms-toolbar { padding: 10px; }
 body.xd tr b, body.xd tr td b h3 { font-size: 1.2em; line-height: 240%; font-weight: normal; }
 body.xd .field-name { display: none; }
@@ -72,7 +77,6 @@ body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
 body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: none; border: none; text-align: left; background-color: #E6E7E7; font-size: 16px; line-height: 175%; font-weight: normal; color: #000; text-indent: 10px; }
 body.xd #main-content > div > table { margin: 20px; background: none; }
 body.xd #main-content .ms-pageinformation { padding: 0; }
-body.xd .xd-footer { padding: 20px 0; text-align: center; margin: 30px 0 16px; }
 
 @media only screen and (max-width: 768px) { button, select { font-size: 12px; padding: 4px; }
   td.ms-authoringcontrols > label, td.ms-authoringcontrols > span > label, td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
