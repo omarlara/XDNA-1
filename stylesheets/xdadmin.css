@@ -57,7 +57,7 @@
 
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
-body.xd tr b, body.xd tr td b h3 { font-size: 1.3em; line-height: 240%; font-weight: normal; }
+body.xd tr b, body.xd tr td b h3 { font-size: 1.2em; line-height: 240%; font-weight: normal; }
 body.xd .field-name { display: none; }
 body.xd #s4-ribbonrow { display: block !important; }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
@@ -96,6 +96,7 @@ body.xd .xd-footer { padding: 20px 0; text-align: center; margin: 30px 0 16px; }
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
+  body.xd #main-content tr td b h3 { text-align: center !important; }
   body.xd #main-content .field-name { font-weight: bold; display: block; }
   body.xd #main-content #mngfieldToobar { background: #fff; padding: 20px 0; }
   body.xd #main-content .ms-toolbar { background: none; border: none; }

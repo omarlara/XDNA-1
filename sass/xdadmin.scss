@@ -9,7 +9,7 @@
 body.xd
 {
 	tr b, tr td b h3{
-			font-size: 1.3em;
+			font-size: 1.2em;
 			line-height: 240%;
 			font-weight: normal;
 		}
@@ -160,7 +160,9 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-
+		 tr td b h3{
+		 		text-align: center !important; 
+		 }
 		.field-name{
 			font-weight: bold;
 			display: block;
