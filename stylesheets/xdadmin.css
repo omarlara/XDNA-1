@@ -120,7 +120,7 @@ body.xd #main-content .ms-pageinformation { padding: 0; }
   body.xd #main-content .ms-linksection-level1 img { margin-top: 13px; }
   body.xd #main-content .ms-vb a { font-size: 1.3em; }
   body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; font-size: 1em; }
-  body.xd #main-content > table { width: 100%; display: block; }
+  body.xd #main-content > table { width: auto; display: block; }
   body.xd #main-content > table > tbody, body.xd #main-content > table > tbody > tr, body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }
   body.xd #main-content .ms-vb2:nth-of-type(2) { display: block; }
   body.xd #main-content .ms-vb2.ms-viewlsts-noitems { display: block; }
