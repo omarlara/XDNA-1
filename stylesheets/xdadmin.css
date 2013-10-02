@@ -127,7 +127,7 @@ body.xd #main-content .ms-pageinformation { padding: 0; }
   body.xd #main-content .ms-vb-icon { margin: 0 auto !important; }
   body.xd #main-content tbody > tr > td { border: none !important; text-align: center; width: auto !important; display: block; }
   body.xd #main-content td.ms-vb-itmcbx { text-align: center; }
-  body.xd #main-content .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; }
+  body.xd #main-content .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; text-align: center; }
   body.xd #main-content .ms-gb { height: 45px; }
   body.xd #main-content .ms-menutoolbar { height: auto; background: none; }
   body.xd #main-content .s4-wpTopTable tbody, body.xd #main-content .s4-wpTopTable tr, body.xd #main-content table.s4-wpTopTable, body.xd #main-content .s4-wpTopTable table, body.xd #main-content .s4-wpTopTable td { display: block; } }
