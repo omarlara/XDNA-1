@@ -96,7 +96,6 @@ body.xd .xd-footer { padding: 20px 0; text-align: center; margin: 30px 0 16px; }
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
-  body.xd #main-content tr { border-bottom: 1px solid #E0E0E0; }
   body.xd #main-content .field-name { font-weight: bold; display: block; }
   body.xd #main-content #mngfieldToobar { background: #fff; padding: 20px 0; }
   body.xd #main-content .ms-toolbar { background: none; border: none; }
