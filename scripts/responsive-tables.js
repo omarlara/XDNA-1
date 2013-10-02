@@ -7,13 +7,13 @@ var head= $('.ms-viewheadertr'),
     head.parent().parent().prepend('<thead>'+headText+'</thead>');
     head.remove();
 
-  var stackedTable = $('#onetidMngCytpeRptrTable'),
+  var stackedTable = $('table#onetidMngFieldRptrTable'),
       headings = new Array(),
       headingCount = 0;
     stackedTable.find('tbody tr th').each(function(e){
 
       headings[headingCount] = $(this).text();
-      consold.log(headingCount + 'Heading: '+ headings[headingCount]);
+      console.log(headingCount + 'Heading: '+ headings[headingCount]);
 
       
       stackedTable.find('tr').not('first-child').each(function(e){
