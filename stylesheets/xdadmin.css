@@ -57,7 +57,7 @@
 
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
-body.xd tr b, body.xd tr b h3 { font-size: 1.3em; line-height: 240%; font-weight: normal; }
+body.xd tr b, body.xd tr td b h3 { font-size: 1.3em; line-height: 240%; font-weight: normal; }
 body.xd .field-name { display: none; }
 body.xd #s4-ribbonrow { display: block !important; }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
