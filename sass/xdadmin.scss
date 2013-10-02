@@ -149,6 +149,16 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		#mngfieldToobar{
+			background: #fff;
+		}
+		.ms-toolbar{
+			background: none;
+			border: none;
+			table{
+				margin:0 auto;
+			}
+		}
 		.ms-sectionheader{
 				height: auto;
 				.ms-standardheader{
