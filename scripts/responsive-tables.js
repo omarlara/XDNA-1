@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(e){
-var head= $('table tbody tr:first-child'),
+var head= $('.ms-viewheadertr'),
     headText = head.html();
     //**Takking the headers out as thead elements
     head.parent().parent().prepend('<thead>'+headText+'</thead>');
