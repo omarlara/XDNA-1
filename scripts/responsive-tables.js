@@ -26,7 +26,7 @@ var head= $('.ms-viewheadertr'),
         });
       });
       headingCount++;
-    }); 
+    }).parent().remove(); 
 
 });
 
