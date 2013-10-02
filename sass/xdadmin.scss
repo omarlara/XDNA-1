@@ -8,6 +8,9 @@
 
 body.xd
 {
+	.ms-toolbar{
+		padding: 10px;
+	}
 	tr b, tr td b h3{
 			font-size: 1.2em;
 			line-height: 240%;
@@ -160,6 +163,9 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		tbody > tr > th{
+			display: none;
+		}
 		 tr td b h3{
 		 		text-align: center !important; 
 		 }
