@@ -13,15 +13,14 @@ var head= $('.ms-viewheadertr'),
     stackedTable.find('tbody tr th').each(function(e){
 
       headings[headingCount] = $(this).text();
-      console.log(headingCount + 'Heading: '+ headings[headingCount]);
 
       
       stackedTable.find('tr').not('first-child').each(function(e){
         
         var    countIterator = 0;
         $(this).find('.ms-vb2').each(function(e){
-            var fieldValue = $(this).text();
-            $(this).html(headings[countIterator] + ' ' + fieldValue);
+            var fieldValue = $(this).html();
+            $(this).html('<span class="field-name">'+ headings[countIterator] + '</span> ' + fieldValue);
             countIterator++;
         });
       });
