@@ -82,7 +82,7 @@ body.xd #main-content .ms-pageinformation { padding: 0; }
 @media only screen and (max-width: 768px) { button, select { font-size: 12px; padding: 4px; }
   td.ms-authoringcontrols > label, td.ms-authoringcontrols > span > label, td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
   .ms-authoringcontrols table { margin: 0 auto; }
-  body.xd #main-content table.ms-listviewtable { width: 100%; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
+  body.xd #main-content table.ms-listviewtable { width: auto; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
   body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
   body.xd #main-content table.ms-listviewtable th, body.xd #main-content table.ms-listviewtable td { margin: 0; vertical-align: top; }
   body.xd #main-content table.ms-listviewtable th { text-align: left; background: none; }
