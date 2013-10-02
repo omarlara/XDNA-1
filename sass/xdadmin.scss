@@ -8,6 +8,10 @@
 
 body.xd
 {
+	.field-name{
+		display: none;
+	}
+
 	#s4-ribbonrow{display: block !important;}
 	.s4-ca{//background-color: #ffffff;  margin-left: 155px;
 	}
@@ -70,11 +74,13 @@ body.xd
 		}
 	}
 
+
 	.xd-footer{
 		padding: 20px 0;
 		text-align: center;
 		margin: 30px 0 16px;
 	}
+	
 }
 
 @include tablet-portrait-and-below{
@@ -149,6 +155,9 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		.field-name{
+			font-weight: bold;
+		}
 		#mngfieldToobar{
 			background: #fff;
 			padding: 20px 0;
