@@ -10,7 +10,7 @@ var head= $('.ms-viewheadertr'),
   var stackedTable = $('#onetidMngCytpeRptrTable'),
       headings = new Array(),
       headingCount = 0;
-    stackedTable.find('th').each(function(e){
+    stackedTable.find('tbody tr th').each(function(e){
 
       headings[headingCount] = $(this).text();
       consold.log(headingCount + 'Heading: '+ headings[headingCount]);
