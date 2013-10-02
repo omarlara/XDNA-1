@@ -160,7 +160,9 @@ body.xd
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-
+		tr{
+			border-bottom: 1px solid #E0E0E0;
+		}
 		.field-name{
 			font-weight: bold;
 			display: block;
@@ -235,6 +237,7 @@ body.xd
  		> table{
 			width:100%;
 			display: block;
+
 			> tbody, > tbody > tr, > tbody > tr > td{
 				display: block;
 				border:none;
