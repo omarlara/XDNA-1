@@ -22,7 +22,7 @@ var head= $('.ms-viewheadertr'),
             var fieldValue = $(this).html();
             $(this).html('<span class="field-name">'+ headings[countIterator] + '</span> ' + fieldValue);
             countIterator++;
-            alert(countIterator);
+            console.log('countIterator: ' + countIterator + 'headings[countIterator]: ' + headings[countIterator]);
         });
       });
       headingCount++;
