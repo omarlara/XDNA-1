@@ -57,7 +57,7 @@
 
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
-body.xd tr b { font-size: 1.8em; line-height: 240%; font-weight: normal; }
+body.xd tr b { font-size: 1.3em; line-height: 240%; font-weight: normal; }
 body.xd .field-name { display: none; }
 body.xd #s4-ribbonrow { display: block !important; }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
@@ -110,7 +110,7 @@ body.xd .xd-footer { padding: 20px 0; text-align: center; margin: 30px 0 16px; }
   body.xd #main-content .ms-linksection-level1 h3 { font-size: 1.5em; font-weight: 100; padding: 17px 0 9px 0; }
   body.xd #main-content .ms-linksection-level1 ul li a { font-size: 1.1em; line-height: 45px; }
   body.xd #main-content .ms-linksection-level1 img { margin-top: 13px; }
-  body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; font-size: 1.3em; }
+  body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; font-size: 1em; }
   body.xd #main-content > table { width: 100%; display: block; }
   body.xd #main-content > table > tbody, body.xd #main-content > table > tbody > tr, body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }
   body.xd #main-content .ms-vb2:nth-of-type(2) { display: block; }
