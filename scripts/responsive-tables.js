@@ -7,7 +7,7 @@ var head= $('.ms-viewheadertr'),
     head.parent().parent().prepend('<thead>'+headText+'</thead>');
     head.remove();
 
-  var stackedTable = $('table#onetidMngFieldRptrTable'),
+  var stackedTable = $('table#onetidMngFieldRptrTable, #onetidMngCytpeRptrTable'),
       headings = new Array(),
       headingCount = 0;
       
