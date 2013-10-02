@@ -10,9 +10,13 @@ body.xd
 {
 	.ms-toolbar{
 		padding: 10px;
+		height: auto;
+	}
+	.ms-smallsectionline{
+		background: none;
 	}
 	tr b, tr td b h3, .ms-standardheader{
-			font-size: 1.2em;
+			font-size: 1.3em;
 			line-height: 240%;
 			font-weight: normal;
 		}

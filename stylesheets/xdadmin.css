@@ -62,8 +62,9 @@ body.xd { /**.xd-footer{
 	text-align: center;
 	margin: 30px 0 16px;
 }**/ }
-body.xd .ms-toolbar { padding: 10px; }
-body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader { font-size: 1.2em; line-height: 240%; font-weight: normal; }
+body.xd .ms-toolbar { padding: 10px; height: auto; }
+body.xd .ms-smallsectionline { background: none; }
+body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader { font-size: 1.3em; line-height: 240%; font-weight: normal; }
 body.xd .field-name { display: none; }
 body.xd #s4-ribbonrow { display: block !important; }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
