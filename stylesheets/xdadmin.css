@@ -116,6 +116,7 @@ body.xd #main-content .ms-pageinformation { padding: 0; }
   body.xd #main-content > div > table { margin: 0 auto; }
   body.xd #main-content .ms-pageinformation th, body.xd #main-content .ms-pageinformation tr, body.xd #main-content .ms-pageinformation td, body.xd #main-content .ms-pageinformation h3 { text-align: center; font-size: 1.1em; }
   body.xd #main-content .ms-pageinformation h3 { font-size: 1.5em; }
+  body.xd #main-content .ms-linksection-level1 td { height: auto !important; }
   body.xd #main-content .ms-linksection-level1 h3 { font-size: 1.5em; font-weight: 100; padding: 17px 0 9px 0; }
   body.xd #main-content .ms-linksection-level1 ul li a { font-size: 1.1em; line-height: 45px; }
   body.xd #main-content .ms-linksection-level1 img { margin-top: 13px; }

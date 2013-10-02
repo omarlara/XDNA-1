@@ -226,7 +226,9 @@ body.xd
 		}
 
 		.ms-linksection-level1 {
-
+			td{
+				height:auto !important;
+			}
 			h3 {
 				font-size: 1.5em;
 				font-weight: 100;
