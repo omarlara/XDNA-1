@@ -16,7 +16,7 @@ var head= $('.ms-viewheadertr'),
       // stackedTable.find('tr').not('first-child').each(function(e){
         
         var   countIterator = 0;
-        $(this).find('.ms-vb2').each(function(e){
+        $(this).find('tr td.ms-vb2').each(function(e){
             var fieldValue = $(this).html();
             $(this).html('<span class="field-name">'+ headings[countIterator] + '</span> ' + fieldValue);
             countIterator++;
