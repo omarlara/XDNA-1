@@ -111,8 +111,8 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
   body.xd #main-content { height: auto !important; padding: 10px 0; }
-  body.xd #main-content br[disabled=true] { display: none; }
   body.xd #main-content .ms-authoringcontrols { background: none !important; clear: both; }
+  body.xd #main-content .ms-authoringcontrols br[disabled=true], body.xd #main-content .ms-authoringcontrols td br { display: none; }
   body.xd #main-content #diidViewColumnHeaderPictureDisp1 { height: 85px; }
   body.xd #main-content .theme-font-pickers { float: none; }
   body.xd #main-content tbody > tr > th { display: none; }
