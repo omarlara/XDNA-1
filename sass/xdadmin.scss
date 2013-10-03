@@ -199,7 +199,9 @@ img[src="/_layouts/images/blank.gif"]{
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-		
+		div[id*="_CalendarView"] td{
+			display: table-cell !important;
+		}
 		.ms-authoringcontrols {
 			background: none !important;
 			clear: both;
