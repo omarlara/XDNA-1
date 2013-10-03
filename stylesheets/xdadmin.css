@@ -89,7 +89,7 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
 @media only screen and (max-width: 768px) { .ms-separator { display: none !important; }
   button, select { font-size: 12px; padding: 4px; }
   td.ms-authoringcontrols > label, td.ms-authoringcontrols > span > label, td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
-  .ms-authoringcontrols table { margin: 0 auto; }
+  .ms-authoringcontrols table { margin: 0 auto; width: auto; }
   body.xd #main-content table.ms-listviewtable { width: auto; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
   body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
   body.xd #main-content table.ms-listviewtable th, body.xd #main-content table.ms-listviewtable td { margin: 0; vertical-align: top; }
@@ -111,7 +111,7 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
   body.xd #main-content { height: auto !important; padding: 10px 0; }
-  body.xd #main-content .ms-authoringcontrols { background: none !important; }
+  body.xd #main-content .ms-authoringcontrols { background: none !important; clear: both; }
   body.xd #main-content #diidViewColumnHeaderPictureDisp1 { height: 85px; }
   body.xd #main-content .theme-font-pickers { float: none; }
   body.xd #main-content tbody > tr > th { display: none; }

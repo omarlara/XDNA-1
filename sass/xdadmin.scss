@@ -13,6 +13,7 @@ body.xd
 	}
 	td.ms-authoringcontrols{
 		padding: 7px;
+
 		label{
 			font-size: 1.2em;
 		}
@@ -135,6 +136,7 @@ img[src="/_layouts/images/blank.gif"]{
 	}
 	.ms-authoringcontrols table{
 		margin:0 auto;
+		width:auto;
 	}
  	body.xd #main-content table.ms-listviewtable { 		
  		width: auto; border-collapse: collapse; border-spacing: 0;
@@ -200,6 +202,7 @@ img[src="/_layouts/images/blank.gif"]{
 
 		.ms-authoringcontrols {
 			background: none !important;
+			clear: both;
 		}
 		#diidViewColumnHeaderPictureDisp1{
 			height: 85px;
