@@ -202,7 +202,11 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 			background: none;
 			border: none;
 			table{
-				margin:0 auto;
+				margin:0 auto !important;
+				td{
+					background: #eee;
+					border: 1px solid #ddd;
+				}
 			}
 		}
 		.ms-sectionheader{

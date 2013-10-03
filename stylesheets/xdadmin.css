@@ -112,7 +112,8 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
   body.xd #main-content .field-name { font-weight: bold; display: block; }
   body.xd #main-content #mngfieldToobar { background: #fff; padding: 20px 0; }
   body.xd #main-content .ms-toolbar { background: none; border: none; }
-  body.xd #main-content .ms-toolbar table { margin: 0 auto; }
+  body.xd #main-content .ms-toolbar table { margin: 0 auto !important; }
+  body.xd #main-content .ms-toolbar table td { background: #eee; border: 1px solid #ddd; }
   body.xd #main-content .ms-sectionheader { height: auto; }
   body.xd #main-content .ms-sectionheader .ms-standardheader { font-size: 2em; text-align: center; line-height: 2em; font-weight: normal; }
   body.xd #main-content table[id*=PlaceHolderMain] { margin: 0 auto; }
