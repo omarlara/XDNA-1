@@ -112,6 +112,7 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   body.xd #main-content { padding: 10px 0; }
   body.xd #main-content #AsynchronousViewDefault_CalendarView table { display: table !important; }
   body.xd #main-content #AsynchronousViewDefault_CalendarView td { display: table-cell !important; }
+  body.xd #main-content #AsynchronousViewDefault_CalendarView tr { display: table-row !important; }
   body.xd #main-content .ms-authoringcontrols { background: none !important; clear: both; }
   body.xd #main-content .ms-authoringcontrols br[disabled=true], body.xd #main-content .ms-authoringcontrols td br { display: none; }
   body.xd #main-content #diidViewColumnHeaderPictureDisp1 { height: 85px; }
