@@ -94,8 +94,15 @@ body.xd
 	}**/
 	
 }
+/** Foudnation resets **/
 
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+background: none;
+}
 @include tablet-portrait-and-below{
+	.ms-separator{
+		display: none !important;
+	}
 	button, select{
 		font-size: 12px;
 		padding: 4px;
@@ -140,7 +147,7 @@ body.xd
  		td { 
  			border-left: 0; border-right: 0; border-bottom: 0; text-align: center;
  			font-size: 13px;
-    		height: 28px;
+    		line-height: 28px;
     		padding: 6px;
  		}
 

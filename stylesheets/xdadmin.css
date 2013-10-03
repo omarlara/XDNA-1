@@ -79,7 +79,11 @@ body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: n
 body.xd #main-content > div > table { margin: 20px; background: none; }
 body.xd #main-content .ms-pageinformation { padding: 0; }
 
-@media only screen and (max-width: 768px) { button, select { font-size: 12px; padding: 4px; }
+/** Foudnation resets **/
+table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
+
+@media only screen and (max-width: 768px) { .ms-separator { display: none !important; }
+  button, select { font-size: 12px; padding: 4px; }
   td.ms-authoringcontrols > label, td.ms-authoringcontrols > span > label, td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
   .ms-authoringcontrols table { margin: 0 auto; }
   body.xd #main-content table.ms-listviewtable { width: auto; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
@@ -96,7 +100,7 @@ body.xd #main-content .ms-pageinformation { padding: 0; }
   body.xd #main-content table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
   body.xd #main-content table.ms-listviewtable th span { border: none; background: none; display: block; width: auto; }
   body.xd #main-content table.ms-listviewtable th .ms-imnImgTD { display: none; }
-  body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center; font-size: 13px; height: 28px; padding: 6px; }
+  body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center; font-size: 13px; line-height: 28px; padding: 6px; }
   body.xd #main-content table.ms-listviewtable > tbody > tr { border-left: 1px solid #babcbf; }
   body.xd #main-content table.ms-listviewtable tr td table tbody tr { border: none; }
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
