@@ -120,7 +120,7 @@ img[src="/_layouts/images/blank.gif"]{
 
 
 @include tablet-portrait-and-below{
-	.ms-authoringcontrols {
+	table td.ms-authoringcontrols {
 		background-color: none;
 	}
 	.ms-separator{

@@ -86,7 +86,7 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
 
 img[src="/_layouts/images/blank.gif"] { display: none; }
 
-@media only screen and (max-width: 768px) { .ms-authoringcontrols { background-color: none; }
+@media only screen and (max-width: 768px) { table td.ms-authoringcontrols { background-color: none; }
   .ms-separator { display: none !important; }
   button, select { font-size: 12px; padding: 4px; }
   td.ms-authoringcontrols > label, td.ms-authoringcontrols > span > label, td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
