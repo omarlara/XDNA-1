@@ -115,6 +115,7 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
   body.xd #main-content .ms-toolbar #topPagingCell { display: none; }
   body.xd #main-content .ms-toolbar table { width: 100%; margin: 0 auto !important; border: 1px solid #ccc; }
   body.xd #main-content .ms-toolbar table td { background: #eee; }
+  body.xd #main-content .ms-toolbar table:hover { background: url("https://at.avanade.com/_layouts/images/bgximg.png") repeat-x 0px -431px; cursor: pointer; }
   body.xd #main-content .ms-toolbar .ms-menubuttoninactivehover { background: #eee; border: 1px solid #ccc; }
   body.xd #main-content .ms-sectionheader { height: auto; }
   body.xd #main-content .ms-sectionheader .ms-standardheader { font-size: 2em; text-align: center; line-height: 2em; font-weight: normal; }

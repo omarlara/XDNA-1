@@ -211,6 +211,10 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 				td{
 					background: #eee;
 				}
+				&:hover{
+					background: url("https://at.avanade.com/_layouts/images/bgximg.png") repeat-x -0px -431px;
+					cursor: pointer;
+				}
 			}
 			.ms-menubuttoninactivehover{
 				background: #eee;
