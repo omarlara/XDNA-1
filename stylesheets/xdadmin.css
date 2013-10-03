@@ -81,6 +81,8 @@ body.xd #main-content .ms-pageinformation { padding: 0; }
 
 table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
 
+img[src="/_layouts/images/blank.gif"] { display: none; }
+
 @media only screen and (max-width: 768px) { .ms-separator { display: none !important; }
   button, select { font-size: 12px; padding: 4px; }
   td.ms-authoringcontrols > label, td.ms-authoringcontrols > span > label, td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
@@ -106,6 +108,7 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
   body.xd #main-content { height: auto !important; padding: 10px 0; }
+  body.xd #main-content #diidViewColumnHeaderPictureDisp1 { height: 85px; }
   body.xd #main-content .theme-font-pickers { float: none; }
   body.xd #main-content tbody > tr > th { display: none; }
   body.xd #main-content tr td b h3 { text-align: center !important; }
@@ -113,7 +116,7 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
   body.xd #main-content #mngfieldToobar { background: #fff; padding: 20px 0; }
   body.xd #main-content .ms-toolbar { background: none; border: none; }
   body.xd #main-content .ms-toolbar #topPagingCell { display: none; }
-  body.xd #main-content .ms-toolbar table { width: 100%; margin: 0 auto !important; border: 1px solid #ccc; }
+  body.xd #main-content .ms-toolbar table { width: 100%; margin: 0 auto !important; border: 1px solid #ccc; padding: 3px 0; }
   body.xd #main-content .ms-toolbar table td { background: #eee; }
   body.xd #main-content .ms-toolbar table:hover { background: url("https://at.avanade.com/_layouts/images/bgximg.png") repeat-x 0px -431px; cursor: pointer; }
   body.xd #main-content .ms-toolbar .ms-menubuttoninactivehover { background: #eee; border: 1px solid #ccc; }

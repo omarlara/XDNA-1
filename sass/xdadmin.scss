@@ -103,6 +103,12 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 	background: none;
 }
 
+// Sharepoint reset
+
+img[src="/_layouts/images/blank.gif"]{
+	display: none;
+}
+
 
 @include tablet-portrait-and-below{
 	.ms-separator{
@@ -179,6 +185,9 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		#diidViewColumnHeaderPictureDisp1{
+			height: 85px;
+		}
 		height: auto !important;
 		padding: 10px 0;
 		.theme-font-pickers{
@@ -208,6 +217,7 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 				width:100%;
 				margin:0 auto !important;
 				border: 1px solid #ccc;
+				padding: 3px 0;
 				td{
 					background: #eee;
 				}
