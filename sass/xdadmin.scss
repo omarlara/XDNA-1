@@ -199,7 +199,9 @@ img[src="/_layouts/images/blank.gif"]{
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-
+		br[disabled=true]{
+			display: none;
+		}
 		.ms-authoringcontrols {
 			background: none !important;
 			clear: both;
