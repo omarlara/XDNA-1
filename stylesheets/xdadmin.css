@@ -62,9 +62,12 @@ body.xd { /**.xd-footer{
 	text-align: center;
 	margin: 30px 0 16px;
 }**/ }
+body.xd .ms-descriptiontext { font-size: 1.1em; }
+body.xd td.ms-authoringcontrols { padding: 7px; }
+body.xd td.ms-authoringcontrols label { font-size: 1.2em; }
 body.xd .ms-toolbar { padding: 10px; height: auto; }
 body.xd .ms-smallsectionline { background: none; }
-body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader { font-size: 1.3em; line-height: 240%; font-weight: normal; }
+body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader { font-size: 1.5em; line-height: 240%; font-weight: normal; }
 body.xd .field-name { display: none; }
 body.xd #s4-ribbonrow { display: block !important; }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
@@ -83,7 +86,8 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
 
 img[src="/_layouts/images/blank.gif"] { display: none; }
 
-@media only screen and (max-width: 768px) { .ms-separator { display: none !important; }
+@media only screen and (max-width: 768px) { .ms-authoringcontrols { background-color: none; }
+  .ms-separator { display: none !important; }
   button, select { font-size: 12px; padding: 4px; }
   td.ms-authoringcontrols > label, td.ms-authoringcontrols > span > label, td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
   .ms-authoringcontrols table { margin: 0 auto; }

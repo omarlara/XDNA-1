@@ -8,6 +8,15 @@
 
 body.xd
 {
+	.ms-descriptiontext{
+		font-size: 1.1em;
+	}
+	td.ms-authoringcontrols{
+		padding: 7px;
+		label{
+			font-size: 1.2em;
+		}
+	}
 	.ms-toolbar{
 		padding: 10px;
 		height: auto;
@@ -16,7 +25,7 @@ body.xd
 		background: none;
 	}
 	tr b, tr td b h3, .ms-standardheader{
-			font-size: 1.3em;
+			font-size: 1.5em;
 			line-height: 240%;
 			font-weight: normal;
 		}
@@ -111,6 +120,9 @@ img[src="/_layouts/images/blank.gif"]{
 
 
 @include tablet-portrait-and-below{
+	.ms-authoringcontrols {
+		background-color: none;
+	}
 	.ms-separator{
 		display: none !important;
 	}
