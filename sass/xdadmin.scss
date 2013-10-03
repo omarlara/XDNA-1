@@ -179,7 +179,7 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-
+		height: auto !important;
 		padding: 10px 0;
 		.theme-font-pickers{
 			float:none;
