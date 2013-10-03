@@ -67,7 +67,7 @@ body.xd td.ms-authoringcontrols { padding: 7px; }
 body.xd td.ms-authoringcontrols label { font-size: 1.2em; }
 body.xd .ms-toolbar { padding: 10px; height: auto; }
 body.xd .ms-smallsectionline { background: none; }
-body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader { font-size: 1.5em; line-height: 240%; font-weight: normal; }
+body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader { font-size: 1.5em; line-height: 240%; font-weight: normal; text-align: center; }
 body.xd .field-name { display: none; }
 body.xd #s4-ribbonrow { display: block !important; }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
@@ -75,7 +75,7 @@ body.xd table.ms-listviewtable thead { background: white; }
 body.xd body, body.xd body thead td, body.xd body tfoot td, body.xd body td#header { background: none !important; }
 body.xd .s4-itm-cbx, body.xd .s4-itm-inlineedit { top: 0; position: relative; }
 body.xd .ms-gb { border: none; }
-body.xd .ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; color: #555; margin: 0; }
+body.xd .ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; text-align: center; color: #555; margin: 0; }
 body.xd .ms-viewlsts .ms-vb2 { line-height: 170%; }
 body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
 body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: none; border: none; text-align: left; background-color: #E6E7E7; font-size: 16px; line-height: 175%; font-weight: normal; color: #000; text-indent: 10px; }
