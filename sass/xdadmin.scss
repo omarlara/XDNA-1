@@ -120,9 +120,7 @@ img[src="/_layouts/images/blank.gif"]{
 
 
 @include tablet-portrait-and-below{
-	table td.ms-authoringcontrols {
-		background-color: none;
-	}
+	
 	.ms-separator{
 		display: none !important;
 	}
@@ -197,6 +195,10 @@ img[src="/_layouts/images/blank.gif"]{
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+
+		.ms-authoringcontrols {
+			background: none;
+		}
 		#diidViewColumnHeaderPictureDisp1{
 			height: 85px;
 		}
