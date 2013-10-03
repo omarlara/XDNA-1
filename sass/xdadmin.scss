@@ -212,6 +212,10 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 					background: #eee;
 				}
 			}
+			.ms-menubuttoninactivehover{
+				background: #eee;
+				border: 1px solid #ccc;
+			}
 		}
 		.ms-sectionheader{
 				height: auto;
