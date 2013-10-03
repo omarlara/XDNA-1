@@ -94,11 +94,16 @@ body.xd
 	}**/
 	
 }
-/** Foudnation resets **/
+
+
+// Foundation resets
+
 
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
-background: none;
+	background: none;
 }
+
+
 @include tablet-portrait-and-below{
 	.ms-separator{
 		display: none !important;
@@ -174,6 +179,8 @@ background: none;
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		height: auto !important;
+		padding: 10px 0;
 		.theme-font-pickers{
 			float:none;
 		}
