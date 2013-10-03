@@ -201,11 +201,15 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 		.ms-toolbar{
 			background: none;
 			border: none;
+			#topPagingCell{
+				display: none;
+			}
 			table{
+				width:100%;
 				margin:0 auto !important;
+				border: 1px solid #ccc;
 				td{
 					background: #eee;
-					border: 1px solid #ddd;
 				}
 			}
 		}
