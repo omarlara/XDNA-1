@@ -109,7 +109,7 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   * html table.ms-listviewtable thead { zoom: 1; }
-  body.xd #main-content { height: auto !important; padding: 10px 0; }
+  body.xd #main-content { padding: 10px 0; }
   body.xd #main-content .ms-authoringcontrols { background: none !important; clear: both; }
   body.xd #main-content .ms-authoringcontrols br[disabled=true], body.xd #main-content .ms-authoringcontrols td br { display: none; }
   body.xd #main-content #diidViewColumnHeaderPictureDisp1 { height: 85px; }
