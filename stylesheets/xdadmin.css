@@ -85,7 +85,15 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
 
 img[src="/_layouts/images/blank.gif"] { display: none; }
 
-@media only screen and (max-width: 768px) { html:not(.ms-dialog-nr) .ms-separator { display: none !important; }
+.mob-header { display: none; font-weight: bold !important; float: left; padding-right: 1em; vertical-align: top; margin-top: -2px; width: 100px; font-size: .9em; }
+
+@media only screen and (max-width: 768px) { html:not(.ms-dialog-nr) .mob-header { display: inline-block; }
+  html:not(.ms-dialog-nr) table.ms-listviewtable > tbody > tr { padding: 10px; }
+  html:not(.ms-dialog-nr) table.ms-listviewtable > tbody > tr > td { display: block; text-align: left; border: none !important; width: 100%; /* IE8 */ float: left; /* IE8 */ }
+  html:not(.ms-dialog-nr) table.ms-listviewtable > tbody > tr > td.ms-vb2 > a { font-size: 1.2em; font-weight: bold; }
+  html:not(.ms-dialog-nr) table.ms-listviewtable tr.s4-itm-hover > td, html:not(.ms-dialog-nr) table.ms-listviewtable tr.ms-itmhover:hover > td, html:not(.ms-dialog-nr) tr.s4-itm-selected > td, html:not(.ms-dialog-nr) tr.s4-itm-selected:hover > td { border: none; }
+  html:not(.ms-dialog-nr) table.ms-listviewtable .ms-viewheadertr, html:not(.ms-dialog-nr) table.ms-listviewtable tbody tr td.ms-vb-firstCell { display: none; }
+  html:not(.ms-dialog-nr) .ms-separator { display: none !important; }
   html:not(.ms-dialog-nr) button, html:not(.ms-dialog-nr) select { font-size: 12px; padding: 4px; }
   html:not(.ms-dialog-nr) td.ms-authoringcontrols > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > span > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
   html:not(.ms-dialog-nr) .ms-authoringcontrols table { margin: 0 auto; width: auto; }
@@ -109,7 +117,9 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   html:not(.ms-dialog-nr) body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   html:not(.ms-dialog-nr) * html table.ms-listviewtable thead { zoom: 1; }
-  html:not(.ms-dialog-nr) body.xd #main-content { padding: 10px 0; }
+  html:not(.ms-dialog-nr) body.xd #main-content { padding: 10px 0; /**.s4-wpTopTable tbody,.s4-wpTopTable  tr, table.s4-wpTopTable, .s4-wpTopTable table , .s4-wpTopTable td{
+	display: block ;
+}**/ }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView table { display: table !important; }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView td { display: table-cell !important; }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView tr { display: table-row !important; }
@@ -150,7 +160,6 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; text-align: center; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-gb { height: 45px; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar { height: auto; background: none; }
-  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tbody, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tr, html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable table, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable td { display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody { display: table-row-group; }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tr { display: table-row; }
   html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable #AsynchronousViewDefault_CalendarView { display: block; }
