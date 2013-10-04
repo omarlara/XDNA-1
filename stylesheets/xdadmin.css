@@ -85,25 +85,28 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
 
 img[src="/_layouts/images/blank.gif"] { display: none; }
 
-.mob-header { display: none; font-weight: bold !important; float: left; padding-right: 1em; vertical-align: top; margin-top: -2px; width: 100px; font-size: .9em; }
-
-@media only screen and (max-width: 768px) { html:not(.ms-dialog-nr) { /** 	body.xd #main-content table.ms-listviewtable { 		 		width: auto; border-collapse: collapse; border-spacing: 0;
- 		thead:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;} 		th,td  		{margin: 0; vertical-align: top;} 		th 			{text-align: left;background: none;} 		display: block; position: relative; width: 100%; 		thead		{display: block; float: left;} 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap;@include clearfix;} 		thead tr 	{display: block;} 		thead td 	{background: none;} 		th 			{ 			display: block; 			height: 30px; 		padding: 5px 20px 5px 5px;
-			font-size: 11px; 		} 		tbody tr 	{display: inline-block; vertical-align: top;} 		td 			{display: block; min-height: 1.25em; text-align: left; border:none}
- 		//Sort out borders 		th { border-bottom: 0; border-left: 0; } 		th span{ 			border: none; 			background: none; 			display: block; 			width: auto; 		} 		th .ms-imnImgTD{ 			display: none; 		} 		td {  			border-left: 0; border-right: 0; border-bottom: 0; text-align: center; 			font-size: 13px; 		line-height: 28px; 		padding: 6px; 		}
- 		> tbody > tr { border-left: 1px solid #babcbf; } 		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; } 		tr td table tbody tr{ 			border: none; 		} 		#idSelectAll:before{ 			content: 'Select All'; 			margin-left: 24px;
-			font-size: 11px;
-			color: #aaa 		} 	} **/ }
-  html:not(.ms-dialog-nr) .mob-header { display: inline-block; }
-  html:not(.ms-dialog-nr) table.ms-listviewtable > tbody > tr { padding: 10px; }
-  html:not(.ms-dialog-nr) table.ms-listviewtable > tbody > tr > td { display: block; text-align: left; border: none !important; width: 100%; /* IE8 */ float: left; /* IE8 */ }
-  html:not(.ms-dialog-nr) table.ms-listviewtable > tbody > tr > td.ms-vb2 > a { font-size: 1.2em; font-weight: bold; }
-  html:not(.ms-dialog-nr) table.ms-listviewtable tr.s4-itm-hover > td, html:not(.ms-dialog-nr) table.ms-listviewtable tr.ms-itmhover:hover > td, html:not(.ms-dialog-nr) tr.s4-itm-selected > td, html:not(.ms-dialog-nr) tr.s4-itm-selected:hover > td { border: none; }
-  html:not(.ms-dialog-nr) table.ms-listviewtable .ms-viewheadertr, html:not(.ms-dialog-nr) table.ms-listviewtable tbody tr td.ms-vb-firstCell { display: none; }
-  html:not(.ms-dialog-nr) .ms-separator { display: none !important; }
+@media only screen and (max-width: 768px) { html:not(.ms-dialog-nr) .ms-separator { display: none !important; }
   html:not(.ms-dialog-nr) button, html:not(.ms-dialog-nr) select { font-size: 12px; padding: 4px; }
   html:not(.ms-dialog-nr) td.ms-authoringcontrols > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > span > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
   html:not(.ms-dialog-nr) .ms-authoringcontrols table { margin: 0 auto; width: auto; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable { width: auto; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th, html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable td { margin: 0; vertical-align: top; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th { text-align: left; background: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable thead { display: block; float: left; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap; overflow: hidden; *zoom: 1; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable thead tr { display: block; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable thead td { background: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th { display: block; height: 30px; padding: 5px 20px 5px 5px; font-size: 11px; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable tbody tr { display: inline-block; vertical-align: top; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; border: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th span { border: none; background: none; display: block; width: auto; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th .ms-imnImgTD { display: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center; font-size: 13px; line-height: 28px; padding: 6px; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable > tbody > tr { border-left: 1px solid #babcbf; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable tr td table tbody tr { border: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   html:not(.ms-dialog-nr) body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   html:not(.ms-dialog-nr) * html table.ms-listviewtable thead { zoom: 1; }
   html:not(.ms-dialog-nr) body.xd #main-content { padding: 10px 0; }
