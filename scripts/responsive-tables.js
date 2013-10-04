@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(e){
 /**var head= $('.ms-viewheadertr'),
     headText = head.html();
@@ -26,7 +25,7 @@ $(document).ready(function(e){
       headingCount++;
     }).parent().remove();
 
-
+  
 
 **/
 
