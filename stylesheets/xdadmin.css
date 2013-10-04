@@ -62,6 +62,7 @@ body.xd { /**.xd-footer{
 	text-align: center;
 	margin: 30px 0 16px;
 }**/ }
+body.xd .fieldName { display: none; }
 body.xd .ms-listviewtable .ms-alternating { background-color: #f5f5f5; }
 body.xd .ms-descriptiontext { font-size: 1.1em; }
 body.xd td.ms-authoringcontrols { padding: 7px; }
@@ -93,7 +94,7 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
  		> tbody > tr { border-left: 1px solid #babcbf; } 		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; } 		tr td table tbody tr{ 			border: none; 		} 		#idSelectAll:before{ 			content: 'Select All'; 			margin-left: 24px;
 			font-size: 11px;
 			color: #aaa 		} 	} **/ }
-  html:not(.ms-dialog-nr) .mob-header { display: none; font-weight: bold !important; float: left; padding-right: 1em; vertical-align: top; margin-top: -2px; width: 100px; font-size: .9em; }
+  html:not(.ms-dialog-nr) .fieldName { float: left; font-weight: bold; }
   html:not(.ms-dialog-nr) td label { display: inline-block !important; margin-left: 6px; }
   html:not(.ms-dialog-nr) .ms-separator { display: none !important; }
   html:not(.ms-dialog-nr) button, html:not(.ms-dialog-nr) select { font-size: 12px; padding: 4px; }
