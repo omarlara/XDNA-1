@@ -8,6 +8,9 @@
 
 body.xd
 {
+	.ms-alternating{
+		background-color:#f5f5f5;
+	}
 	.ms-descriptiontext{
 		font-size: 1.1em;
 	}
@@ -128,7 +131,6 @@ html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
 	
-
 
 
 

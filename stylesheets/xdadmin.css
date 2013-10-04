@@ -62,6 +62,7 @@ body.xd { /**.xd-footer{
 	text-align: center;
 	margin: 30px 0 16px;
 }**/ }
+body.xd .ms-alternating { background-color: #f5f5f5; }
 body.xd .ms-descriptiontext { font-size: 1.1em; }
 body.xd td.ms-authoringcontrols { padding: 7px; }
 body.xd td.ms-authoringcontrols label { font-size: 1.2em; }
