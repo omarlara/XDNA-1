@@ -26,10 +26,7 @@ $(document).ready(function(e){
       headingCount++; **/
     }).parent().remove();
 
-
-    (function($)
-    {
-      var $sptableList = $("table.ms-listviewtable > tbody");
+     var $sptableList = $("table.ms-listviewtable > tbody");
       var $headers = $sptableList.find("> tr.ms-viewheadertr > th");
       var $items = $sptableList.find("> tr.ms-itmhover");
       $items.each(function() {
@@ -42,8 +39,6 @@ $(document).ready(function(e){
       $(this).prepend($mobileHeader);
       counter++;
       });
-    });
-    }(jQuery)); 
 
 });
 
