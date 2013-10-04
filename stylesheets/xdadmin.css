@@ -87,7 +87,14 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
 
 .mob-header { display: none; font-weight: bold !important; float: left; padding-right: 1em; vertical-align: top; margin-top: -2px; width: 100px; font-size: .9em; }
 
-@media only screen and (max-width: 768px) { html:not(.ms-dialog-nr) .mob-header { display: inline-block; }
+@media only screen and (max-width: 768px) { html:not(.ms-dialog-nr) { /** 	body.xd #main-content table.ms-listviewtable { 		 		width: auto; border-collapse: collapse; border-spacing: 0;
+ 		thead:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;} 		th,td  		{margin: 0; vertical-align: top;} 		th 			{text-align: left;background: none;} 		display: block; position: relative; width: 100%; 		thead		{display: block; float: left;} 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap;@include clearfix;} 		thead tr 	{display: block;} 		thead td 	{background: none;} 		th 			{ 			display: block; 			height: 30px; 		padding: 5px 20px 5px 5px;
+			font-size: 11px; 		} 		tbody tr 	{display: inline-block; vertical-align: top;} 		td 			{display: block; min-height: 1.25em; text-align: left; border:none}
+ 		//Sort out borders 		th { border-bottom: 0; border-left: 0; } 		th span{ 			border: none; 			background: none; 			display: block; 			width: auto; 		} 		th .ms-imnImgTD{ 			display: none; 		} 		td {  			border-left: 0; border-right: 0; border-bottom: 0; text-align: center; 			font-size: 13px; 		line-height: 28px; 		padding: 6px; 		}
+ 		> tbody > tr { border-left: 1px solid #babcbf; } 		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; } 		tr td table tbody tr{ 			border: none; 		} 		#idSelectAll:before{ 			content: 'Select All'; 			margin-left: 24px;
+			font-size: 11px;
+			color: #aaa 		} 	} **/ }
+  html:not(.ms-dialog-nr) .mob-header { display: inline-block; }
   html:not(.ms-dialog-nr) table.ms-listviewtable > tbody > tr { padding: 10px; }
   html:not(.ms-dialog-nr) table.ms-listviewtable > tbody > tr > td { display: block; text-align: left; border: none !important; width: 100%; /* IE8 */ float: left; /* IE8 */ }
   html:not(.ms-dialog-nr) table.ms-listviewtable > tbody > tr > td.ms-vb2 > a { font-size: 1.2em; font-weight: bold; }
@@ -97,27 +104,27 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) button, html:not(.ms-dialog-nr) select { font-size: 12px; padding: 4px; }
   html:not(.ms-dialog-nr) td.ms-authoringcontrols > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > span > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
   html:not(.ms-dialog-nr) .ms-authoringcontrols table { margin: 0 auto; width: auto; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable { width: auto; border-collapse: collapse; border-spacing: 0; display: block; position: relative; width: 100%; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th, html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable td { margin: 0; vertical-align: top; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th { text-align: left; background: none; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable thead { display: block; float: left; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable tbody { display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap; overflow: hidden; *zoom: 1; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable thead tr { display: block; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable thead td { background: none; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th { display: block; height: 30px; padding: 5px 20px 5px 5px; font-size: 11px; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable tbody tr { display: inline-block; vertical-align: top; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable td { display: block; min-height: 1.25em; text-align: left; border: none; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th { border-bottom: 0; border-left: 0; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th span { border: none; background: none; display: block; width: auto; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable th .ms-imnImgTD { display: none; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable td { border-left: 0; border-right: 0; border-bottom: 0; text-align: center; font-size: 13px; line-height: 28px; padding: 6px; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable > tbody > tr { border-left: 1px solid #babcbf; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable tr td table tbody tr { border: none; }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable #idSelectAll:before { content: 'Select All'; margin-left: 24px; font-size: 11px; color: #aaaaaa; }
   html:not(.ms-dialog-nr) body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   html:not(.ms-dialog-nr) * html table.ms-listviewtable thead { zoom: 1; }
-  html:not(.ms-dialog-nr) body.xd #main-content { padding: 10px 0; /**.s4-wpTopTable tbody,.s4-wpTopTable  tr, table.s4-wpTopTable, .s4-wpTopTable table , .s4-wpTopTable td{
+  html:not(.ms-dialog-nr) body.xd #main-content { padding: 10px 0;  /**
+tbody > tr > th{
+	display: none;
+}**/  		/** 		> table{
+			width:auto;
+			display: block;
+
+			> tbody, > tbody > tr, > tbody > tr > td{
+				display: block;
+				border:none;
+				text-align: center !important;
+				height: auto;
+			}
+		}**/ /**tbody > tr > td {
+	border: none !important;
+	text-align: center;	
+	width: auto !important;
+	display: block;
+}**/ /**.s4-wpTopTable tbody,.s4-wpTopTable  tr, table.s4-wpTopTable, .s4-wpTopTable table , .s4-wpTopTable td{
 	display: block ;
 }**/ }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView table { display: table !important; }
@@ -127,7 +134,6 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols br[disabled=true], html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols td br { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content #diidViewColumnHeaderPictureDisp1 { height: 85px; }
   html:not(.ms-dialog-nr) body.xd #main-content .theme-font-pickers { float: none; }
-  html:not(.ms-dialog-nr) body.xd #main-content tbody > tr > th { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content tr td b h3 { text-align: center !important; }
   html:not(.ms-dialog-nr) body.xd #main-content .field-name { font-weight: bold; display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content #mngfieldToobar { background: #fff; padding: 20px 0; }
@@ -150,12 +156,9 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 img { margin-top: 13px; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb a { font-size: 1.3em; }
   html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; font-size: 1em; }
-  html:not(.ms-dialog-nr) body.xd #main-content > table { width: auto; display: block; }
-  html:not(.ms-dialog-nr) body.xd #main-content > table > tbody, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb2:nth-of-type(2) { display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb2.ms-viewlsts-noitems { display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb-icon { margin: 0 auto !important; }
-  html:not(.ms-dialog-nr) body.xd #main-content tbody > tr > td { border: none !important; text-align: center; width: auto !important; display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb-itmcbx { text-align: center; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; text-align: center; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-gb { height: 45px; }
