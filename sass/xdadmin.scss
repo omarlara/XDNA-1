@@ -374,6 +374,23 @@ img[src="/_layouts/images/blank.gif"]{
 		.s4-wpTopTable tbody,.s4-wpTopTable  tr, table.s4-wpTopTable, .s4-wpTopTable table , .s4-wpTopTable td{
 			display: block ;
 		}
+		.s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody{
+			display: table-row-group;
+		}
+		.s4-wpTopTable #AsynchronousViewDefault_CalendarView tr{
+			display: table-row;
+		} 
+		table.s4-wpTopTable #AsynchronousViewDefault_CalendarView{
+			display: table;
+		} 
+		.s4-wpTopTable #AsynchronousViewDefault_CalendarView table{
+			display: table;
+		} 
+		.s4-wpTopTable #AsynchronousViewDefault_CalendarView td{
+			display: table-cell;
+		}
+
 	}
+
 }
 	
