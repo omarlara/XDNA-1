@@ -27,7 +27,7 @@ $(document).ready(function(e){
 
   
 
-**/
+
 
 
   var $sptableList = $("table.ms-listviewtable > tbody");
@@ -43,7 +43,7 @@ $(document).ready(function(e){
       $(this).prepend($mobileHeader);
       counter++;
     });
-  });
+  });**/
 
 
 
