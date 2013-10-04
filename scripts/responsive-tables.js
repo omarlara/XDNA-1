@@ -64,7 +64,7 @@ var table = $('.ms-listviewtable'),
         if (value != '' ){
             console.log(heading.value );
         }
-        counter--;
+        counter = counter -1;
         table.find('tr > td:nth-child('+counter+')').prepend('<span class="fieldName">'+heading.value+'</span>');
         
         counter++;
