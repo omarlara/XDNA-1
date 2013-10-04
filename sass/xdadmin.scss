@@ -125,7 +125,7 @@ html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
 	td label{
-		display: inline-block;
+		display: inline-block !important;
 	}
 	.ms-separator{
 		display: none !important;

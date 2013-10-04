@@ -92,7 +92,7 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
  		> tbody > tr { border-left: 1px solid #babcbf; } 		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; } 		tr td table tbody tr{ 			border: none; 		} 		#idSelectAll:before{ 			content: 'Select All'; 			margin-left: 24px;
 			font-size: 11px;
 			color: #aaa 		} 	} **/ }
-  html:not(.ms-dialog-nr) td label { display: inline-block; }
+  html:not(.ms-dialog-nr) td label { display: inline-block !important; }
   html:not(.ms-dialog-nr) .ms-separator { display: none !important; }
   html:not(.ms-dialog-nr) button, html:not(.ms-dialog-nr) select { font-size: 12px; padding: 4px; }
   html:not(.ms-dialog-nr) td.ms-authoringcontrols > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > span > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
