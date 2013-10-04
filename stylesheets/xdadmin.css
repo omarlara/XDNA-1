@@ -153,6 +153,6 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   body.xd #main-content .s4-wpTopTable tbody, body.xd #main-content .s4-wpTopTable tr, body.xd #main-content table.s4-wpTopTable, body.xd #main-content .s4-wpTopTable table, body.xd #main-content .s4-wpTopTable td { display: block; }
   body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody { display: table-row-group; }
   body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tr { display: table-row; }
-  body.xd #main-content table.s4-wpTopTable #AsynchronousViewDefault_CalendarView { display: table; }
+  body.xd #main-content table.s4-wpTopTable #AsynchronousViewDefault_CalendarView { display: block; }
   body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView table { display: table; }
   body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView td { display: table-cell; } }
