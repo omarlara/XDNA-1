@@ -44,7 +44,30 @@ $(document).ready(function(e){
       counter++;
     });
   });**/
-
+var table = $('.ms-listviewtable'),
+    heading = {
+        number: null,
+        value: null
+    },
+    counter = 0;
+    var headings= new Array();
+    
+    $('.ms-viewheadertr th').each(function(e){
+        var value = $(this).text();
+        
+        heading.number = counter;
+        heading.value = value;
+        
+        headings[counter] = heading;
+        
+        
+        if (value != '' ){
+            console.log(heading.value );
+        }
+        table.find('tr > td:nth-child('+counter+')').prepend('<span class="fieldName">'+heading.value+'</span>');
+        
+        counter++;
+    });
 
 
 });
