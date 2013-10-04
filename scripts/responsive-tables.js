@@ -49,7 +49,7 @@ var table = $('.ms-listviewtable'),
         number: null,
         value: null
     },
-    counter = 0;
+    counter = 1;
     var headings= new Array();
     
     $('.ms-viewheadertr th').each(function(e){
@@ -60,10 +60,6 @@ var table = $('.ms-listviewtable'),
         
         headings[counter] = heading;
         
-        
-        if (value != '' ){
-            console.log(heading.value );
-        }
         table.find('tr > td:nth-child('+counter+')').prepend('<span class="fieldName">'+heading.value+'</span>');
         
         counter++;
