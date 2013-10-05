@@ -134,7 +134,7 @@ html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
 	.ms-vb2 table{
-		margin: 0 auto;
+		margin: 0 auto !important;
 	}
 	.fieldName{
 		float: left;
