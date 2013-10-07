@@ -236,7 +236,7 @@ html:not(.ms-dialog-nr){
 
 	body.xd #main-content{
 		tr.s4-itm-selected > td, tr.s4-itm-selected:hover > td{
-			background: none;
+			background: $blue !important;
 		}
 		#AsynchronousViewDefault_CalendarView{
 			table{

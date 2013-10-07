@@ -1,115 +1,397 @@
-/* ..-------------------------------------------------------... |                         COLOR PALETTE                      | |..--------------------------------------------------------..|*/
+/* ..-------------------------------------------------------...
+  |                         COLOR PALETTE                      |
+  |..--------------------------------------------------------..|*/
 /*...................Links.....................*/
 /*...................Headings.....................*/
 /* ..-------------------------------------------------------...
 |                 ANIMATIONS & TRANSITIONS                   |
 |..--------------------------------------------------------..|*/
-/* ..-------------------------------------------------------... |                         HELPER CLASSES                     | |..--------------------------------------------------------..|*/
-.nodisplay, .hide { display: none; }
+/* ..-------------------------------------------------------...
+ |                         HELPER CLASSES                     |
+ |..--------------------------------------------------------..|*/
+/* line 5, ../sass/_helpers.scss */
+.nodisplay, .hide {
+  display: none;
+}
 
-.inline { display: inline-block; }
+/* line 6, ../sass/_helpers.scss */
+.inline {
+  display: inline-block;
+}
 
-.pointer:hover, body.xd .menu-icon:hover { cursor: pointer; }
+/* line 7, ../sass/_helpers.scss */
+.pointer:hover, body.xd .menu-icon:hover {
+  cursor: pointer;
+}
 
-.center { text-align: center; }
+/* line 8, ../sass/_helpers.scss */
+.center {
+  text-align: center;
+}
 
-.left { text-align: left; }
+/* line 9, ../sass/_helpers.scss */
+.left {
+  text-align: left;
+}
 
-.right { text-align: right; }
+/* line 10, ../sass/_helpers.scss */
+.right {
+  text-align: right;
+}
 
-.auto { margin: 0 auto; }
+/* line 11, ../sass/_helpers.scss */
+.auto {
+  margin: 0 auto;
+}
 
-.odd { background: #FBFBFB; }
+/* line 12, ../sass/_helpers.scss */
+.odd {
+  background: #FBFBFB;
+}
 
-.even { background: #F2F0F1; }
+/* line 13, ../sass/_helpers.scss */
+.even {
+  background: #F2F0F1;
+}
 
-.letterpressed { text-shadow: 1px 1px 0 #ccc, -1px -1px- 0 #999; }
+/* line 14, ../sass/_helpers.scss */
+.letterpressed {
+  text-shadow: 1px 1px 0 #ccc, -1px -1px- 0 #999;
+}
 
-.bold { font-weight: bold; }
+/* line 15, ../sass/_helpers.scss */
+.bold {
+  font-weight: bold;
+}
 
-.clearfix { overflow: hidden; *zoom: 1; }
+/* line 16, ../sass/_helpers.scss */
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
 
-.block { display: block; }
+/* line 17, ../sass/_helpers.scss */
+.block {
+  display: block;
+}
 
-.h100 { height: 100%; }
+/* line 18, ../sass/_helpers.scss */
+.h100 {
+  height: 100%;
+}
 
-.noOutline { outline: none; }
+/* line 19, ../sass/_helpers.scss */
+.noOutline {
+  outline: none;
+}
 
-.antialiased { -webkit-font-smoothing: antialiased; }
+/* line 20, ../sass/_helpers.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+}
 
-.paddingL { padding-left: 1.3%; }
+/* line 24, ../sass/_helpers.scss */
+.paddingL {
+  padding-left: 1.3%;
+}
 
-.paddingB { padding-bottom: 1.3%; }
+/* line 25, ../sass/_helpers.scss */
+.paddingB {
+  padding-bottom: 1.3%;
+}
 
-.paddingR { padding-right: 1.3%; }
+/* line 26, ../sass/_helpers.scss */
+.paddingR {
+  padding-right: 1.3%;
+}
 
-.paddingT { padding-top: 1.3%; }
+/* line 27, ../sass/_helpers.scss */
+.paddingT {
+  padding-top: 1.3%;
+}
 
-.floatR { float: right; }
+/* line 30, ../sass/_helpers.scss */
+.floatR {
+  float: right;
+}
 
-.floatL { float: left; }
+/* line 31, ../sass/_helpers.scss */
+.floatL {
+  float: left;
+}
 
-.positionA { position: absolute; }
+/* line 32, ../sass/_helpers.scss */
+.positionA {
+  position: absolute;
+}
 
-.positionF { position: fixed; }
+/* line 33, ../sass/_helpers.scss */
+.positionF {
+  position: fixed;
+}
 
-.positionR { position: relative; }
+/* line 34, ../sass/_helpers.scss */
+.positionR {
+  position: relative;
+}
 
-.fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
+/* line 49, ../sass/_helpers.scss */
+.fullFixedBg {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  background-origin: border-box;
+}
 
-body.xd {  /** .dynamic-children{ &:hover{ cursor: pointer; } .arrow-down{ width: 0; height: 0; border-left: 7px solid transparent; border-right: 7px solid transparent; border-top: 7px solid lighten($blue, 10%); float: right; margin-left: 11px;
- } .arrow-right{ width: 0; height: 0; border-bottom: 7px solid transparent; border-top: 7px solid transparent; border-left: 7px solid lighten($blue, 10%); float: right; margin-left: 11px;
- } .additional-background{ .menu-item-text{ float: left; } background: none !important; } } **/ }
-body.xd .menu-icon { background: #0088af; width: 45px; height: 45px; position: absolute; text-align: center; z-index: 1; right: 0; -webkit-transition-property: all; -moz-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; -webkit-transition-timing-function: ease; -moz-transition-timing-function: ease; -o-transition-timing-function: ease; transition-timing-function: ease; }
-body.xd .menu-icon:hover { background: #009cc9; }
-body.xd .mobile-submenu { display: none; clear: both; }
-body.xd #zz15_TopNavigationMenuV4 { display: none; }
-@media (max-width: 480px) { body.xd .menu-icon { display: block; }
-  body.xd .menu .ul.dynamic { display: block !important; left: auto !important; top: auto !important; position: static !important; clear: both !important; }
-  body.xd ul.root.static { overflow: hidden; *zoom: 1; }
-  body.xd #zz15_TopNavigationMenuV4 .menu { width: 100%; }
-  body.xd #zz15_TopNavigationMenuV4 .menu ul { width: 100%; }
-  body.xd #zz15_TopNavigationMenuV4 .menu ul > li { width: 100%; }
-  body.xd #zz15_TopNavigationMenuV4 .menu ul ul > li { width: 100%; } }
-@media only screen and (min-width: 769px) { body.xd .menu-icon { display: none; } }
+/* line 6, ../sass/xd.scss */
+body.xd {
+ /** .dynamic-children{
+    &:hover{
+      cursor: pointer;
+    }
+    .arrow-down{
+      width: 0;
+      height: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 7px solid lighten($blue, 10%);
+      float: right;
+      margin-left: 11px;
 
-/* ========================================================================== INDEX 1.0 Master Page Wrappers and GLOBAL 2.0 Header Styles 3.0 Menu 4.0 Footer 5.0 Media Queries ========================================================================== */
-/* ========================================================================== 1.0 Master Page Wrappers ========================================================================== */
-body.xd #ctl00_MSO_ContentDiv, body.xd #s4-bodyContainer { min-width: inherit; }
+    }
+    .arrow-right{
+      width: 0;
+      height: 0;
+      border-bottom: 7px solid transparent;
+      border-top: 7px solid transparent;
+      border-left: 7px solid lighten($blue, 10%);
+      float: right;
+      margin-left: 11px;
 
-body.xd #s4-leftpanel { display: none; }
+    }
+    .additional-background{
+      .menu-item-text{
+        float: left;
+      }
+      background: none !important;
+    }
+  } **/
+}
+/* line 7, ../sass/xd.scss */
+body.xd .menu-icon {
+  background: #0088af;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  right: 0;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+/* line 16, ../sass/xd.scss */
+body.xd .menu-icon:hover {
+  background: #009cc9;
+}
+/* line 21, ../sass/xd.scss */
+body.xd .mobile-submenu {
+  display: none;
+  clear: both;
+}
+/* line 56, ../sass/xd.scss */
+body.xd #zz15_TopNavigationMenuV4 {
+  display: none;
+}
+@media (max-width: 480px) {
+  /* line 60, ../sass/xd.scss */
+  body.xd .menu-icon {
+    display: block;
+  }
+  /* line 63, ../sass/xd.scss */
+  body.xd .menu .ul.dynamic {
+    display: block !important;
+    left: auto !important;
+    top: auto !important;
+    position: static !important;
+    clear: both !important;
+  }
+  /* line 71, ../sass/xd.scss */
+  body.xd ul.root.static {
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 74, ../sass/xd.scss */
+  body.xd #zz15_TopNavigationMenuV4 .menu {
+    width: 100%;
+  }
+  /* line 78, ../sass/xd.scss */
+  body.xd #zz15_TopNavigationMenuV4 .menu ul {
+    width: 100%;
+  }
+  /* line 81, ../sass/xd.scss */
+  body.xd #zz15_TopNavigationMenuV4 .menu ul > li {
+    width: 100%;
+  }
+  /* line 86, ../sass/xd.scss */
+  body.xd #zz15_TopNavigationMenuV4 .menu ul ul > li {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /* line 94, ../sass/xd.scss */
+  body.xd .menu-icon {
+    display: none;
+  }
+}
 
-body.xd .s4-ca { margin-left: 0px; }
+/* ==========================================================================
+   INDEX
+   1.0 Master Page Wrappers and GLOBAL
+   2.0 Header Styles
+   3.0 Menu
+   4.0 Footer
+   5.0 Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   1.0 Master Page Wrappers
+   ========================================================================== */
+/* line 113, ../sass/xd.scss */
+body.xd #ctl00_MSO_ContentDiv,
+body.xd #s4-bodyContainer {
+  min-width: inherit;
+}
 
-body.xd hr { border-bottom: none; }
+/* line 117, ../sass/xd.scss */
+body.xd #s4-leftpanel {
+  display: none;
+}
 
-body.xd { background-color: #efefef; }
+/* line 121, ../sass/xd.scss */
+body.xd .s4-ca {
+  margin-left: 0px;
+}
 
-/* ========================================================================== 2.0 Header Styles ========================================================================== */
-body.xd .xd-header { background-color: #009fd9; padding: 30px; }
+/* line 125, ../sass/xd.scss */
+body.xd hr {
+  border-bottom: none;
+}
 
-body.xd .xd-header h1 { display: inline-block; font-weight: lighter; margin: 0px; }
+/* line 129, ../sass/xd.scss */
+body.xd {
+  background-color: #efefef;
+}
 
-body.xd .xd-header h1 a { color: #fff; margin-left: 20px; font-size: 0.9em; }
+/* ==========================================================================
+   2.0 Header Styles
+   ========================================================================== */
+/* line 136, ../sass/xd.scss */
+body.xd .xd-header {
+  background-color: #009fd9;
+  padding: 30px;
+}
 
-body.xd .xd-header .s4-notdlg { display: inline-block; }
+/* line 141, ../sass/xd.scss */
+body.xd .xd-header h1 {
+  display: inline-block;
+  font-weight: lighter;
+  margin: 0px;
+}
 
-.xd-welcome { font-size: .7em; clear: both; overflow: hidden; display: inline-block; float: right; margin-right: -11px; }
+/* line 147, ../sass/xd.scss */
+body.xd .xd-header h1 a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 0.9em;
+}
 
-body.xd .xd-search { display: inline-block; float: right; }
+/* line 153, ../sass/xd.scss */
+body.xd .xd-header .s4-notdlg {
+  display: inline-block;
+}
 
-body.xd .xd-search .ms-sbplain { background-image: none; }
+/* line 157, ../sass/xd.scss */
+.xd-welcome {
+  font-size: .7em;
+  clear: both;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+  margin-right: -11px;
+}
 
-body.xd .xd-search input { margin: 0px; padding: 0 0 0 5px; height: 19px; font-size: 11px; float: right; background-color: #fff; background-image: none; box-shadow: none; border: none !important; }
+/* line 166, ../sass/xd.scss */
+body.xd .xd-search {
+  display: inline-block;
+  float: right;
+}
 
-/* ========================================================================== 3.0 Menu ========================================================================== */
-.xd-menu { background-color: #00b0e2; padding: 0 30px; border-top: solid 1px #61C3E8; }
+/* line 171, ../sass/xd.scss */
+body.xd .xd-search .ms-sbplain {
+  background-image: none;
+}
 
-.xd-menu .s4-tn li.static > .menu-item { height: 100%; color: #7FD7F1; padding: 17px 30px 15px; text-transform: uppercase; font-size: .9em; }
+/* line 175, ../sass/xd.scss */
+body.xd .xd-search input {
+  margin: 0px;
+  padding: 0 0 0 5px;
+  height: 19px;
+  font-size: 11px;
+  float: right;
+  background-color: #fff;
+  background-image: none;
+  box-shadow: none;
+  border: none !important;
+}
 
-.xd-welcome .ms-welcomeMenu, .xd-welcome .s4-trc-container-menu { background: none; padding: 0px; margin: 0px; }
+/* ==========================================================================
+   3.0 Menu
+   ========================================================================== */
+/* line 190, ../sass/xd.scss */
+.xd-menu {
+  background-color: #00b0e2;
+  padding: 0 30px;
+  border-top: solid 1px #61C3E8;
+}
 
-.xd-menu .menu ul li:first-child .menu-item { color: white; }
+/* line 196, ../sass/xd.scss */
+.xd-menu .s4-tn li.static > .menu-item {
+  height: 100%;
+  color: #7FD7F1;
+  padding: 17px 30px 15px;
+  text-transform: uppercase;
+  font-size: .9em;
+}
 
-/* ========================================================================== 4.0 Footer ========================================================================== */
-.xd-footer { padding: 30px; font-size: 0.8em; }
+/* line 206, ../sass/xd.scss */
+.xd-welcome .ms-welcomeMenu, .xd-welcome .s4-trc-container-menu {
+  background: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 212, ../sass/xd.scss */
+.xd-menu .menu ul li:first-child .menu-item {
+  color: white;
+}
+
+/* ==========================================================================
+   4.0 Footer
+   ========================================================================== */
+/* line 219, ../sass/xd.scss */
+.xd-footer {
+  padding: 30px;
+  font-size: 0.8em;
+}
