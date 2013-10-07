@@ -363,7 +363,7 @@ img[src="/_layouts/images/blank.gif"] {
   }
   /* line 238, ../sass/xdadmin.scss */
   html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected > td, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover > td {
-    background: #00b0e2 !important;
+    background: #9dcdeb !important;
   }
   /* line 242, ../sass/xdadmin.scss */
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView table {

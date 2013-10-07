@@ -182,7 +182,7 @@ body.xd {
 }
 /* line 7, ../sass/xd.scss */
 body.xd .menu-icon {
-  background: #0088af;
+  background: #73b7e2;
   width: 45px;
   height: 45px;
   position: absolute;
@@ -204,7 +204,7 @@ body.xd .menu-icon {
 }
 /* line 16, ../sass/xd.scss */
 body.xd .menu-icon:hover {
-  background: #009cc9;
+  background: #88c2e7;
 }
 /* line 21, ../sass/xd.scss */
 body.xd .mobile-submenu {
