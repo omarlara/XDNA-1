@@ -134,6 +134,9 @@ img[src="/_layouts/images/blank.gif"]{
 html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
+	tr.s4-itm-selected > td, tr.s4-itm-selected:hover > td{
+		background: none;
+	}
 	.ms-vb2 table{
 		margin: 0 auto !important;
 	}
