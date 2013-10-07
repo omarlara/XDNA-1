@@ -10,6 +10,7 @@ body.xd
 {	
 	.fieldName{
 		display: none;
+
 	}
 	.ms-listviewtable .ms-alternating{
 		background-color:#f5f5f5;
@@ -140,6 +141,7 @@ html:not(.ms-dialog-nr){
 		float: left;
 		font-weight: bold;
 		display: block;
+		margin-left: -90px;
 	}
 
 
@@ -356,6 +358,8 @@ html:not(.ms-dialog-nr){
  			width: auto !important;
  			padding: 10px 15px;
  			font-size: 1em;
+ 			padding-left: 100px;
+ 			text-align: left;
  		}
 
  		> table{
