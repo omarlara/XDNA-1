@@ -308,6 +308,12 @@ html:not(.ms-dialog-nr){
 			#topPagingCell{
 				display: none;
 			}
+			label{
+				font-size: 1.4em;
+			}
+			select{
+				display: block;
+			}
 			table{
 				width:100%;
 				margin:0 auto !important;
