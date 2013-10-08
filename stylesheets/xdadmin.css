@@ -1,585 +1,153 @@
-/* ..-------------------------------------------------------...
-  |                         COLOR PALETTE                      |
-  |..--------------------------------------------------------..|*/
+/* ..-------------------------------------------------------... |                         COLOR PALETTE                      | |..--------------------------------------------------------..|*/
 /*...................Links.....................*/
 /*...................Headings.....................*/
 /* ..-------------------------------------------------------...
 |                 ANIMATIONS & TRANSITIONS                   |
 |..--------------------------------------------------------..|*/
-/* ..-------------------------------------------------------...
- |                         HELPER CLASSES                     |
- |..--------------------------------------------------------..|*/
-/* line 5, ../sass/_helpers.scss */
-.nodisplay, .hide {
-  display: none;
-}
+/* ..-------------------------------------------------------... |                         HELPER CLASSES                     | |..--------------------------------------------------------..|*/
+.nodisplay, .hide { display: none; }
 
-/* line 6, ../sass/_helpers.scss */
-.inline {
-  display: inline-block;
-}
+.inline { display: inline-block; }
 
-/* line 7, ../sass/_helpers.scss */
-.pointer:hover {
-  cursor: pointer;
-}
+.pointer:hover { cursor: pointer; }
 
-/* line 8, ../sass/_helpers.scss */
-.center {
-  text-align: center;
-}
+.center { text-align: center; }
 
-/* line 9, ../sass/_helpers.scss */
-.left {
-  text-align: left;
-}
+.left { text-align: left; }
 
-/* line 10, ../sass/_helpers.scss */
-.right {
-  text-align: right;
-}
+.right { text-align: right; }
 
-/* line 11, ../sass/_helpers.scss */
-.auto {
-  margin: 0 auto;
-}
+.auto { margin: 0 auto; }
 
-/* line 12, ../sass/_helpers.scss */
-.odd {
-  background: #FBFBFB;
-}
+.odd { background: #FBFBFB; }
 
-/* line 13, ../sass/_helpers.scss */
-.even {
-  background: #F2F0F1;
-}
+.even { background: #F2F0F1; }
 
-/* line 14, ../sass/_helpers.scss */
-.letterpressed {
-  text-shadow: 1px 1px 0 #ccc, -1px -1px- 0 #999;
-}
+.letterpressed { text-shadow: 1px 1px 0 #ccc, -1px -1px- 0 #999; }
 
-/* line 15, ../sass/_helpers.scss */
-.bold {
-  font-weight: bold;
-}
+.bold { font-weight: bold; }
 
-/* line 16, ../sass/_helpers.scss */
-.clearfix {
-  overflow: hidden;
-  *zoom: 1;
-}
+.clearfix { overflow: hidden; *zoom: 1; }
 
-/* line 17, ../sass/_helpers.scss */
-.block {
-  display: block;
-}
+.block { display: block; }
 
-/* line 18, ../sass/_helpers.scss */
-.h100 {
-  height: 100%;
-}
+.h100 { height: 100%; }
 
-/* line 19, ../sass/_helpers.scss */
-.noOutline {
-  outline: none;
-}
+.noOutline { outline: none; }
 
-/* line 20, ../sass/_helpers.scss */
-.antialiased {
-  -webkit-font-smoothing: antialiased;
-}
+.antialiased { -webkit-font-smoothing: antialiased; }
 
-/* line 24, ../sass/_helpers.scss */
-.paddingL {
-  padding-left: 1.3%;
-}
+.paddingL { padding-left: 1.3%; }
 
-/* line 25, ../sass/_helpers.scss */
-.paddingB {
-  padding-bottom: 1.3%;
-}
+.paddingB { padding-bottom: 1.3%; }
 
-/* line 26, ../sass/_helpers.scss */
-.paddingR {
-  padding-right: 1.3%;
-}
+.paddingR { padding-right: 1.3%; }
 
-/* line 27, ../sass/_helpers.scss */
-.paddingT {
-  padding-top: 1.3%;
-}
+.paddingT { padding-top: 1.3%; }
 
-/* line 30, ../sass/_helpers.scss */
-.floatR {
-  float: right;
-}
+.floatR { float: right; }
 
-/* line 31, ../sass/_helpers.scss */
-.floatL {
-  float: left;
-}
+.floatL { float: left; }
 
-/* line 32, ../sass/_helpers.scss */
-.positionA {
-  position: absolute;
-}
+.positionA { position: absolute; }
 
-/* line 33, ../sass/_helpers.scss */
-.positionF {
-  position: fixed;
-}
+.positionF { position: fixed; }
 
-/* line 34, ../sass/_helpers.scss */
-.positionR {
-  position: relative;
-}
+.positionR { position: relative; }
 
-/* line 49, ../sass/_helpers.scss */
-.fullFixedBg {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: top center;
-  background-origin: border-box;
-}
+.fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
-/* line 10, ../sass/xdadmin.scss */
-body.xd {
-  /**.xd-footer{
-  	padding: 20px 0;
-  	text-align: center;
-  	margin: 30px 0 16px;
-  }**/
-}
-/* line 11, ../sass/xdadmin.scss */
-body.xd .fieldName {
-  display: none;
-}
-/* line 15, ../sass/xdadmin.scss */
-body.xd .ms-listviewtable .ms-alternating {
-  background-color: #f5f5f5;
-}
-/* line 18, ../sass/xdadmin.scss */
-body.xd .ms-descriptiontext {
-  font-size: 1.1em;
-}
-/* line 21, ../sass/xdadmin.scss */
-body.xd td.ms-authoringcontrols {
-  padding: 7px;
-}
-/* line 24, ../sass/xdadmin.scss */
-body.xd td.ms-authoringcontrols label {
-  font-size: 1.2em;
-}
-/* line 28, ../sass/xdadmin.scss */
-body.xd .ms-toolbar {
-  padding: 10px;
-  height: auto;
-}
-/* line 32, ../sass/xdadmin.scss */
-body.xd .ms-smallsectionline {
-  background: none;
-}
-/* line 35, ../sass/xdadmin.scss */
-body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader {
-  font-size: 1.5em;
-  line-height: 240%;
-  font-weight: normal;
-}
-/* line 41, ../sass/xdadmin.scss */
-body.xd .field-name {
-  display: none;
-}
-/* line 49, ../sass/xdadmin.scss */
-body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer {
-  border: none;
-}
-/* line 53, ../sass/xdadmin.scss */
-body.xd table.ms-listviewtable thead {
-  background: white;
-}
-/* line 58, ../sass/xdadmin.scss */
-body.xd body, body.xd body thead td, body.xd body tfoot td, body.xd body td#header {
-  background: none !important;
-}
-/* line 61, ../sass/xdadmin.scss */
-body.xd .s4-itm-cbx, body.xd .s4-itm-inlineedit {
-  top: 0;
-  position: relative;
-}
-/* line 65, ../sass/xdadmin.scss */
-body.xd .ms-gb {
-  border: none;
-}
-/* line 66, ../sass/xdadmin.scss */
-body.xd .ms-gb h3.ms-standardheader {
-  font-size: 2em;
-  line-height: 44px;
-  color: #555;
-  margin: 0;
-}
-/* line 76, ../sass/xdadmin.scss */
-body.xd .ms-viewlsts .ms-vb2 {
-  line-height: 170%;
-}
-/* line 78, ../sass/xdadmin.scss */
-body.xd .ms-viewlsts .ms-vb2 > a {
-  font-size: 1.3em;
-}
-/* line 82, ../sass/xdadmin.scss */
-body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader {
-  background: none;
-  border: none;
-  text-align: left;
-  background-color: #E6E7E7;
-  font-size: 16px;
-  line-height: 175%;
-  font-weight: normal;
-  color: #000;
-  text-indent: 10px;
-}
-/* line 99, ../sass/xdadmin.scss */
-body.xd #main-content > div > table {
-  margin: 20px;
-  background: none;
-}
-/* line 103, ../sass/xdadmin.scss */
-body.xd #main-content .ms-pageinformation {
-  padding: 0;
-}
+body.xd { /**.xd-footer{
+	padding: 20px 0;
+	text-align: center;
+	margin: 30px 0 16px;
+}**/ }
+body.xd .fieldName { display: none; }
+body.xd .ms-listviewtable .ms-alternating { background-color: #f5f5f5; }
+body.xd .ms-descriptiontext { font-size: 1.1em; }
+body.xd td.ms-authoringcontrols { padding: 7px; }
+body.xd td.ms-authoringcontrols label { font-size: 1.2em; }
+body.xd .ms-toolbar { padding: 10px; height: auto; }
+body.xd .ms-smallsectionline { background: none; }
+body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader { font-size: 1.5em; line-height: 240%; font-weight: normal; }
+body.xd .field-name { display: none; }
+body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer { border: none; }
+body.xd table.ms-listviewtable thead { background: white; }
+body.xd body, body.xd body thead td, body.xd body tfoot td, body.xd body td#header { background: none !important; }
+body.xd .s4-itm-cbx, body.xd .s4-itm-inlineedit { top: 0; position: relative; }
+body.xd .ms-gb { border: none; }
+body.xd .ms-gb h3.ms-standardheader { font-size: 2em; line-height: 44px; color: #555; margin: 0; }
+body.xd .ms-viewlsts .ms-vb2 { line-height: 170%; }
+body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
+body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: none; border: none; text-align: left; background-color: #E6E7E7; font-size: 16px; line-height: 175%; font-weight: normal; color: #000; text-indent: 10px; }
+body.xd #main-content > div > table { margin: 20px; background: none; }
+body.xd #main-content .ms-pageinformation { padding: 0; }
 
-/* line 121, ../sass/xdadmin.scss */
-table tr.even, table tr.alt, table tr:nth-of-type(even) {
-  background: none;
-}
+table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
 
-/* line 127, ../sass/xdadmin.scss */
-img[src="/_layouts/images/blank.gif"] {
-  display: none;
-}
+img[src="/_layouts/images/blank.gif"] { display: none; }
 
-@media only screen and (max-width: 768px) {
-  /* line 134, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) {
-   /**	body.xd #main-content table.ms-listviewtable { 		
-   		width: auto; border-collapse: collapse; border-spacing: 0;
-  
-   		thead:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
-   		th,td  		{margin: 0; vertical-align: top;}
-   		th 			{text-align: left;background: none;}
-   		display: block; position: relative; width: 100%;
-   		thead		{display: block; float: left;}
-   		tbody 		{display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap;@include clearfix;}
-   		thead tr 	{display: block;}
-   		thead td 	{background: none;}
-   		th 			{
-   			display: block;
-   			height: 30px;
-      		padding: 5px 20px 5px 5px;
-  			font-size: 11px;
-   		}
-   		tbody tr 	{display: inline-block; vertical-align: top;}
-   		td 			{display: block; min-height: 1.25em; text-align: left; border:none}
-  
-   		//Sort out borders
-   		th { border-bottom: 0; border-left: 0; }
-   		th span{
-   			border: none;
-   			background: none;
-   			display: block;
-   			width: auto;
-   		}
-   		th .ms-imnImgTD{
-   			display: none;
-   		}
-   		td { 
-   			border-left: 0; border-right: 0; border-bottom: 0; text-align: center;
-   			font-size: 13px;
-      		line-height: 28px;
-      		padding: 6px;
-   		}
-  
-   		> tbody > tr { border-left: 1px solid #babcbf; }
-   		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; }
-   		tr td table tbody tr{
-   			border: none;
-   		}
-   		#idSelectAll:before{
-   			content: 'Select All';
-   			margin-left: 24px;
-  			font-size: 11px;
-  			color: #aaa
-   		}
-   	} **/
-  }
-  /* line 138, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) .ms-vb2 table {
-    margin: 0 auto !important;
-  }
-  /* line 141, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) .fieldName {
-    float: left;
-    font-weight: bold;
-    display: block;
-    margin-left: -90px;
-  }
-  /* line 149, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) td label {
-    display: inline-block !important;
-    margin-left: 6px;
-  }
-  /* line 153, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) .ms-separator {
-    display: none !important;
-  }
-  /* line 156, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) button, html:not(.ms-dialog-nr) select {
-    font-size: 12px;
-    padding: 4px;
-  }
-  /* line 160, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) td.ms-authoringcontrols > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > span > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > table > tbody > tr > td > label {
-    font-size: 1em;
-  }
-  /* line 163, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) .ms-authoringcontrols table {
-    margin: 0 auto;
-    width: auto;
-  }
-  /* line 230, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-viewlsts tbody tr:first-child {
-    display: none;
-  }
-  /* line 235, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) * html table.ms-listviewtable thead {
-    zoom: 1;
-  }
-  /* line 237, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content {
-    padding: 10px 0;
-  }
-  /* line 238, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected > td, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover > td {
-    background: #9dcdeb !important;
-  }
-  /* line 242, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView table {
-    display: table !important;
-  }
-  /* line 245, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView td {
-    display: table-cell !important;
-  }
-  /* line 248, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView tr {
-    display: table-row !important;
-  }
-  /* line 252, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols {
-    background: none !important;
-    clear: both;
-  }
-  /* line 255, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols br[disabled=true], html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols td br {
-    display: none;
-  }
-  /* line 259, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content #diidViewColumnHeaderPictureDisp1 {
-    height: 85px;
-  }
-  /* line 264, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .theme-font-pickers {
-    float: none;
-  }
-  /* line 267, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content tbody > tr > th {
-    display: none;
-  }
-  /* line 270, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content tr td b h3 {
-    text-align: center !important;
-  }
-  /* line 273, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .field-name {
-    font-weight: bold;
-    display: block;
-  }
-  /* line 277, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content #mngfieldToobar {
-    background: #fff;
-    padding: 20px 0;
-  }
-  /* line 281, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar {
-    background: none;
-    border: none;
-  }
-  /* line 284, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar #topPagingCell {
-    display: none;
-  }
-  /* line 287, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar table {
-    width: 100%;
-    margin: 0 auto !important;
-    border: 1px solid #ccc;
-    padding: 3px 0;
-  }
-  /* line 292, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar table td {
-    background: #eee;
-  }
-  /* line 295, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar table:hover {
-    background: url("https://at.avanade.com/_layouts/images/bgximg.png") repeat-x 0px -431px;
-    cursor: pointer;
-  }
-  /* line 300, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar .ms-menubuttoninactivehover {
-    background: #eee;
-    border: 1px solid #ccc;
-  }
-  /* line 305, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-sectionheader {
-    height: auto;
-  }
-  /* line 307, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-sectionheader .ms-standardheader {
-    font-size: 2em;
-    text-align: center;
-    line-height: 2em;
-    font-weight: normal;
-  }
-  /* line 315, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content table[id*=PlaceHolderMain] {
-    margin: 0 auto;
-  }
-  /* line 319, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content > div {
-    float: none !important;
-    margin: 0 auto !important;
-    width: auto !important;
-  }
-  /* line 323, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content > div > table {
-    margin: 0 auto;
-  }
-  /* line 330, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation th, html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation tr, html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation td, html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation h3 {
-    text-align: center;
-    font-size: 1.1em;
-  }
-  /* line 334, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation h3 {
-    font-size: 1.5em;
-  }
-  /* line 340, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 td {
-    height: auto !important;
-  }
-  /* line 343, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 h3 {
-    font-size: 1.5em;
-    font-weight: 100;
-    padding: 17px 0 9px 0;
-  }
-  /* line 348, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 ul li a {
-    font-size: 1.1em;
-    line-height: 45px;
-  }
-  /* line 352, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 img {
-    margin-top: 13px;
-  }
-  /* line 357, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb a {
-    font-size: 1.3em;
-  }
-  /* line 361, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb2 {
-    width: auto !important;
-    padding: 10px 15px;
-    font-size: 1em;
-    padding-left: 100px;
-    text-align: left;
-  }
-  /* line 369, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content > table {
-    width: auto;
-    display: block;
-  }
-  /* line 373, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content > table > tbody, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr > td {
-    display: block;
-    border: none;
-    text-align: center !important;
-    height: auto;
-  }
-  /* line 383, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb2:nth-of-type(2) {
-    display: block;
-  }
-  /* line 386, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb2.ms-viewlsts-noitems {
-    display: block;
-  }
-  /* line 390, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb-icon {
-    margin: 0 auto !important;
-  }
-  /* line 393, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content tbody > tr > td {
-    border: none !important;
-    text-align: center;
-    width: auto !important;
-    display: block;
-  }
-  /* line 399, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb-itmcbx {
-    text-align: center;
-  }
-  /* line 402, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-gb h3.ms-standardheader {
-    text-align: center;
-    font-size: 2em;
-    line-height: 44px;
-    text-align: center;
-  }
-  /* line 408, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-gb {
-    height: 45px;
-  }
-  /* line 411, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar {
-    height: auto;
-    background: none;
-  }
-  /* line 415, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tbody, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tr, html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable table, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable td {
-    display: block;
-  }
-  /* line 418, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody {
-    display: table-row-group;
-  }
-  /* line 421, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tr {
-    display: table-row;
-  }
-  /* line 424, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable #AsynchronousViewDefault_CalendarView {
-    display: block;
-  }
-  /* line 427, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView table {
-    display: table;
-  }
-  /* line 430, ../sass/xdadmin.scss */
-  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView td {
-    display: table-cell;
-  }
-}
+@media only screen and (max-width: 768px) { html:not(.ms-dialog-nr) {  /**	body.xd #main-content table.ms-listviewtable { 		 		width: auto; border-collapse: collapse; border-spacing: 0;
+ 		thead:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;} 		th,td  		{margin: 0; vertical-align: top;} 		th 			{text-align: left;background: none;} 		display: block; position: relative; width: 100%; 		thead		{display: block; float: left;} 		tbody 		{display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap;@include clearfix;} 		thead tr 	{display: block;} 		thead td 	{background: none;} 		th 			{ 			display: block; 			height: 30px; 		padding: 5px 20px 5px 5px;
+			font-size: 11px; 		} 		tbody tr 	{display: inline-block; vertical-align: top;} 		td 			{display: block; min-height: 1.25em; text-align: left; border:none}
+ 		//Sort out borders 		th { border-bottom: 0; border-left: 0; } 		th span{ 			border: none; 			background: none; 			display: block; 			width: auto; 		} 		th .ms-imnImgTD{ 			display: none; 		} 		td {  			border-left: 0; border-right: 0; border-bottom: 0; text-align: center; 			font-size: 13px; 		line-height: 28px; 		padding: 6px; 		}
+ 		> tbody > tr { border-left: 1px solid #babcbf; } 		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; } 		tr td table tbody tr{ 			border: none; 		} 		#idSelectAll:before{ 			content: 'Select All'; 			margin-left: 24px;
+			font-size: 11px;
+			color: #aaa 		} 	} **/ }
+  html:not(.ms-dialog-nr) .ms-vb2 table { margin: 0 auto !important; }
+  html:not(.ms-dialog-nr) .fieldName { float: left; font-weight: bold; display: block; margin-left: -90px; }
+  html:not(.ms-dialog-nr) td label { display: inline-block !important; margin-left: 6px; }
+  html:not(.ms-dialog-nr) .ms-separator { display: none !important; }
+  html:not(.ms-dialog-nr) button, html:not(.ms-dialog-nr) select { font-size: 12px; padding: 4px; }
+  html:not(.ms-dialog-nr) td.ms-authoringcontrols > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > span > label, html:not(.ms-dialog-nr) td.ms-authoringcontrols > table > tbody > tr > td > label { font-size: 1em; }
+  html:not(.ms-dialog-nr) .ms-authoringcontrols table { margin: 0 auto; width: auto; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
+  html:not(.ms-dialog-nr) * html table.ms-listviewtable thead { zoom: 1; }
+  html:not(.ms-dialog-nr) body.xd #main-content { overflow: hidden; padding: 10px 0; }
+  html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected > td, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover > td { background: #9dcdeb !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView table { display: table !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView td { display: table-cell !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView tr { display: table-row !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols { background: none !important; clear: both; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols br[disabled=true], html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols td br { display: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content #diidViewColumnHeaderPictureDisp1 { height: 85px; }
+  html:not(.ms-dialog-nr) body.xd #main-content .theme-font-pickers { float: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content tbody > tr > th { display: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content tr td b h3 { text-align: center !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content .field-name { font-weight: bold; display: block; }
+  html:not(.ms-dialog-nr) body.xd #main-content #mngfieldToobar { background: #fff; padding: 20px 0; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar { background: none; border: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar #topPagingCell { display: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar table { width: 100%; margin: 0 auto !important; border: 1px solid #ccc; padding: 3px 0; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar table td { background: #eee; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar table:hover { background: url("https://at.avanade.com/_layouts/images/bgximg.png") repeat-x 0px -431px; cursor: pointer; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar .ms-menubuttoninactivehover { background: #eee; border: 1px solid #ccc; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-sectionheader { height: auto; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-sectionheader .ms-standardheader { font-size: 2em; text-align: center; line-height: 2em; font-weight: normal; }
+  html:not(.ms-dialog-nr) body.xd #main-content table[id*=PlaceHolderMain] { margin: 0 auto; }
+  html:not(.ms-dialog-nr) body.xd #main-content > div { float: none !important; margin: 0 auto !important; width: auto !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content > div > table { margin: 0 auto; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation th, html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation tr, html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation td, html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation h3 { text-align: center; font-size: 1.1em; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-pageinformation h3 { font-size: 1.5em; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 td { height: auto !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 h3 { font-size: 1.5em; font-weight: 100; padding: 17px 0 9px 0; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 ul li a { font-size: 1.1em; line-height: 45px; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 img { margin-top: 13px; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb a { font-size: 1.3em; }
+  html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; font-size: 1em; padding-left: 100px; text-align: left; }
+  html:not(.ms-dialog-nr) body.xd #main-content > table { width: auto; display: block; }
+  html:not(.ms-dialog-nr) body.xd #main-content > table > tbody, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb2:nth-of-type(2) { display: block; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb2.ms-viewlsts-noitems { display: block; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb-icon { margin: 0 auto !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content tbody > tr > td { border: none !important; text-align: center; width: auto !important; display: block; }
+  html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb-itmcbx { text-align: center; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; text-align: center; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-gb { height: 45px; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar { height: auto; background: none; }
+  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tbody, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tr, html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable table, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable td { display: block; }
+  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody { display: table-row-group; }
+  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tr { display: table-row; }
+  html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable #AsynchronousViewDefault_CalendarView { display: block; }
+  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView table { display: table; }
+  html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView td { display: table-cell; } }

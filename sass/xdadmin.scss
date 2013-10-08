@@ -235,6 +235,7 @@ html:not(.ms-dialog-nr){
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		overflow: hidden;
 		tr.s4-itm-selected > td, tr.s4-itm-selected:hover > td{
 			background: $blue !important;
 		}
