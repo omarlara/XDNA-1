@@ -104,7 +104,7 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   html:not(.ms-dialog-nr) * html table.ms-listviewtable thead { zoom: 1; }
   html:not(.ms-dialog-nr) body.xd #main-content { overflow: hidden; padding: 10px 0; }
-  html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable { width: auto !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable tr { width: auto !important; }
   html:not(.ms-dialog-nr) body.xd #main-content #onetidMngCytpeRptrTable td, html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable td { display: table-cell; padding: 15px 16px; text-indent: 10px; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-propertysheet a { line-height: 52px; font-size: 1.1em; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-propertysheet a:first-child { background: #9dcdeb; color: #fff; }
