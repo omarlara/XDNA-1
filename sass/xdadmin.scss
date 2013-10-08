@@ -157,7 +157,11 @@ img[src="/_layouts/images/blank.gif"]{
 html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
-
+	.ms-propertysheet{
+		table{
+			margin:0 auto;
+		}
+	}
 	.ms-vb2 table{
 		margin: 0 auto !important;
 	}
@@ -238,16 +242,6 @@ html:not(.ms-dialog-nr){
 			color: #aaa
  		}
  	} **/
-
-
-
-
-
-
-
-
-
-
  	
  	body.xd #main-content table.ms-viewlsts{
  		tbody{
