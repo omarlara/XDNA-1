@@ -422,6 +422,7 @@ html:not(.ms-dialog-nr){
 		}
 		.ms-vb-icon{
 			margin:0 auto !important;
+			padding: 20px;
 		}
 		tbody > tr > td {
 			border: none !important;
@@ -440,6 +441,9 @@ html:not(.ms-dialog-nr){
 		}
 		.ms-gb {
 			height: 45px;
+		}
+		.ms-menubuttonactivehover, .ms-buttonactivehover{
+			background: #dedede;
 		}
 		.ms-menutoolbar{
 			height: auto;

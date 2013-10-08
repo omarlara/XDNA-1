@@ -146,11 +146,12 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content > table > tbody, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb2:nth-of-type(2) { display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb2.ms-viewlsts-noitems { display: block; }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb-icon { margin: 0 auto !important; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb-icon { margin: 0 auto !important; padding: 20px; }
   html:not(.ms-dialog-nr) body.xd #main-content tbody > tr > td { border: none !important; text-align: center; width: auto !important; display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb-itmcbx { text-align: center; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-gb h3.ms-standardheader { text-align: center; font-size: 2em; line-height: 44px; text-align: center; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-gb { height: 45px; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-menubuttonactivehover, html:not(.ms-dialog-nr) body.xd #main-content .ms-buttonactivehover { background: #dedede; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar { height: auto; background: none; }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tbody, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tr, html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable table, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable td { display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody { display: table-row-group; }
