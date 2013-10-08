@@ -155,6 +155,7 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-dlgFrameContainer .xd-header, html:not(.ms-dialog-nr) body.xd #main-content .ms-dlgFrameContainer .menu.icon, html:not(.ms-dialog-nr) body.xd #main-content .ms-dlgFrameContainer .sidebar-button { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-dlgFrameContainer .ms-sectionheader h3 { font-size: 1.1em; line-height: 1.4; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-dlgFrameContainer .ms-descriptiontext { font-size: 1em; line-height: 1.3; line-height: 1.7; padding: 7px; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-dlgFrameContainer .ms-descriptiontext table { text-align: center; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar { height: auto; background: none; }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tbody, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tr, html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable table, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable td { display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody { display: table-row-group; }
