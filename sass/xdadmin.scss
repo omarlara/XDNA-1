@@ -445,6 +445,23 @@ html:not(.ms-dialog-nr){
 		.ms-menubuttonactivehover, .ms-buttonactivehover{
 			background: #dedede;
 		}
+		.ms-dlgFrameContainer {
+			.xd-header, .menu.icon, .sidebar-button{
+				display: none;
+			}
+			.ms-sectionheader{
+				h3{
+					font-size: 1.1em;
+					line-height: 1.4;
+				}
+			}
+			.ms-descriptiontext{
+				font-size: 1em;
+				line-height: 1.3;
+				line-height: 1.7;
+    			padding: 7px;
+			}
+		}
 		.ms-menutoolbar{
 			height: auto;
 			background: none;
