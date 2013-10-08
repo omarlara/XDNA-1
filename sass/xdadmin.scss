@@ -236,6 +236,14 @@ html:not(.ms-dialog-nr){
 
 	body.xd #main-content{
 		overflow: hidden;
+		.ms-propertysheet a{
+			&:first-child{
+				background: $blue;
+				color:#fff;
+			}
+			line-height: 52px;
+			font-size: 1.1em;
+		}
 		tr.s4-itm-selected > td, tr.s4-itm-selected:hover > td{
 			background: $blue !important;
 		}

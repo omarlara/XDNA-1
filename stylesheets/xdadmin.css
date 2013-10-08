@@ -104,6 +104,8 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content table.ms-viewlsts tbody tr:first-child { display: none; }
   html:not(.ms-dialog-nr) * html table.ms-listviewtable thead { zoom: 1; }
   html:not(.ms-dialog-nr) body.xd #main-content { overflow: hidden; padding: 10px 0; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-propertysheet a { line-height: 52px; font-size: 1.1em; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-propertysheet a:first-child { background: #9dcdeb; color: #fff; }
   html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected > td, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover > td { background: #9dcdeb !important; }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView table { display: table !important; }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView td { display: table-cell !important; }
