@@ -445,12 +445,12 @@ html:not(.ms-dialog-nr){
 		.ms-menubuttonactivehover, .ms-buttonactivehover{
 			background: #dedede;
 		}
-		.ms-dlgFrameContainer {
+		.ms-dlgContent {
 			.xd-header, .menu.icon, .sidebar-button{
 				display: none;
 			}
 			.ms-sectionheader{
-				h3{
+				h3.ms-standardheader{
 					font-size: 1.1em;
 					line-height: 1.4;
 				}
@@ -463,6 +463,11 @@ html:not(.ms-dialog-nr){
     			table{
     				text-align: center;
     			}
+			}
+		}
+		.ms-viewheadertr{
+			input[type="checkbox"]{
+				margin-top: 3px;
 			}
 		}
 		.ms-menutoolbar{
