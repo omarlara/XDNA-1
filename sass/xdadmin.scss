@@ -382,12 +382,21 @@ html:not(.ms-dialog-nr){
 				font-size: 1.3em;
 			}
 		}
+		.ms-menutoolbar td a {
+			color: #0072bc !important;
+			font-size: 12pt;
+			margin: 10px;
+		}
+		.ms-toolbar table:hover{
+			background: #ccc;
+		}
 		td.ms-vb2{
  			width: auto !important;
  			padding: 10px 15px;
  			font-size: 1em;
  			padding-left: 100px;
  			text-align: left;
+ 			line-height: 40px;
  		}
 
  		> table{

@@ -139,7 +139,9 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 ul li a { font-size: 1.1em; line-height: 45px; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-linksection-level1 img { margin-top: 13px; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb a { font-size: 1.3em; }
-  html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; font-size: 1em; padding-left: 100px; text-align: left; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar td a { color: #0072bc !important; font-size: 12pt; margin: 10px; }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar table:hover { background: #ccc; }
+  html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb2 { width: auto !important; padding: 10px 15px; font-size: 1em; padding-left: 100px; text-align: left; line-height: 40px; }
   html:not(.ms-dialog-nr) body.xd #main-content > table { width: auto; display: block; }
   html:not(.ms-dialog-nr) body.xd #main-content > table > tbody, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr > td { display: block; border: none; text-align: center !important; height: auto; }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb2:nth-of-type(2) { display: block; }
