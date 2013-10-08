@@ -235,6 +235,9 @@ html:not(.ms-dialog-nr){
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		#onetidMngFieldRptrTable{
+			width: auto !important;
+		}
 		#onetidMngCytpeRptrTable td, #onetidMngFieldRptrTable td{
 			display: table-cell;
 		    padding: 15px 16px;
