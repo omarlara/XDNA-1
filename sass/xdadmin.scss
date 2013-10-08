@@ -237,6 +237,8 @@ html:not(.ms-dialog-nr){
 	body.xd #main-content{
 		#onetidMngCytpeRptrTable td{
 			display: table-cell;
+			padding: 0;
+			line-height: 52px;
 		}
 		overflow: hidden;
 		.ms-propertysheet a{
