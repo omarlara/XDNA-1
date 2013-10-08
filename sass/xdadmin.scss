@@ -235,6 +235,9 @@ html:not(.ms-dialog-nr){
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		#onetidMngCytpeRptrTable td{
+			display: table-cell;
+		}
 		overflow: hidden;
 		.ms-propertysheet a{
 			&:first-child{
