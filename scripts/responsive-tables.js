@@ -88,9 +88,9 @@ var table = $('#main-content table'),
             click: function(){
                $('.accordion-title').next().slideUp();
               if($(this).hasClass('.active')){
-                $(this).next().slideUp(200);
+                $(this).next().slideUp(200).removeClass('active');
               }else{
-                $(this).next().slideDown(200);
+                $(this).next().slideDown(200).addClass("active");
               }
 
              
