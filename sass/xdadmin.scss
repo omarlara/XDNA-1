@@ -153,7 +153,7 @@ img[src="/_layouts/images/blank.gif"]{
 	display: none;
 }
 
-
+// DIALOGOS
 @include  tablet-portrait-and-below{
 	.ms-dialog{
 		.ms-ButtonHeightWidth {
@@ -168,11 +168,14 @@ img[src="/_layouts/images/blank.gif"]{
 	}
 }
 
+// NO DIALOGOS
 html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
 
-
+	table colgroup{
+		display: none;
+	}
 
 
 	.ms-propertysheet{
