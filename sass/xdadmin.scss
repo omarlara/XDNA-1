@@ -186,8 +186,11 @@ html:not(.ms-dialog-nr){
 	.ms-vb2 table{
 		margin: 0 auto !important;
 	}
-	table tr.ms-itmhover td{
-		padding:5px 0;
+	table tr.ms-itmhover tr{
+		padding:20px 0;
+		&.s4-itm-selected{
+			background: #A5CCE4;
+		}
 	}
 	.fieldName{
 		float: left;
