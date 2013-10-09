@@ -83,7 +83,7 @@ var table = $('#main-content table'),
             click: function(){
 
               $('.ms-itmhover').slideUp();
-              $(this).toggleClass("active").not($(this)).next().slideToggle(200);
+              $(this).toggleClass("active").next().slideToggle(200);
               
             }
           });
