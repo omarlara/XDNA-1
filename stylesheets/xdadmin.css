@@ -57,6 +57,15 @@
 
 .fullFixedBg { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; background-position: top center; background-origin: border-box; }
 
+.ms-dialog { /**.ms-ButtonHeightWidth{
+	 width: 13.2em;
+}**/ }
+.ms-dialog .xd-header, .ms-dialog .menu.icon, .ms-dialog .sidebar-button { display: none !important; }
+.ms-dialog .ms-sectionheader h3.ms-standardheader { font-size: 1.1em; line-height: 1.4; }
+.ms-dialog .ms-descriptiontext { font-size: 1em; line-height: 1.3; line-height: 1.7; padding: 7px; }
+.ms-dialog .ms-descriptiontext table { text-align: center; }
+.ms-dialog .ms-ButtonHeightWidth { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; font-size: 1.5em; height: auto; margin: 0 0 0.5em; padding: 0.5em; width: 100%; }
+
 body.xd { /**.xd-footer{
 	padding: 20px 0;
 	text-align: center;
@@ -82,14 +91,6 @@ body.xd .ms-viewlsts .ms-vb2 > a { font-size: 1.3em; }
 body.xd td.ms-linksectionheader, body.xd th.ms-linksectionheader { background: none; border: none; text-align: left; background-color: #E6E7E7; font-size: 16px; line-height: 175%; font-weight: normal; color: #000; text-indent: 10px; }
 body.xd #main-content > div > table { margin: 20px; background: none; }
 body.xd #main-content .ms-pageinformation { padding: 0; }
-body.xd #main-content .ms-dialog { /**.ms-ButtonHeightWidth{
-	 width: 13.2em;
-}**/ }
-body.xd #main-content .ms-dialog .xd-header, body.xd #main-content .ms-dialog .menu.icon, body.xd #main-content .ms-dialog .sidebar-button { display: none !important; }
-body.xd #main-content .ms-dialog .ms-sectionheader h3.ms-standardheader { font-size: 1.1em; line-height: 1.4; }
-body.xd #main-content .ms-dialog .ms-descriptiontext { font-size: 1em; line-height: 1.3; line-height: 1.7; padding: 7px; }
-body.xd #main-content .ms-dialog .ms-descriptiontext table { text-align: center; }
-body.xd #main-content .ms-dialog .ms-ButtonHeightWidth { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; font-size: 1.5em; height: auto; margin: 0 0 0.5em; padding: 0.5em; width: 100%; }
 
 table tr.even, table tr.alt, table tr:nth-of-type(even) { background: none; }
 
