@@ -70,7 +70,7 @@ var table = $('#main-content table'),
     var tableTitle = $('.ms-vb-title');
 
     tableTitle.each(function(e){
-        var titleHtml = $(this).html();
+        var titleHtml = $(this).text();
       
         var thisParent = $(this).parent();
         thisParent.before('<tr class="accordion-title"><td>'+titleHtml+'</td></tr>');

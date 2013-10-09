@@ -369,15 +369,13 @@ img[src="/_layouts/images/blank.gif"] {
     background-image: -o-linear-gradient(#c7e3f4, #bfdef2);
     background-image: linear-gradient(#c7e3f4, #bfdef2);
     padding: 10px;
+    border-bottom: 1px solid white;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title td {
     line-height: 52px;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title:hover {
     background: #b2d8ef;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb-title {
-    display: none !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable tr, html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable tbody {
     width: auto !important;

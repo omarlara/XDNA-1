@@ -296,6 +296,7 @@ html:not(.ms-dialog-nr){
 			background: $blue;
 			@include background-image(linear-gradient(lighten($blue,10%), lighten($blue, 8%)));
 			padding: 10px;
+			border-bottom: 1px solid white;
 			td{
 				line-height: 52px;
 			}
@@ -303,9 +304,7 @@ html:not(.ms-dialog-nr){
 				background: lighten($blue, 5%);
 			}
 		}
-		.ms-vb-title{
-			display: none !important;
-		}
+
 		#onetidMngFieldRptrTable {
 			
 			tr, tbody{
