@@ -154,14 +154,7 @@ img[src="/_layouts/images/blank.gif"]{
 }
 
 
-
-
-html:not(.ms-dialog-nr){
-
-@include tablet-portrait-and-below{
-
-
-
+@include  tablet-portrait-and-below{
 	.ms-dialog{
 		.ms-ButtonHeightWidth {
 				@include box-sizing(border-box);
@@ -173,6 +166,15 @@ html:not(.ms-dialog-nr){
 				width: 100%;
 			}
 	}
+}
+
+html:not(.ms-dialog-nr){
+
+@include tablet-portrait-and-below{
+
+
+
+
 	.ms-propertysheet{
 		table{
 			margin:0 auto;
