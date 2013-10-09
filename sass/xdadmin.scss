@@ -186,12 +186,16 @@ html:not(.ms-dialog-nr){
 	.ms-vb2 table{
 		margin: 0 auto !important;
 	}
+	tr{
+		padding:10px 0;
+	}
 	.fieldName{
 		float: left;
 		margin-right: 10px;
 		font-weight: bold;
 		display: block;
 		margin-left: -90px;
+		width: 90px;
 	}
 
 

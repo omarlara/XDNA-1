@@ -106,7 +106,8 @@ img[src="/_layouts/images/blank.gif"] { display: none; }
   html:not(.ms-dialog-nr) table colgroup { display: none; }
   html:not(.ms-dialog-nr) .ms-propertysheet table { margin: 0 auto; }
   html:not(.ms-dialog-nr) .ms-vb2 table { margin: 0 auto !important; }
-  html:not(.ms-dialog-nr) .fieldName { float: left; margin-right: 10px; font-weight: bold; display: block; margin-left: -90px; }
+  html:not(.ms-dialog-nr) tr { padding: 10px 0; }
+  html:not(.ms-dialog-nr) .fieldName { float: left; margin-right: 10px; font-weight: bold; display: block; margin-left: -90px; width: 90px; }
   html:not(.ms-dialog-nr) td label { display: inline-block !important; margin-left: 6px; }
   html:not(.ms-dialog-nr) .ms-separator { display: none !important; }
   html:not(.ms-dialog-nr) button, html:not(.ms-dialog-nr) select { font-size: 12px; padding: 4px; }
