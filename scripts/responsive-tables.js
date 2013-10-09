@@ -89,9 +89,7 @@ var table = $('#main-content table'),
 
         var windowSize = $(window).width();
         if (windowSize > 768) {
-           $('.ms-itmhover').css({
-                'display': 'table-row !important'
-           });
+           $('.ms-itmhover').removeAttr('style');
                //Little fix to avoid display block while showing the element
         }
       }
