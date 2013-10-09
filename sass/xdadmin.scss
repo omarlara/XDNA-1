@@ -5,7 +5,7 @@
 
 
 
-.ms-dialog {
+		.ms-dialog {
 			.xd-header, .menu-icon, .sidebar-button{
 				display: none !important;
 			}
@@ -32,6 +32,9 @@
 
 body.xd
 {	
+	.accordion-title{
+		display: none;
+	}
 	.fieldName{
 		display: none;
 
@@ -172,9 +175,7 @@ img[src="/_layouts/images/blank.gif"]{
 html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
-	.ms-vb-title{
-		display: none;
-	}
+
 	table colgroup{
 		display: none;
 	}
@@ -283,6 +284,12 @@ html:not(.ms-dialog-nr){
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		.accordion-title{
+			display: none;
+		}
+		.ms-vb-title{
+			display: none !important;
+		}
 		#onetidMngFieldRptrTable {
 			
 			tr, tbody{
