@@ -360,15 +360,15 @@ img[src="/_layouts/images/blank.gif"] {
   html:not(.ms-dialog-nr) body.xd #main-content .ms-itmhover {
     display: none;
   }
-  html:not(.ms-dialog-nr) body.xd #main-content .accordion-title {
+  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title {
     display: block;
     background: #9dcdeb;
     padding: 10px;
   }
-  html:not(.ms-dialog-nr) body.xd #main-content .accordion-title td {
+  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title td {
     line-height: 52px;
   }
-  html:not(.ms-dialog-nr) body.xd #main-content .accordion-title:hover {
+  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title:hover {
     background: #c7e3f4;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb-title {
