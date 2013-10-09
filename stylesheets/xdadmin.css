@@ -85,7 +85,7 @@ body.xd #main-content .ms-pageinformation { padding: 0; }
 body.xd #main-content .ms-dialog { /**.ms-ButtonHeightWidth{
 	 width: 13.2em;
 }**/ }
-body.xd #main-content .ms-dialog .xd-header, body.xd #main-content .ms-dialog .menu.icon, body.xd #main-content .ms-dialog .sidebar-button { display: none; }
+body.xd #main-content .ms-dialog .xd-header, body.xd #main-content .ms-dialog .menu.icon, body.xd #main-content .ms-dialog .sidebar-button { display: none !important; }
 body.xd #main-content .ms-dialog .ms-sectionheader h3.ms-standardheader { font-size: 1.1em; line-height: 1.4; }
 body.xd #main-content .ms-dialog .ms-descriptiontext { font-size: 1em; line-height: 1.3; line-height: 1.7; padding: 7px; }
 body.xd #main-content .ms-dialog .ms-descriptiontext table { text-align: center; }
