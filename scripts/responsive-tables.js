@@ -83,7 +83,7 @@ var table = $('#main-content table'),
             click: function(){
 
               $(this).addClass('active').next().slideDown(200);
-              $('.accordion-title:not(.active)').removeClass('active').next().slideUp();
+              $('.accordion-title').removeClass('active').next().slideUp();
               
             }
           });
