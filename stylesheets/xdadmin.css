@@ -383,9 +383,11 @@ img[src="/_layouts/images/blank.gif"] {
     content: '';
     width: 0;
     height: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-right: 20px solid #48a2da;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #48a2da;
+    position: absolute;
+    left: 10px;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title:hover {
     background: #b2d8ef;
