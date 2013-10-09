@@ -302,7 +302,7 @@ html:not(.ms-dialog-nr){
 			td{
 				line-height: 25px;
 				font-size: 1.4em;
-				color: darken($blue, 20%)
+				color: darken($blue, 20%);
 				&:before{
 					content:'';
 					width: 0;
@@ -310,7 +310,7 @@ html:not(.ms-dialog-nr){
 					border-top: 20px solid transparent;
 					border-bottom: 20px solid transparent;
 					border-right: 20px solid darken($blue, 20%);
-					
+
 				}
 			}
 			&:hover{
