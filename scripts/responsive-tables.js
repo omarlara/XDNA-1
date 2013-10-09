@@ -82,7 +82,7 @@ var table = $('#main-content table'),
           .on({
             click: function(){
 
-              $('.ms-itmhover').slideUp();
+              $('.ms-itmhover').hide();
               $(this).toggleClass("active").next().slideToggle(200);
               
             }
