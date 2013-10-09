@@ -78,11 +78,22 @@ var table = $('#main-content table'),
         
 
     });
+    var windowSize = $(window).width();
+        if (windowSize < 768) {
+          $('.accordion-title').next().slideUp();
+        }
+    
     $('.accordion-title')
           .on({
             click: function(){
-              $(this).toggleClass('active').next().slideToggle(200);
-              $('.accordion-title:not(.active)').next().slideUp();
+               $('.accordion-title').next().slideUp();
+              if($(this).hasClass('.active')){
+                $(this).next().slideUp(200);
+              }else{
+                $(this).next().slideDown(200);
+              }
+
+             
               
             }
           });

@@ -294,7 +294,7 @@ html:not(.ms-dialog-nr){
 		tr.accordion-title{
 			display: block;
 			background: $blue;
-			@include background-image(linear-gradient($blue, lighten($blue, 8%)));
+			@include background-image(linear-gradient(lighten($blue,10%), lighten($blue, 8%)));
 			padding: 10px;
 			td{
 				line-height: 52px;
