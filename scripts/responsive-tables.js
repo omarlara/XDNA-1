@@ -92,9 +92,10 @@ var table = $('#main-content table'),
           //Little fix to avoid display block while showing the element
            $('.ms-itmhover').show(100,function(e){$(this).removeAttr('style');});
                
+        }else{
+          $('.accordion-title').next().slideUp(100);
         }
       }
-
       $(window).resize(function(e){ resetTable(); });
 });
 
