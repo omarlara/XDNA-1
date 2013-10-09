@@ -52,7 +52,7 @@ var table = $('.ms-listviewtable'),
     counter = 1;
     var headings= new Array();
     
-    $('.ms-viewheadertr th').each(function(e){
+    $('tbody th').each(function(e){
         var value = $(this).text();
         
         heading.number = counter;
