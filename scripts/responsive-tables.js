@@ -89,7 +89,7 @@ var table = $('#main-content table'),
 
         var windowSize = $(window).width();
         if (windowSize > 768) {
-           $('.ms-itmhover').removeAttr('style');
+           $('.ms-itmhover').show(100,function(e){$(this).removeAttr('style');});
                //Little fix to avoid display block while showing the element
         }
       }
