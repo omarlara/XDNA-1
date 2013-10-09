@@ -287,7 +287,9 @@ html:not(.ms-dialog-nr){
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
-
+		td{
+			line-height: 30px;
+		}
 		.ms-itmhover{
 			display: none ;
 		}
@@ -298,7 +300,18 @@ html:not(.ms-dialog-nr){
 			padding: 10px;
 			border-bottom: 1px solid white;
 			td{
-				line-height: 52px;
+				line-height: 25px;
+				font-size: 1.4em;
+				color: darken($blue, 20%)
+				&:before{
+					content:'';
+					width: 0;
+					height: 0;
+					border-top: 20px solid transparent;
+					border-bottom: 20px solid transparent;
+					border-right: 20px solid darken($blue, 20%);
+					
+				}
 			}
 			&:hover{
 				background: lighten($blue, 5%);
@@ -547,6 +560,7 @@ html:not(.ms-dialog-nr){
 		} 
 		.s4-wpTopTable #AsynchronousViewDefault_CalendarView td{
 			display: table-cell;
+
 		}
 
 	}
