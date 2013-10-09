@@ -78,19 +78,12 @@ var table = $('#main-content table'),
         
 
     });
-
-    
     $('.accordion-title')
           .on({
             click: function(){
-               $('.accordion-title').next().slideUp(100);
-              if($(this).hasClass('.active')){
-                $(this).next().slideUp(200).removeClass('active');
-              }else{
-                $(this).next().slideDown(200).addClass("active");
-              }
-
-             
+              
+              $(this).toggleClass('active').next().slideToggle(200);
+              $('.accordion-title:not(.active)').next().slideUp();
               
             }
           });
