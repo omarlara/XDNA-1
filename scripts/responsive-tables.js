@@ -76,7 +76,7 @@ var table = $('#main-content table'),
         thisParent.prepend(titleHtml);
         thisParent.hide();
         thisParent.prev().addClass("accordion-header")
-          .on(function(e){
+          .on({
             click: function(){
               $(this).toggleClass('active').next().slideToggle();
             }
