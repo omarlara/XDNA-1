@@ -289,7 +289,7 @@ html:not(.ms-dialog-nr){
 	body.xd #main-content{
 
 		.ms-itmhover{
-			display: none;
+			display: none !important;
 		}
 		tr.accordion-title{
 			display: block;

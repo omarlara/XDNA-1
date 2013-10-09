@@ -358,7 +358,7 @@ img[src="/_layouts/images/blank.gif"] {
     padding: 10px 0;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-itmhover {
-    display: none;
+    display: none !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title {
     display: block;

@@ -78,10 +78,7 @@ var table = $('#main-content table'),
         
 
     });
-    var windowSize = $(window).width();
-        if (windowSize < 768) {
-          $('.accordion-title').next().slideUp();
-        }
+
     
     $('.accordion-title')
           .on({
