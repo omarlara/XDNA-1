@@ -84,6 +84,16 @@ var table = $('#main-content table'),
               $(this).toggleClass('active').next().slideToggle();
             }
           });
+
+      var resetTable = function(e){
+
+        var windowSize = $(window).width();
+        if (windowSize > 768) {
+           $('.accordion-title').next().show();     
+        }
+      }
+
+      $(window).resize(function(e){ resetTable(); });
 });
 
 
