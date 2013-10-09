@@ -65,6 +65,24 @@ var table = $('#main-content table'),
         counter++;
     });
 
+    // Stacked table approach
+
+    var tableTitle = $('.ms-vb-title');
+
+    tableTitle.each(function(e){
+        var titleHtml = $(this).html();
+        $(this).remove();
+        var thisParent = $(this).parent();
+        thisParent.prepend(titleHtml);
+        thisParent.hide();
+        thisParent.prev().addClass("accordion-header")
+          .on(function(e){
+            click: function(){
+              $(this).toggleClass('active').next().slideToggle();
+            }
+          });
+
+    });
 
 });
 
