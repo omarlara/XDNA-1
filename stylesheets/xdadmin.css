@@ -354,6 +354,9 @@ img[src="/_layouts/images/blank.gif"] {
     overflow: hidden;
     padding: 10px 0;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-itmhover {
+    display: none;
+  }
   html:not(.ms-dialog-nr) body.xd #main-content .accordion-title {
     display: block;
   }

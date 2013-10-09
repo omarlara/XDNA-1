@@ -284,6 +284,9 @@ html:not(.ms-dialog-nr){
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		.ms-itmhover{
+			display: none;
+		}
 		.accordion-title{
 			display: block;
 		}
