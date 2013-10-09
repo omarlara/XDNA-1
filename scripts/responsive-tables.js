@@ -89,9 +89,12 @@ var table = $('#main-content table'),
 
         var windowSize = $(window).width();
         if (windowSize > 768) {
-           $('.accordion-title').next().show().css({
-              'display': 'table-row !important'
-           });     
+           $('.accordion-title').next().each(function(e){
+              $(this).show().css({
+                'display': 'table-row !important'
+              });  
+           });
+               //Little fix to avoid display block while showing the element
         }
       }
 
