@@ -60,7 +60,7 @@ var table = $('.ms-listviewtable'),
         
         headings[counter] = heading;
         
-        table.find('tr > td.ms-vb2:nth-child('+counter+')').prepend('<span class="fieldName">'+heading.value+'</span>');
+        table.find('tr > td.ms-vb2:nth-child('+heading.number+')').prepend('<span class="fieldName">'+heading.value+'</span>');
         
         counter++;
     });
