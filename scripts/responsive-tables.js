@@ -73,17 +73,17 @@ var table = $('#main-content table'),
         var titleHtml = $(this).html();
         alert(titleHtml);
         var thisParent = $(this).parent();
-        thisParent.before('<tr class="accordion-header">'+titleHtml+"</tr>");
+        thisParent.before('<tr class="accordion-title"><td>'+titleHtml+'</td></tr>');
         //thisParent.hide();
-        thisParent.prev()
+        
+
+    });
+    $('.accordion-title')
           .on({
             click: function(){
               $(this).toggleClass('active').next().slideToggle();
             }
           });
-
-    });
-
 });
 
 
