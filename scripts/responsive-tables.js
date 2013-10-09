@@ -72,7 +72,6 @@ var table = $('#main-content table'),
     tableTitle.each(function(e){
         var titleHtml = $(this).html();
         alert(titleHtml);
-        $(this).remove();
         var thisParent = $(this).parent();
         thisParent.before('<tr class="accordion-header">'+titleHtml+"</tr>");
         thisParent.hide();
