@@ -44,7 +44,7 @@ $(document).ready(function(e){
       counter++;
     });
   });**/
-var table = $('.ms-listviewtable'),
+var table = $('#main-content table'),
     heading = {
         number: null,
         value: null
@@ -52,7 +52,7 @@ var table = $('.ms-listviewtable'),
     counter = 1;
     var headings= new Array();
     
-    $('tbody th').each(function(e){
+    $('#main-content tbody th').each(function(e){
         var value = $(this).text();
         
         heading.number = counter;
