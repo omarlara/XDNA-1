@@ -82,8 +82,8 @@ var table = $('#main-content table'),
           .on({
             click: function(){
 
-              $(this).addClass('active').next().slideDown(200);
-              $('.accordion-title').removeClass('active').next().slideUp();
+              $(this).toggleClass("active").not($(this)).next().slideToggle(200);
+              $('.ms-itmhover').slideUp();
               
             }
           });
