@@ -233,7 +233,9 @@ body.xd #main-content .ms-pageinformation {
 }
 
 body.xd #s4-workspace .mobile-submenu li {
-  background-color: #0096C1;
+  background-color: #0096C1 !important;
+  border-bottom: none !important;
+  border-top: 1px solid #007597;
 }
 body.xd #s4-workspace .menu-icon, body.xd #s4-workspace .sidebar-button {
   background-position: 7% center;

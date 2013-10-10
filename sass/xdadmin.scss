@@ -149,7 +149,9 @@ body.xd
 }
 	body.xd #s4-workspace{
 		.mobile-submenu li{
-			background-color: #0096C1;
+			background-color: #0096C1 !important;
+			border-bottom: none !important;
+			border-top: 1px solid #007597;
 		}
 		.menu-icon, .sidebar-button{
 			background-position: 7% center;
