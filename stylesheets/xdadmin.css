@@ -364,6 +364,13 @@ img[src="/_layouts/images/blank.gif"] {
     overflow: hidden;
     padding: 10px 0;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content #layoutsTable {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: auto !important;
+  }
   html:not(.ms-dialog-nr) body.xd #main-content tbody {
     width: auto !important;
     display: block;
