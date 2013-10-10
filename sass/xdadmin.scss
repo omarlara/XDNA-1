@@ -147,7 +147,22 @@ body.xd
 	}**/
 	
 }
+	body.xd #s4-workspace{
+		.sidebar-button{
+			border: none;
+			background: #006C8C;
+			border-top: 1px solid #004255;
+			border-right: 1px solid #004255;
+		}
+		.menu-icon{
+			border-top: 1px solid #004255;
 
+		}
+		.xd-menu{
+			border:none;
+		}
+	}
+		
 
 	//LeftPanel
 	body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
@@ -179,19 +194,7 @@ body.xd
 				}
 			}
 		}
-		.sidebar-button{
-			border: none;
-			background: #006C8C;
-			border-top: 1px solid #004255;
-			border-right: 1px solid #004255;
-		}
-		.menu-icon{
-			border-top: 1px solid #004255;
-
-		}
-		.xd-menu{
-			border:none;
-		}
+		
 // Foundation resets
 
 
