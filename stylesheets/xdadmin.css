@@ -185,6 +185,9 @@ body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader {
 body.xd .field-name {
   display: none;
 }
+body.xd .s4-ca {
+  background-color: #006c8c;
+}
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer {
   border: none;
 }
