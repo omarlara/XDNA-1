@@ -78,11 +78,15 @@ var table = $('#main-content table'),
         
 
     });
+    resetTable();
     $('.accordion-title')
           .on({
             click: function(){
 
               $('.accordion-title').not(this).next().slideUp(100);
+
+
+
               $(this).toggleClass("active").next().slideToggle(200);
               
             }
