@@ -161,16 +161,14 @@ img[src="/_layouts/images/blank.gif"]{
 
 // DIALOGOS
 @include  tablet-portrait-and-below{
-	.ms-dialog{
-		.ms-ButtonHeightWidth {
-				@include box-sizing(border-box);
-				display: block;
-				font-size: 1.5em;
-				height: auto;
-				margin: 0 0 0.5em;
-				padding: 0.5em;
-				width: 100%;
-			}
+	.ms-ButtonHeightWidth {
+		@include box-sizing(border-box);
+		display: block;
+		font-size: 1.5em;
+		height: auto;
+		padding: 0.5em;
+		margin: 0 0 0.5em;
+		width: 100%;
 	}
 }
 
