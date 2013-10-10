@@ -522,9 +522,9 @@ img[src="/_layouts/images/blank.gif"] {
     content: '';
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #004255;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #004255;
     position: absolute;
     right: 10px;
     margin-top: 5px;
