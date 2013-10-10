@@ -371,7 +371,7 @@ img[src="/_layouts/images/blank.gif"] {
     display: block;
     width: auto !important;
   }
-  html:not(.ms-dialog-nr) body.xd #main-content tbody {
+  html:not(.ms-dialog-nr) body.xd #main-content tbody, html:not(.ms-dialog-nr) body.xd #main-content tr {
     width: auto !important;
     display: block;
   }
