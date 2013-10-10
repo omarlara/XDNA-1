@@ -170,6 +170,14 @@ img[src="/_layouts/images/blank.gif"]{
 	    padding: 0.7em;
 	    width: 95%;
 	}
+	.ms-authoringcontrols {
+		input, textarea{
+			margin: 0 auto;
+		}
+		tbody{
+			width: auto !important;
+		}
+	}
 }
 
 // NO DIALOGOS

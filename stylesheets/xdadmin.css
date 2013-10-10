@@ -252,6 +252,13 @@ img[src="/_layouts/images/blank.gif"] {
     padding: 0.7em;
     width: 95%;
   }
+
+  .ms-authoringcontrols input, .ms-authoringcontrols textarea {
+    margin: 0 auto;
+  }
+  .ms-authoringcontrols tbody {
+    width: auto !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   html:not(.ms-dialog-nr) {
