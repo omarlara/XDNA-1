@@ -248,9 +248,9 @@ img[src="/_layouts/images/blank.gif"] {
     display: block;
     font-size: 1.5em;
     height: auto;
-    padding: 0.5em;
-    margin: 0.25em 0.7em 0.25em 0.7em;
-    width: 100%;
+    margin: 0.5em auto;
+    padding: 0.7em;
+    width: 95%;
   }
 }
 @media only screen and (max-width: 768px) {
