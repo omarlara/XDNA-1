@@ -313,6 +313,18 @@ img[src="/_layouts/images/blank.gif"] {
    		}
    	} **/
   }
+  html:not(.ms-dialog-nr) .s4-leftpanel {
+    background: #006C8C;
+  }
+  html:not(.ms-dialog-nr) .s4-leftpanel .menu > ul > li > a {
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+    border-bottom: 2px solid #00485E;
+  }
+  html:not(.ms-dialog-nr) .s4-leftpanel .menu > ul > li > li > a {
+    color: #fff;
+  }
   html:not(.ms-dialog-nr) table colgroup {
     display: none;
   }
@@ -384,6 +396,9 @@ img[src="/_layouts/images/blank.gif"] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+  }
+  html:not(.ms-dialog-nr) body.xd #main-content td img {
+    max-width: 100%;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-itmhover {
     display: none;
