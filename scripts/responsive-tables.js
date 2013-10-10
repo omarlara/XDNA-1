@@ -78,7 +78,7 @@ var table = $('#main-content table'),
         
 
     });
-    resetTable();
+
     $('.accordion-title')
           .on({
             click: function(){
@@ -103,6 +103,7 @@ var table = $('#main-content table'),
           $('.accordion-title').next().slideUp(100);
         }
       }
+      resetTable();
       $(window).resize(function(e){ resetTable(); });
 });
 
