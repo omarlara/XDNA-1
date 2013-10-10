@@ -231,6 +231,18 @@ body.xd #main-content > div > table {
 body.xd #main-content .ms-pageinformation {
   padding: 0;
 }
+body.xd #main-content .s4-leftpanel {
+  background: #006C8C;
+}
+body.xd #main-content .s4-leftpanel .menu > ul > li > a {
+  color: #fff;
+  font-weight: bold;
+  line-height: 30px;
+  border-bottom: 2px solid #00485E;
+}
+body.xd #main-content .s4-leftpanel .menu > ul > li > li > a {
+  color: #fff;
+}
 
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: none;
@@ -238,19 +250,6 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 
 img[src="/_layouts/images/blank.gif"] {
   display: none;
-}
-
-.s4-leftpanel {
-  background: #006C8C;
-}
-.s4-leftpanel .menu > ul > li > a {
-  color: #fff;
-  font-weight: bold;
-  line-height: 30px;
-  border-bottom: 2px solid #00485E;
-}
-.s4-leftpanel .menu > ul > li > li > a {
-  color: #fff;
 }
 
 @media only screen and (max-width: 768px) {

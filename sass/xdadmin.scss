@@ -32,6 +32,7 @@
 
 body.xd
 {	
+
 	tr.ms-itmhover{
 			display: table-row;
 		}
@@ -133,7 +134,22 @@ body.xd
 		.ms-pageinformation {
 			padding: 0;
 		}
-		
+			//LeftPanel
+		.s4-leftpanel{
+			background: #006C8C;
+			.menu > ul > li {
+
+				> a{
+					color: #fff;
+					font-weight: bold;
+					line-height: 30px;
+					border-bottom: 2px solid #00485E;
+				}
+				> li > a{
+					color: #fff;
+				}
+			}
+		}
 	}
 
 
@@ -159,22 +175,7 @@ img[src="/_layouts/images/blank.gif"]{
 	display: none;
 }
 
-//LeftPanel
-.s4-leftpanel{
-		background: #006C8C;
-		.menu > ul > li {
 
-			> a{
-				color: #fff;
-				font-weight: bold;
-				line-height: 30px;
-				border-bottom: 2px solid #00485E;
-			}
-			> li > a{
-				color: #fff;
-			}
-		}
-	}
 
 // DIALOGOS
 @include  tablet-portrait-and-below{
