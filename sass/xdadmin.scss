@@ -164,9 +164,13 @@ body.xd
 				}
 				
 			}
-			.s4-ql ul.root ul > li > a{
-				color: #fff;
-				line-height: 20px;
+			.s4-ql ul.root ul > li {
+					background: #007495;
+					border-bottom: 1px solid #00485E;
+				> a{
+					color: #fff;
+					line-height: 20px;
+				}
 			}
 		}
 
