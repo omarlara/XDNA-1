@@ -160,14 +160,11 @@ body.xd
 					line-height: 30px;
 					border-bottom: 2px solid #00485E;
 				}
-				.menu .menu-item {
-					background: blue;
-					line-height: 40px;
-					border-bottom: 1px solid #00485E;
-					.additional-background .menu-item-text{
-						color: #fff;
-					}
-				}
+				
+			}
+			.s4-ql ul.root ul > li > a{
+				color: #fff;
+				line-height: 20px;
 			}
 		}
 
