@@ -379,7 +379,7 @@ img[src="/_layouts/images/blank.gif"] {
     font-size: 1.4em;
     color: #48a2da;
   }
-  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title td:before {
+  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title:before {
     content: '';
     width: 0;
     height: 0;

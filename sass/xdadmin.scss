@@ -303,7 +303,10 @@ html:not(.ms-dialog-nr){
 				line-height: 25px;
 				font-size: 1.4em;
 				color: darken($blue, 20%);
-				&:before{
+				
+
+			}
+			&:before{
 					content:'';
 					width: 0;
 					height: 0;
@@ -314,8 +317,6 @@ html:not(.ms-dialog-nr){
 					right: 10px;
 					margin-top: 5px;
 				}
-
-			}
 			&.active:before{
 					content:'';
 					width: 0;
