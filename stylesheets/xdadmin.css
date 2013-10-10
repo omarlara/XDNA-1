@@ -235,11 +235,11 @@ body.xd #main-content .ms-pageinformation {
 body.xd #s4-workspace .sidebar-button {
   border: none;
   background: #006C8C;
-  border-top: 1px solid #004255;
-  border-right: 1px solid #004255;
+  border-top: 2px solid #004255;
+  border-right: 2px solid #004255;
 }
 body.xd #s4-workspace .menu-icon {
-  border-top: 1px solid #004255;
+  border-top: 2px solid #004255;
 }
 body.xd #s4-workspace .xd-menu {
   border: none;
