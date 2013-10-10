@@ -364,6 +364,10 @@ img[src="/_layouts/images/blank.gif"] {
     overflow: hidden;
     padding: 10px 0;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content tbody {
+    width: auto !important;
+    display: block;
+  }
   html:not(.ms-dialog-nr) body.xd #main-content td {
     line-height: 30px;
   }

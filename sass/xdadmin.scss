@@ -293,6 +293,10 @@ html:not(.ms-dialog-nr){
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		tbody{
+			width: auto !important;
+			display: block;
+		}
 		td{
 			line-height: 30px;
 			select{
