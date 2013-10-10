@@ -232,9 +232,12 @@ body.xd #main-content .ms-pageinformation {
   padding: 0;
 }
 
+body.xd #s4-workspace .menu-icon, body.xd #s4-workspace .sidebar-button {
+  background-position: 7% center;
+}
 body.xd #s4-workspace .sidebar-button {
   border: none;
-  background: #006C8C;
+  background-color: #006C8C;
   border-top: 2px solid #004255;
   border-right: 2px solid #004255;
 }
