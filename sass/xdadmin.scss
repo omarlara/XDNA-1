@@ -450,9 +450,9 @@ html:not(.ms-dialog-nr){
 					content:'';
 					width: 0;
 					height: 0;
-					border-top: 5px solid transparent;
-					border-bottom: 5px solid transparent;
-					border-left: 5px solid $darkestBlue;
+					border-top: 7px solid transparent;
+					border-bottom: 7px solid transparent;
+					border-left: 7px solid $darkestBlue;
 					position: absolute;
 					right: 10px;
 					margin-top: 5px;
@@ -463,7 +463,7 @@ html:not(.ms-dialog-nr){
 					height: 0;
 					border-left: 5px solid transparent;
 					border-right: 5px solid transparent;
-					border-top: 5px solid darken($blue, 20%);
+					border-top: 5px solid $darkestBlue;
 					position: absolute;
 					right: 10px;
 					margin-top: 5px;
