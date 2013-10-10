@@ -196,12 +196,21 @@ body.xd
 
 	input[type="button"]{
 		background-color: $lightBlue;
+		&:hover{
+			background-color: lighten($lightBlue, 5%)
+		}
 	}
 	input[type="reset"]{
 		background-color: $darkBlue;
+		&:hover{
+			background-color: lighten($darkBlue, 5%);
+		}
 	}
 	input[type="submit"]{
 		background-color: $middleBlue;
+		&:hover{
+			background-color: lighten($middleBlue, 5%);
+		}
 	}
 
 
