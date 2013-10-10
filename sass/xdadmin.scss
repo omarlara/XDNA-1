@@ -308,6 +308,7 @@ html:not(.ms-dialog-nr){
 				 width: 100%;
 				 @include box-sizing(border-box);
 			}
+			position: relative;
 		}
 		.ms-itmhover{
 			display: none ;

@@ -377,6 +377,7 @@ img[src="/_layouts/images/blank.gif"] {
   }
   html:not(.ms-dialog-nr) body.xd #main-content td {
     line-height: 30px;
+    position: relative;
   }
   html:not(.ms-dialog-nr) body.xd #main-content td select {
     width: 100%;
