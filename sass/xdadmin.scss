@@ -307,9 +307,9 @@ html:not(.ms-dialog-nr){
 					content:'';
 					width: 0;
 					height: 0;
-					border-top: 7px solid transparent;
-					border-bottom: 7px solid transparent;
-					border-left: 7px solid darken($blue, 20%);
+					border-top: 5px solid transparent;
+					border-bottom: 5px solid transparent;
+					border-left: 5px solid darken($blue, 20%);
 					position: absolute;
 					right: 10px;
 					margin-top: 5px;

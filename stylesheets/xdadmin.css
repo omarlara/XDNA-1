@@ -383,9 +383,9 @@ img[src="/_layouts/images/blank.gif"] {
     content: '';
     width: 0;
     height: 0;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-    border-left: 7px solid #48a2da;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #48a2da;
     position: absolute;
     right: 10px;
     margin-top: 5px;
