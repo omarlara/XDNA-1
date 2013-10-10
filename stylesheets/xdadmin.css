@@ -240,6 +240,19 @@ img[src="/_layouts/images/blank.gif"] {
   display: none;
 }
 
+.s4-leftpanel {
+  background: #006C8C;
+}
+.s4-leftpanel .menu > ul > li > a {
+  color: #fff;
+  font-weight: bold;
+  line-height: 30px;
+  border-bottom: 2px solid #00485E;
+}
+.s4-leftpanel .menu > ul > li > li > a {
+  color: #fff;
+}
+
 @media only screen and (max-width: 768px) {
   .ms-ButtonHeightWidth {
     -webkit-box-sizing: border-box;
@@ -312,18 +325,6 @@ img[src="/_layouts/images/blank.gif"] {
   			color: #aaa
    		}
    	} **/
-  }
-  html:not(.ms-dialog-nr) .s4-leftpanel {
-    background: #006C8C;
-  }
-  html:not(.ms-dialog-nr) .s4-leftpanel .menu > ul > li > a {
-    color: #fff;
-    font-weight: bold;
-    line-height: 30px;
-    border-bottom: 2px solid #00485E;
-  }
-  html:not(.ms-dialog-nr) .s4-leftpanel .menu > ul > li > li > a {
-    color: #fff;
   }
   html:not(.ms-dialog-nr) table colgroup {
     display: none;
