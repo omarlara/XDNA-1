@@ -295,6 +295,10 @@ html:not(.ms-dialog-nr){
 	body.xd #main-content{
 		td{
 			line-height: 30px;
+			select{
+				 width: 100%;
+				 @include box-sizing(border-box);
+			}
 		}
 		.ms-itmhover{
 			display: none ;

@@ -367,6 +367,12 @@ img[src="/_layouts/images/blank.gif"] {
   html:not(.ms-dialog-nr) body.xd #main-content td {
     line-height: 30px;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content td select {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-itmhover {
     display: none;
   }
