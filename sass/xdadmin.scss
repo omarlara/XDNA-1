@@ -160,11 +160,11 @@ body.xd
 					line-height: 30px;
 					border-bottom: 2px solid #00485E;
 				}
-				> li > a{
+				.menu .menu-item {
 					background: blue;
 					line-height: 40px;
 					border-bottom: 1px solid #00485E;
-					.menu-item-text{
+					.additional-background .menu-item-text{
 						color: #fff;
 					}
 				}

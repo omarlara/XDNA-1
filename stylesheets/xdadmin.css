@@ -241,12 +241,12 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul 
   line-height: 30px;
   border-bottom: 2px solid #00485E;
 }
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li > li > a {
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li .menu .menu-item {
   background: blue;
   line-height: 40px;
   border-bottom: 1px solid #00485E;
 }
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li > li > a .menu-item-text {
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li .menu .menu-item .additional-background .menu-item-text {
   color: #fff;
 }
 
