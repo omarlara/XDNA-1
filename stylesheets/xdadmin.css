@@ -232,16 +232,16 @@ body.xd #main-content .ms-pageinformation {
   padding: 0;
 }
 
-body.system #s4-leftpanel[role="complementary"] {
+body.xd.system #s4-leftpanel[role="complementary"] {
   background: #006C8C;
 }
-body.system #s4-leftpanel[role="complementary"] .menu > ul > li > a {
+body.xd.system #s4-leftpanel[role="complementary"] .menu > ul > li > a {
   color: #fff;
   font-weight: bold;
   line-height: 30px;
   border-bottom: 2px solid #00485E;
 }
-body.system #s4-leftpanel[role="complementary"] .menu > ul > li > li > a {
+body.xd.system #s4-leftpanel[role="complementary"] .menu > ul > li > li > a {
   color: #fff;
 }
 
