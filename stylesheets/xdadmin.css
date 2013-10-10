@@ -244,6 +244,9 @@ body.xd #s4-workspace .menu-icon {
 body.xd #s4-workspace .xd-menu {
   border: none;
 }
+body.xd #s4-workspace .xd-menu li {
+  background-color: #0088AF;
+}
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
   background: #006C8C;
