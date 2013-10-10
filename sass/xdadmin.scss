@@ -156,10 +156,12 @@ body.xd
 		}
 		.menu-icon, .sidebar-button{
 			background-position: 7% center;
+			box-shadow: none;
 			
 		}
 
 		.sidebar-button{
+			@include box-sizing(border-box);
 			border: none;
 			background-color: #006C8C;
 			border-top: 2px solid $darkestBlue;
@@ -430,14 +432,17 @@ html:not(.ms-dialog-nr){
 		tr.accordion-title{
 			display: block;
 			background: $blue;
-			@include background-image(linear-gradient(lighten($blue,10%), lighten($blue, 8%)));
 			padding: 10px;
-			border-bottom: 1px solid white;
+			border-bottom: 1px solid $lightBlue;
 			td{
 				line-height: 25px;
 				font-size: 1.4em;
-				color: darken($blue, 20%);
-				
+				color: $darkestBlue;
+			    font-size: 1.4em;
+			    font-weight: bold;
+			    line-height: 25px;
+			    text-align: left;
+			    text-indent: 1em;
 
 			}
 			&:before{
@@ -446,7 +451,7 @@ html:not(.ms-dialog-nr){
 					height: 0;
 					border-top: 5px solid transparent;
 					border-bottom: 5px solid transparent;
-					border-left: 5px solid darken($blue, 20%);
+					border-left: 5px solid $darkestBlue;
 					position: absolute;
 					right: 10px;
 					margin-top: 5px;

@@ -154,7 +154,7 @@ body.xd {
   } **/
 }
 body.xd .menu-icon {
-  background: #73b7e2;
+  background: #97caeb;
   width: 45px;
   height: 45px;
   position: absolute;
@@ -175,7 +175,7 @@ body.xd .menu-icon {
   transition-timing-function: ease;
 }
 body.xd .menu-icon:hover {
-  background: #88c2e7;
+  background: #add5ef;
 }
 body.xd .mobile-submenu {
   display: none;
