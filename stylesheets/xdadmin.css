@@ -235,6 +235,9 @@ body.xd #main-content .ms-pageinformation {
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
   background: #006C8C;
 }
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li a {
+  text-decoration: none;
+}
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li > a {
   color: #fff;
   font-weight: bold;
