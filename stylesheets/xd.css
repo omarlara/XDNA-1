@@ -9,133 +9,107 @@
 /* ..-------------------------------------------------------...
  |                         HELPER CLASSES                     |
  |..--------------------------------------------------------..|*/
-/* line 5, ../sass/_helpers.scss */
 .nodisplay, .hide {
   display: none;
 }
 
-/* line 6, ../sass/_helpers.scss */
 .inline {
   display: inline-block;
 }
 
-/* line 7, ../sass/_helpers.scss */
 .pointer:hover, body.xd .menu-icon:hover {
   cursor: pointer;
 }
 
-/* line 8, ../sass/_helpers.scss */
 .center {
   text-align: center;
 }
 
-/* line 9, ../sass/_helpers.scss */
 .left {
   text-align: left;
 }
 
-/* line 10, ../sass/_helpers.scss */
 .right {
   text-align: right;
 }
 
-/* line 11, ../sass/_helpers.scss */
 .auto {
   margin: 0 auto;
 }
 
-/* line 12, ../sass/_helpers.scss */
 .odd {
   background: #FBFBFB;
 }
 
-/* line 13, ../sass/_helpers.scss */
 .even {
   background: #F2F0F1;
 }
 
-/* line 14, ../sass/_helpers.scss */
 .letterpressed {
   text-shadow: 1px 1px 0 #ccc, -1px -1px- 0 #999;
 }
 
-/* line 15, ../sass/_helpers.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 16, ../sass/_helpers.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 17, ../sass/_helpers.scss */
 .block {
   display: block;
 }
 
-/* line 18, ../sass/_helpers.scss */
 .h100 {
   height: 100%;
 }
 
-/* line 19, ../sass/_helpers.scss */
 .noOutline {
   outline: none;
 }
 
-/* line 20, ../sass/_helpers.scss */
 .antialiased {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 24, ../sass/_helpers.scss */
 .paddingL {
   padding-left: 1.3%;
 }
 
-/* line 25, ../sass/_helpers.scss */
 .paddingB {
   padding-bottom: 1.3%;
 }
 
-/* line 26, ../sass/_helpers.scss */
 .paddingR {
   padding-right: 1.3%;
 }
 
-/* line 27, ../sass/_helpers.scss */
 .paddingT {
   padding-top: 1.3%;
 }
 
-/* line 30, ../sass/_helpers.scss */
 .floatR {
   float: right;
 }
 
-/* line 31, ../sass/_helpers.scss */
 .floatL {
   float: left;
 }
 
-/* line 32, ../sass/_helpers.scss */
 .positionA {
   position: absolute;
 }
 
-/* line 33, ../sass/_helpers.scss */
 .positionF {
   position: fixed;
 }
 
-/* line 34, ../sass/_helpers.scss */
 .positionR {
   position: relative;
 }
 
-/* line 49, ../sass/_helpers.scss */
 .fullFixedBg {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,7 +120,6 @@
   background-origin: border-box;
 }
 
-/* line 6, ../sass/xd.scss */
 body.xd {
  /** .dynamic-children{
     &:hover{
@@ -180,7 +153,6 @@ body.xd {
     }
   } **/
 }
-/* line 7, ../sass/xd.scss */
 body.xd .menu-icon {
   background: #73b7e2;
   width: 45px;
@@ -202,25 +174,20 @@ body.xd .menu-icon {
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
 }
-/* line 16, ../sass/xd.scss */
 body.xd .menu-icon:hover {
   background: #88c2e7;
 }
-/* line 21, ../sass/xd.scss */
 body.xd .mobile-submenu {
   display: none;
   clear: both;
 }
-/* line 56, ../sass/xd.scss */
 body.xd #zz15_TopNavigationMenuV4 {
   display: none;
 }
 @media (max-width: 480px) {
-  /* line 60, ../sass/xd.scss */
   body.xd .menu-icon {
     display: block;
   }
-  /* line 63, ../sass/xd.scss */
   body.xd .menu .ul.dynamic {
     display: block !important;
     left: auto !important;
@@ -228,30 +195,24 @@ body.xd #zz15_TopNavigationMenuV4 {
     position: static !important;
     clear: both !important;
   }
-  /* line 71, ../sass/xd.scss */
   body.xd ul.root.static {
     overflow: hidden;
     *zoom: 1;
   }
-  /* line 74, ../sass/xd.scss */
   body.xd #zz15_TopNavigationMenuV4 .menu {
     width: 100%;
   }
-  /* line 78, ../sass/xd.scss */
   body.xd #zz15_TopNavigationMenuV4 .menu ul {
     width: 100%;
   }
-  /* line 81, ../sass/xd.scss */
   body.xd #zz15_TopNavigationMenuV4 .menu ul > li {
     width: 100%;
   }
-  /* line 86, ../sass/xd.scss */
   body.xd #zz15_TopNavigationMenuV4 .menu ul ul > li {
     width: 100%;
   }
 }
 @media only screen and (min-width: 769px) {
-  /* line 94, ../sass/xd.scss */
   body.xd .menu-icon {
     display: none;
   }
@@ -268,28 +229,23 @@ body.xd #zz15_TopNavigationMenuV4 {
 /* ==========================================================================
    1.0 Master Page Wrappers
    ========================================================================== */
-/* line 113, ../sass/xd.scss */
 body.xd #ctl00_MSO_ContentDiv,
 body.xd #s4-bodyContainer {
   min-width: inherit;
 }
 
-/* line 117, ../sass/xd.scss */
 body.xd #s4-leftpanel {
   display: none;
 }
 
-/* line 121, ../sass/xd.scss */
 body.xd .s4-ca {
   margin-left: 0px;
 }
 
-/* line 125, ../sass/xd.scss */
 body.xd hr {
   border-bottom: none;
 }
 
-/* line 129, ../sass/xd.scss */
 body.xd {
   background-color: #efefef;
 }
@@ -297,32 +253,27 @@ body.xd {
 /* ==========================================================================
    2.0 Header Styles
    ========================================================================== */
-/* line 136, ../sass/xd.scss */
 body.xd .xd-header {
   background-color: #009fd9;
   padding: 30px;
 }
 
-/* line 141, ../sass/xd.scss */
 body.xd .xd-header h1 {
   display: inline-block;
   font-weight: lighter;
   margin: 0px;
 }
 
-/* line 147, ../sass/xd.scss */
 body.xd .xd-header h1 a {
   color: #fff;
   margin-left: 20px;
   font-size: 0.9em;
 }
 
-/* line 153, ../sass/xd.scss */
 body.xd .xd-header .s4-notdlg {
   display: inline-block;
 }
 
-/* line 157, ../sass/xd.scss */
 .xd-welcome {
   font-size: .7em;
   clear: both;
@@ -332,18 +283,15 @@ body.xd .xd-header .s4-notdlg {
   margin-right: -11px;
 }
 
-/* line 166, ../sass/xd.scss */
 body.xd .xd-search {
   display: inline-block;
   float: right;
 }
 
-/* line 171, ../sass/xd.scss */
 body.xd .xd-search .ms-sbplain {
   background-image: none;
 }
 
-/* line 175, ../sass/xd.scss */
 body.xd .xd-search input {
   margin: 0px;
   padding: 0 0 0 5px;
@@ -359,14 +307,12 @@ body.xd .xd-search input {
 /* ==========================================================================
    3.0 Menu
    ========================================================================== */
-/* line 190, ../sass/xd.scss */
 .xd-menu {
   background-color: #00b0e2;
   padding: 0 30px;
   border-top: solid 1px #61C3E8;
 }
 
-/* line 196, ../sass/xd.scss */
 .xd-menu .s4-tn li.static > .menu-item {
   height: 100%;
   color: #7FD7F1;
@@ -375,14 +321,12 @@ body.xd .xd-search input {
   font-size: .9em;
 }
 
-/* line 206, ../sass/xd.scss */
 .xd-welcome .ms-welcomeMenu, .xd-welcome .s4-trc-container-menu {
   background: none;
   padding: 0px;
   margin: 0px;
 }
 
-/* line 212, ../sass/xd.scss */
 .xd-menu .menu ul li:first-child .menu-item {
   color: white;
 }
@@ -390,7 +334,6 @@ body.xd .xd-search input {
 /* ==========================================================================
    4.0 Footer
    ========================================================================== */
-/* line 219, ../sass/xd.scss */
 .xd-footer {
   padding: 30px;
   font-size: 0.8em;

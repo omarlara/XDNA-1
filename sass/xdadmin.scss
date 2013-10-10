@@ -161,29 +161,54 @@ body.xd
 		.sidebar-button{
 			border: none;
 			background-color: #006C8C;
-			border-top: 2px solid #004255;
-			border-right: 2px solid #004255;
+			border-top: 2px solid $darkestBlue;
+			border-right: 2px solid $darkestBlue;
 		}
 		.menu-icon{
-			border-top: 2px solid #004255;
+			border-top: 2px solid $darkestBlue;
 
 		}
 		.xd-menu{
 			border:none;
 			li{
-				background-color: #0088AF;
+				background-color: $middleBlue;
 				border-bottom: 1px solid #007597;
 			}
 		}
 		.s4-tn{
-			background: #0088AF;
+			background: $middleBlue;
 		}
+
+
+
+
+
 	}
+
+	html input[type="button"], input[type="reset"], input[type="submit"] {
 		
+		border: none;
+		padding: 1em 2em;
+		color: #fff;
+		text-highlight: none;
+		font-weight: bold;
+	}
+
+	input[type="button"]{
+		background-color: $lightBlue;
+	}
+	input[type="reset"]{
+		background-color: $darkBlue;
+	}
+	input[type="submit"]{
+		background-color: $middleBlue;
+	}
+
+
 
 	//LeftPanel
 	body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
-			background: #006C8C;
+			background: $darkBlue;
 			.ms-splinkbutton-text{
 				color:#fff;
 			}
