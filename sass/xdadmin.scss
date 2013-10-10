@@ -309,6 +309,9 @@ html:not(.ms-dialog-nr){
 				 @include box-sizing(border-box);
 			}
 			position: relative;
+			img{
+				max-width: 100%;
+			}
 		}
 		.ms-itmhover{
 			display: none ;
