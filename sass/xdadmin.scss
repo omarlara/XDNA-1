@@ -135,7 +135,9 @@ body.xd
 			padding: 0;
 		}
 			//LeftPanel
-		.s4-leftpanel{
+		
+	}
+	.s4-leftpanel{
 			background: #006C8C;
 			.menu > ul > li {
 
@@ -150,9 +152,8 @@ body.xd
 				}
 			}
 		}
-	}
 
-
+	
 	/**.xd-footer{
 		padding: 20px 0;
 		text-align: center;
@@ -202,7 +203,9 @@ img[src="/_layouts/images/blank.gif"]{
 html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
-
+	body.system .button{
+		float: right;
+	}
 	table colgroup{
 		display: none;
 	}
