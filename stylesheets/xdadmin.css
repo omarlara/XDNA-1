@@ -237,6 +237,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li a {
   text-decoration: none;
+  font-size: 0.9em;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li > a {
   color: #fff;
@@ -250,7 +251,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.r
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li > a {
   color: #fff;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
