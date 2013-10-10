@@ -148,6 +148,9 @@ body.xd
 	
 }
 	body.xd #s4-workspace{
+		.mobile-submenu li{
+			background-color: #0096C1;
+		}
 		.menu-icon, .sidebar-button{
 			background-position: 7% center;
 			
@@ -179,6 +182,9 @@ body.xd
 	//LeftPanel
 	body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 			background: #006C8C;
+			.ms-splinkbutton-text{
+				color:#fff;
+			}
 			.menu > ul > li {
 				a{
 					text-decoration: none;

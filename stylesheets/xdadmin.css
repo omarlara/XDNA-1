@@ -232,6 +232,9 @@ body.xd #main-content .ms-pageinformation {
   padding: 0;
 }
 
+body.xd #s4-workspace .mobile-submenu li {
+  background-color: #0096C1;
+}
 body.xd #s4-workspace .menu-icon, body.xd #s4-workspace .sidebar-button {
   background-position: 7% center;
 }
@@ -257,6 +260,9 @@ body.xd #s4-workspace .s4-tn {
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
   background: #006C8C;
+}
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkbutton-text {
+  color: #fff;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li a {
   text-decoration: none;
