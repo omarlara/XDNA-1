@@ -494,7 +494,7 @@ img[src="/_layouts/images/blank.gif"] {
     display: block;
     background: #c2e0f3;
     padding: 10px;
-    border-bottom: 1px solid #009fd9;
+    border-bottom: 1px solid #97caeb;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title td {
     line-height: 25px;
@@ -502,7 +502,8 @@ img[src="/_layouts/images/blank.gif"] {
     color: #004255;
     font-size: 1.4em;
     font-weight: bold;
-    line-height: 25px;
+    padding: 0;
+    line-height: 30px;
     text-align: left;
     text-indent: 1em;
   }

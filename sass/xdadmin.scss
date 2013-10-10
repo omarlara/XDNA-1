@@ -433,14 +433,15 @@ html:not(.ms-dialog-nr){
 			display: block;
 			background: $blue;
 			padding: 10px;
-			border-bottom: 1px solid $lightBlue;
+			border-bottom: 1px solid darken($blue, 10%);
 			td{
 				line-height: 25px;
 				font-size: 1.4em;
 				color: $darkestBlue;
 			    font-size: 1.4em;
 			    font-weight: bold;
-			    line-height: 25px;
+			    padding: 0;
+			    line-height: 30px;
 			    text-align: left;
 			    text-indent: 1em;
 
