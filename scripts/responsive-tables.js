@@ -83,7 +83,7 @@ var table = $('#main-content table'),
           .on({
             click: function(){
 
-              $('.accordion-title').removeClass('active').not(this).next().slideUp(100);
+              $('.accordion-title').not(this).removeClass('active').next().slideUp(100);
 
 
 
