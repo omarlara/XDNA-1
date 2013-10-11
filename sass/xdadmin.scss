@@ -301,7 +301,7 @@ img[src="/_layouts/images/blank.gif"]{
 		td{
 			display: block;
 			width:auto !important; 
-			background-color: none !important;
+
 		}
 		input, textarea{
 			width: 100% !important;
@@ -315,6 +315,10 @@ img[src="/_layouts/images/blank.gif"]{
 		}
 		.ms-formtable{
 			padding: 15px;
+		}
+		.ms-formbody{
+			background-color: none !important;
+			
 		}
 	}
 }

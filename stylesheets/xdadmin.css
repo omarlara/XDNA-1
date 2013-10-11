@@ -368,7 +368,6 @@ img[src="/_layouts/images/blank.gif"] {
   .ms-dialog td {
     display: block;
     width: auto !important;
-    background-color: none !important;
   }
   .ms-dialog input, .ms-dialog textarea {
     width: 100% !important;
@@ -382,6 +381,9 @@ img[src="/_layouts/images/blank.gif"] {
   }
   .ms-dialog .ms-formtable {
     padding: 15px;
+  }
+  .ms-dialog .ms-formbody {
+    background-color: none !important;
   }
 }
 @media only screen and (max-width: 768px) {
