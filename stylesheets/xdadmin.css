@@ -365,24 +365,24 @@ img[src="/_layouts/images/blank.gif"] {
     width: auto !important;
   }
 
-  .ms-dialog td {
+  .ms-dlgContent td {
     display: block;
     width: auto !important;
   }
-  .ms-dialog input, .ms-dialog textarea {
+  .ms-dlgContent input, .ms-dlgContent textarea {
     width: 100% !important;
     box-sizing: border-box;
     padding: 15px;
     margin: 10px 0;
     display: block;
   }
-  .ms-dialog select {
+  .ms-dlgContent select {
     display: block;
   }
-  .ms-dialog .ms-formtable {
+  .ms-dlgContent .ms-formtable {
     padding: 15px;
   }
-  .ms-dialog .ms-formbody {
+  .ms-dlgContent .ms-formbody {
     background: none !important;
   }
 }
