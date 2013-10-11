@@ -125,7 +125,7 @@
   	 width: 13.2em;
   }**/
 }
-.ms-dialog .xd-header, .ms-dialog .menu-icon, .ms-dialog .sidebar-button {
+.ms-dialog .xd-header, .ms-dialog .menu-icon, .ms-dialog .sidebar-button, .ms-dialog .xd-footer {
   display: none !important;
 }
 .ms-dialog .ms-sectionheader h3.ms-standardheader {
