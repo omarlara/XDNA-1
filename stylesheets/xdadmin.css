@@ -374,6 +374,7 @@ img[src="/_layouts/images/blank.gif"] {
     box-sizing: border-box;
     padding: 15px;
     margin: 10px 0;
+    display: block;
   }
   .ms-dialog .ms-formtable {
     padding: 15px;
