@@ -661,7 +661,7 @@ html:not(.ms-dialog-nr){
  			padding-left: 100px;
  			text-align: left;
  			line-height: 25px;
- 			&[colspan="3"]{
+ 			&[colspan="3"] .fieldName{
  				display: none;
  			}
  		}
