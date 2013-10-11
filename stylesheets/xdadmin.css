@@ -696,7 +696,7 @@ img[src="/_layouts/images/blank.gif"] {
     font-size: 1em;
     padding-left: 100px;
     text-align: left;
-    line-height: 40px;
+    line-height: 25px;
   }
   html:not(.ms-dialog-nr) body.xd #main-content > table {
     width: auto;
