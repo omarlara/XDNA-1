@@ -535,7 +535,7 @@ img[src="/_layouts/images/blank.gif"] {
     border-left: 7px solid #004255;
     position: absolute;
     right: 10px;
-    top: 5px;
+    margin-top: 5px;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title.active:before {
     content: '';
@@ -546,7 +546,7 @@ img[src="/_layouts/images/blank.gif"] {
     border-top: 7px solid #004255;
     position: absolute;
     right: 10px;
-    margin-top: 10px;
+    margin-top: 4px;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title:hover {
     background: #d7ebf7;

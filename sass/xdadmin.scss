@@ -475,7 +475,7 @@ html:not(.ms-dialog-nr){
 					border-left: 7px solid $darkestBlue;
 					position: absolute;
 					right: 10px;
-					top: 5px;
+					margin-top: 5px;
 				}
 			&.active:before{
 					content:'';
@@ -486,7 +486,7 @@ html:not(.ms-dialog-nr){
 					border-top: 7px solid $darkestBlue;
 					position: absolute;
 					right: 10px;
-					margin-top: 10px;
+					margin-top: 4px;
 			}
 			&:hover{
 				background: lighten($blue, 5%);
