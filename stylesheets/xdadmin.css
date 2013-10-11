@@ -409,9 +409,6 @@ img[src="/_layouts/images/blank.gif"] {
    		}
    	} **/
   }
-  html:not(.ms-dialog-nr) tr.s4-itm-selected, html:not(.ms-dialog-nr) tr.s4-itm-selected:hover {
-    background-color: #00b2f3;
-  }
   html:not(.ms-dialog-nr) body.system .button {
     float: right;
   }
@@ -466,6 +463,9 @@ img[src="/_layouts/images/blank.gif"] {
     padding: 0 !important;
     overflow: hidden;
     padding: 10px 0;
+  }
+  html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover {
+    background-color: #0dbeff !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #layoutsTable {
     -webkit-box-sizing: border-box;
