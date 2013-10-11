@@ -121,7 +121,7 @@
 }
 
 .ms-dlgFrameContainer {
-  overflow: none;
+  overflow: none !important;
 }
 
 .ms-dialog {
