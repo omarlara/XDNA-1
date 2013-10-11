@@ -663,9 +663,8 @@ html:not(.ms-dialog-nr){
 			a{
 				font-size: 1.3em;
 			}
-			td{
-				display: table-cell !important;
-			}
+			display: table-cell ;
+			
 		}
 		.ms-menutoolbar td a {
 			color: #0072bc !important;
