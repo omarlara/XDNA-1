@@ -295,6 +295,9 @@ img[src="/_layouts/images/blank.gif"]{
 html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
+	tr.s4-itm-selected, tr.s4-itm-selected:hover {
+		background-color: lighten($lightBlue, 5%);
+	}
 	body.system .button{
 		float: right;
 	}
