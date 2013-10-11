@@ -303,7 +303,7 @@ img[src="/_layouts/images/blank.gif"]{
 			width:auto !important; 
 		}
 		input{
-			width: 100%;
+			width: 100% !important;
 			box-sizing: border-box;
 			padding: 15px;
 			margin: 10px 0;
@@ -492,7 +492,7 @@ html:not(.ms-dialog-nr){
 					border-top: 7px solid $darkestBlue;
 					position: absolute;
 					right: 10px;
-					margin-top: 4px;
+					margin-top: 8px;
 			}
 			&:hover{
 				background: lighten($blue, 5%);
