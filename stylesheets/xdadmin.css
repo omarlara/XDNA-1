@@ -574,7 +574,7 @@ img[src="/_layouts/images/blank.gif"] {
     color: #fff;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected > td, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover > td {
-    background: #c2e0f3 !important;
+    background: white !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView table {
     display: table !important;

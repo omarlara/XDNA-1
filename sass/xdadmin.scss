@@ -520,7 +520,7 @@ html:not(.ms-dialog-nr){
 			font-size: 1.1em;
 		}
 		tr.s4-itm-selected > td, tr.s4-itm-selected:hover > td{
-			background: $blue !important;
+			background: lighten($blue, 15%) !important;
 		}
 		#AsynchronousViewDefault_CalendarView{
 			table{
