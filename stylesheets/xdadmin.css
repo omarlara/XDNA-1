@@ -702,7 +702,7 @@ img[src="/_layouts/images/blank.gif"] {
     font-size: 1.3em;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb td {
-    display: table-cell;
+    display: table-cell !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar td a {
     color: #0072bc !important;

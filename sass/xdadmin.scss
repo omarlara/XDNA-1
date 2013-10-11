@@ -664,7 +664,7 @@ html:not(.ms-dialog-nr){
 				font-size: 1.3em;
 			}
 			td{
-				display: table-cell;
+				display: table-cell !important;
 			}
 		}
 		.ms-menutoolbar td a {
