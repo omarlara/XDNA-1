@@ -3,9 +3,11 @@
 @import "helpers";
 @import "layout";
 
+			.ms-dlgFrameContainer {
+				overflow: none;
+			}
 
-
-		.ms-dlgContent {
+		.ms-dialog {
 			.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 				display: none !important;
 			}
@@ -24,9 +26,7 @@
     				text-align: center;
     			}
 			}
-			.ms-dlgFrameContainer {
-				overflow: none;
-			}
+			
 			
 			/**.ms-ButtonHeightWidth{
 				 width: 13.2em;

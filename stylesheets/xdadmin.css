@@ -120,29 +120,30 @@
   background-origin: border-box;
 }
 
-.ms-dlgContent {
+.ms-dlgFrameContainer {
+  overflow: none;
+}
+
+.ms-dialog {
   /**.ms-ButtonHeightWidth{
   	 width: 13.2em;
   }**/
 }
-.ms-dlgContent .xd-header, .ms-dlgContent .menu-icon, .ms-dlgContent .sidebar-button, .ms-dlgContent .xd-footer {
+.ms-dialog .xd-header, .ms-dialog .menu-icon, .ms-dialog .sidebar-button, .ms-dialog .xd-footer {
   display: none !important;
 }
-.ms-dlgContent .ms-sectionheader h3.ms-standardheader {
+.ms-dialog .ms-sectionheader h3.ms-standardheader {
   font-size: 1.1em;
   line-height: 1.4;
 }
-.ms-dlgContent .ms-descriptiontext {
+.ms-dialog .ms-descriptiontext {
   font-size: 1em;
   line-height: 1.3;
   line-height: 1.7;
   padding: 7px;
 }
-.ms-dlgContent .ms-descriptiontext table {
+.ms-dialog .ms-descriptiontext table {
   text-align: center;
-}
-.ms-dlgContent .ms-dlgFrameContainer {
-  overflow: none;
 }
 
 body.xd {
