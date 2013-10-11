@@ -661,6 +661,9 @@ html:not(.ms-dialog-nr){
  			padding-left: 100px;
  			text-align: left;
  			line-height: 25px;
+ 			&[colspan="3"]{
+ 				display: none;
+ 			}
  		}
 
  		> table{

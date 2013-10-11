@@ -698,6 +698,9 @@ img[src="/_layouts/images/blank.gif"] {
     text-align: left;
     line-height: 25px;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb2[colspan="3"] {
+    display: none;
+  }
   html:not(.ms-dialog-nr) body.xd #main-content > table {
     width: auto;
     display: block;
