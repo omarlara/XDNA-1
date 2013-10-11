@@ -355,6 +355,11 @@ img[src="/_layouts/images/blank.gif"] {
   .ms-authoringcontrols tbody {
     width: auto !important;
   }
+
+  .ms-dialog td {
+    display: block;
+    width: auto !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   html:not(.ms-dialog-nr) {
