@@ -250,6 +250,7 @@ body.xd #s4-workspace .mobile-submenu li {
 body.xd #s4-workspace .menu-icon, body.xd #s4-workspace .sidebar-button {
   background-position: 7% center;
   box-shadow: none;
+  font-size: 1.3em;
 }
 body.xd #s4-workspace .sidebar-button {
   -webkit-box-sizing: border-box;
