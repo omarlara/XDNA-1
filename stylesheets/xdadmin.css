@@ -586,7 +586,7 @@ img[src="/_layouts/images/blank.gif"] {
     display: table !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView td {
-    display: table-cell !important;
+    display: block !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView tr {
     display: table-row !important;
