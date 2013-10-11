@@ -409,6 +409,7 @@ html:not(.ms-dialog-nr){
  	* html table.ms-listviewtable thead{ zoom: 1;}
 
 	body.xd #main-content{
+		padding: 0;
 		#layoutsTable{
 			@include box-sizing(border-box);
     		display: block;

@@ -463,6 +463,7 @@ img[src="/_layouts/images/blank.gif"] {
     zoom: 1;
   }
   html:not(.ms-dialog-nr) body.xd #main-content {
+    padding: 0;
     overflow: hidden;
     padding: 10px 0;
   }
