@@ -439,6 +439,7 @@ img[src="/_layouts/images/blank.gif"] {
     display: block;
     margin-left: -90px;
     width: 90px;
+    font-size: 0.8em;
   }
   html:not(.ms-dialog-nr) td label {
     display: inline-block !important;
