@@ -563,6 +563,9 @@ img[src="/_layouts/images/blank.gif"] {
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView tr {
     display: table-row !important;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-detail th {
+    display: table-cell !important;
+  }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols {
     background: none !important;
     clear: both;

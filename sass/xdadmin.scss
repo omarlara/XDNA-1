@@ -509,6 +509,11 @@ html:not(.ms-dialog-nr){
 			tr{
 				display: table-row !important;
 			}
+			.ms-acal-detail{
+				th{
+					display: table-cell !important;
+				}
+			}
 		}
 		.ms-authoringcontrols {
 			background: none !important;
