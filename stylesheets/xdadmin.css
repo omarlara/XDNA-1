@@ -547,6 +547,9 @@ img[src="/_layouts/images/blank.gif"] {
   html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable td {
     width: 100% !important;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable tr {
+    border-bottom: 1px solid #ccc;
+  }
   html:not(.ms-dialog-nr) body.xd #main-content #onetidMngCytpeRptrTable td {
     display: table-cell;
     padding: 15px 16px;

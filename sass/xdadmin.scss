@@ -492,6 +492,9 @@ html:not(.ms-dialog-nr){
 			td{
 				width: 100% !important;
 			}
+			tr{
+				border-bottom: 1px solid #ccc;
+			}
 		}
 		#onetidMngCytpeRptrTable td{
 			display: table-cell;
