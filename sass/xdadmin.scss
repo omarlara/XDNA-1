@@ -302,6 +302,12 @@ img[src="/_layouts/images/blank.gif"]{
 			display: block;
 			width:auto !important; 
 		}
+		input{
+			width: 100%;
+			box-sizing: border-box;
+			padding: 15px;
+			margin: 10px 0;
+		}
 	}
 }
 

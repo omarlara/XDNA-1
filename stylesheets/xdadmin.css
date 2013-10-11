@@ -369,6 +369,12 @@ img[src="/_layouts/images/blank.gif"] {
     display: block;
     width: auto !important;
   }
+  .ms-dialog input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px 0;
+  }
 }
 @media only screen and (max-width: 768px) {
   html:not(.ms-dialog-nr) {
