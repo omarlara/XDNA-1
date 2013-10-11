@@ -594,6 +594,9 @@ img[src="/_layouts/images/blank.gif"] {
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-detail th {
     display: table-cell !important;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-vcont td {
+    display: block !important;
+  }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-outday {
     border-right: solid 1px #d9dde1 !important;
     border-left: solid 1px #d9dde1 !important;

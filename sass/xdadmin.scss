@@ -543,6 +543,11 @@ html:not(.ms-dialog-nr){
 					display: table-cell !important;
 				}
 			}
+			.ms-acal-vcont{
+				td{
+					display: block !important;
+				}
+			}
 			.ms-acal-outday{
 				border-right: solid 1px #d9dde1 !important;
 				border-left: solid 1px #d9dde1 !important;
