@@ -149,6 +149,9 @@ body.xd {
   	margin: 30px 0 16px;
   }**/
 }
+body.xd .s4-specialNavLinkList {
+  border: none;
+}
 body.xd tr.ms-itmhover {
   display: table-row;
 }
