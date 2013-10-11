@@ -701,6 +701,9 @@ img[src="/_layouts/images/blank.gif"] {
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb a {
     font-size: 1.3em;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-vb td {
+    display: table-cell;
+  }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar td a {
     color: #0072bc !important;
     font-size: 12pt;
