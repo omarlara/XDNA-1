@@ -201,10 +201,6 @@ body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms
 body.xd table.ms-listviewtable thead {
   background: white;
 }
-body.xd table.ms-listviewtable td {
-  text-align: left;
-  display: table-cell !important;
-}
 body.xd body, body.xd body thead td, body.xd body tfoot td, body.xd body td#header {
   background: none !important;
 }

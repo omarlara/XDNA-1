@@ -90,10 +90,7 @@ body.xd
 		thead{
 			background: white
 		}
-		td{
-			text-align: left;
-			display: table-cell !important;
-		}
+		
 	}
 	// Override bg injected by global.css 
 	body , body thead td, body tfoot td, body td#header {
