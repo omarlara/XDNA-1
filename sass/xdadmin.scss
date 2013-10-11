@@ -533,7 +533,7 @@ html:not(.ms-dialog-nr){
 		 		display: table !important;
 		 	}
 		 	td{
-				display: block !important;
+				display: table-cell !important;
 			}
 			tr{
 				display: table-row !important;
