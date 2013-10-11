@@ -368,12 +368,16 @@ img[src="/_layouts/images/blank.gif"] {
   .ms-dialog td {
     display: block;
     width: auto !important;
+    background-color: none;
   }
-  .ms-dialog input {
+  .ms-dialog input, .ms-dialog textarea {
     width: 100% !important;
     box-sizing: border-box;
     padding: 15px;
     margin: 10px 0;
+    display: block;
+  }
+  .ms-dialog select {
     display: block;
   }
   .ms-dialog .ms-formtable {

@@ -301,12 +301,16 @@ img[src="/_layouts/images/blank.gif"]{
 		td{
 			display: block;
 			width:auto !important; 
+			background-color: none;
 		}
-		input{
+		input, textarea{
 			width: 100% !important;
 			box-sizing: border-box;
 			padding: 15px;
 			margin: 10px 0;
+			display: block;
+		}
+		select{
 			display: block;
 		}
 		.ms-formtable{
