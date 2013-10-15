@@ -353,7 +353,7 @@ body.xd .xd-search input {
   }
   
   body.xd .xd-header .row {
-    max-width: 100%;
+    max-width: 1280px;
   }
   
   /* Logo description "experience design" */
@@ -643,9 +643,7 @@ body.xd .xd-search input {
   }
   /* Mobile       ----------- */
   @media only screen and (max-width: 620px) {
-    body.xd #main-content{
 
-    }
     body.xd #carPaginate.loadFade {
       width: auto !important;
     }
