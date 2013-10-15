@@ -3,6 +3,12 @@
 @import "helpers";
 @import "layout";
 
+
+html{
+    background: #efefef;
+  }
+
+  
 body.xd{
     .menu-icon{
         background: darken($blue, 10%);
@@ -22,40 +28,12 @@ body.xd{
     display: none ;
     clear: both;
   }
- /** .dynamic-children{
-    &:hover{
-      cursor: pointer;
-    }
-    .arrow-down{
-      width: 0;
-      height: 0;
-      border-left: 7px solid transparent;
-      border-right: 7px solid transparent;
-      border-top: 7px solid lighten($blue, 10%);
-      float: right;
-      margin-left: 11px;
-
-    }
-    .arrow-right{
-      width: 0;
-      height: 0;
-      border-bottom: 7px solid transparent;
-      border-top: 7px solid transparent;
-      border-left: 7px solid lighten($blue, 10%);
-      float: right;
-      margin-left: 11px;
-
-    }
-    .additional-background{
-      .menu-item-text{
-        float: left;
-      }
-      background: none !important;
-    }
-  } **/
   #zz15_TopNavigationMenuV4{
     display: none;
   }
+  /* ==========================================================================
+   Mobile
+   ========================================================================== */
 	@include mobile-only{
     .menu-icon{
       display: block;
@@ -90,15 +68,18 @@ body.xd{
 			}
 		}
 	}
+  /* ==========================================================================
+   Tablet
+   ========================================================================== */
   @include tablet-landscape-and-up{
     .menu-icon{
       display: none;
     }
   }
-}
 
 
-/* ==========================================================================
+
+  /* ==========================================================================
    INDEX
    1.0 Master Page Wrappers and GLOBAL
    2.0 Header Styles
@@ -109,159 +90,237 @@ body.xd{
 /* ==========================================================================
    1.0 Master Page Wrappers
    ========================================================================== */
-body.xd #ctl00_MSO_ContentDiv,
-body.xd #s4-bodyContainer {
-  min-width: inherit;
-}
 
-body.xd #s4-leftpanel {
-  display: none;
-}
-
-body.xd .s4-ca {
-  margin-left: 0px;
-}
-
-body.xd hr {
-  border-bottom: none;
-}
-
-body.xd {
   background-color: #efefef;
-}
+  #ctl00_MSO_ContentDiv, 
+  #s4-bodyContainer {min-width: 320px}
+
+  #s4-leftpanel   {display: none;}
+  .s4-ca {margin-left: 0px;}
+  hr {
+    border-bottom: none;
+  }
 
 /* ==========================================================================
    2.0 Header Styles
    ========================================================================== */
-body.xd .xd-header {
-  background-color: #009fd9;
-  padding: 30px;
-}
-
-body.xd .xd-header h1 {
-  display: inline-block;
-  font-weight: lighter;
-  margin: 0px;
-}
-
-body.xd .xd-header h1 a {
-  color: #fff;
-  margin-left: 20px;
-  font-size: 0.9em;
-}
-
-body.xd .xd-header .s4-notdlg {
-  display: inline-block;
-}
-
-.xd-welcome {
-  font-size: .7em;
-  clear: both;
-  overflow: hidden;
-  display: inline-block;
-  float: right;
-  margin-right: -11px;
-}
-
-body.xd .xd-search {
-  display: inline-block;
-  float: right;
-}
-
-body.xd .xd-search .ms-sbplain {
-  background-image: none;
-}
-
-body.xd .xd-search input {
-  margin: 0px;
-  padding: 0 0 0 5px;
-  height: 19px;
-  font-size: 11px;
-  float: right;
-  background-color: #fff;
-  background-image: none;
-  box-shadow: none;
-  border: none !important;
-}
-
-/* ==========================================================================
-   3.0 Menu
-   ========================================================================== */
-.xd-menu {
-  background-color: #00b0e2;
-  padding: 0 30px;
-  border-top: solid 1px #61C3E8;
-}
-
-.xd-menu .s4-tn li.static > .menu-item {
-  height: 100%;
-  color: #7FD7F1;
-  padding: 17px 30px 15px;
-  text-transform: uppercase;
-  font-size: .9em;
-}
-
-
-
-.xd-welcome .ms-welcomeMenu, .xd-welcome .s4-trc-container-menu {
-  background: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-.xd-menu .menu ul li:first-child .menu-item {
-  color: white;
-}
-
-/* ==========================================================================
-   4.0 Footer
-   ========================================================================== */
-.xd-footer {
-  padding: 30px;
-  font-size: 0.8em;
-}
-
-
-/* ==========================================================================
-   INDEX
-   1.0 Master Page Wrappers and GLOBAL
-   2.0 Header Styles
-   3.0 Menu
-   4.0 Footer
-   5.0 Media Queries
+  .xd-header {
+    background-color: #009fd9;
+    padding: 30px;
+    h1 {
+      display: inline-block;
+      font-weight: lighter;
+      margin: 0px;
+      margin-top: 0px;
+      a {
+        color: #fff;
+        margin-left: 20px;
+        font-size: 0.9em;
+        font-family: "Segoe UI"; 
+        font-size: 1.2em;
+      }
+    }
+    
+    .s4-notdlg {
+      display: inline-block;
+      img{
+        max-height:38px;
+        max-width:137px;
+      }
+    }
+    .row {
+      max-width: 1280px;
+    }
+    .s4-clust.ms-viewselector-arrow{
+      display:none
+    }
+  }
+  /* ==========================================================================
+   2.1 Welcome
    ========================================================================== */
   
-/* ==========================================================================
-   1.0 Master Page Wrappers
+  .xd-welcome {
+    clear: both;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    margin-right: -11px;
+    text-align:right;
+    font-size:1.2em; color:#fff;
+    .ms-welcomeMenu,
+    .s4-trc-container-menu {
+      background: none;
+      padding: 0px;
+      margin: 0px;
+      font-family:"Segoe UI"
+    }
+    #auth{
+       margin-right:0px;
+       margin-top: 0px;
+       line-height: inherit;
+       .thumb{
+        margin-left: 20px;
+         line-height: inherit;
+      }
+      img{
+        margin: 0
+      }
+    }
+    a {color:#fff;} 
+    > img {margin-left: 20px;} 
+    .s4-trc-container-menu {margin-top:22px;}
+    #zz16_Menu > span:before{
+      content:"Ã¢â€“Â¼";
+      display:inline-block;   
+      float: right;
+      font-size: 11px;
+      margin-right:0px;  
+    }
+    .s4-clust.ms-viewselector-arrow > img {display:none }
+    .welcome{
+      color:#fff;
+      margin-top:1px;
+      display:inline-block;
+      font-weight: bold;
+    }
+
+  }
+  /* ==========================================================================
+   2.2 Search
    ========================================================================== */
-  html{
-    background: #efefef;
-  }
-  body.xd{
-    background-color:#efefef
-  }     
-  body.xd hr{
-    border-bottom:none
-  }
   
+  .xd-search {
+    display: inline-block;
+    float: right;
+    display:none;
+    .ms-sbplain {
+      background-image: none;
+    }
+    input {
+      margin: 0px;
+      padding: 0 0 0 5px;
+      height: 19px;
+      float: right;
+      background-image: none;
+      background-color: transparent;
+      box-shadow: none;
+      border:none !important;
+      font-style:normal;
+      font-size:1em
+    }
+    td {
+      img {display:none}
+      &:first-child {display:block}
+      &:nth-of-type(2) {background-color:#fff;}
+      a{
+        height:20px;
+        width:20px;
+        display:inline-block;
+        background:url("img/Search-Find.png") -7px -5px;
+      }
+    } 
+  }
+  /* ==========================================================================
+   3.0 Menu
+   ========================================================================== */
+  .xd-menu {
+    background-color: #00b0e2;
+    padding: 0 30px;
+    border-top: solid 1px #61C3E8;
+    overflow:visible;
+
+    .s4-tn li.static > .menu-item {
+      height: 100%;
+      color: #7FD7F1;
+      padding: 17px 30px 15px;
+      text-transform: uppercase;
+      font-size: .9em;
+    }
+    .menu ul li:first-child .menu-item {
+      color: white;
+    }
+    .s4-tn ul.dynamic  {
+      border:none; 
+      border-top: 1px solid #61C3E8;
+    }  
+    li {background-color:#00B0E2}  
+    .s4-tn {
+      li.static .menu-item{
+        height:100%;
+        color:#fff;
+        padding:17px 30px 15px;
+        text-transform:uppercase;
+        font-size:1.2em;
+        font-weight: bold;
+        &:hover{
+          background-color:#009fd9;
+          text-decoration:none;
+          color:#fff
+        }
+      }
+      li:first-child .menu-item{
+        color:#fff
+      }
+    }
+    .static.dynamic-children li{
+      background-color: #009FD9;
+      & a:hover{
+        background-color: #0088AF
+      }
+    }
+  }
+  .menu-horizontal a.dynamic-children span.additional-background,
+  .menu-horizontal span.dynamic-children span.additional-background{
+    background-image:none;
+    /*background-image:url("img/drop-down-arrow.png");*/
+    background-position: right 5px;
+    padding-right: 15px;
+    &:before{
+      content:"▼";
+      display:inline-block;   
+      float: right;
+      font-size: 11px;
+      margin-right: -20px;    
+    }
+  }
+  .menu-icon {
+    background: #0088af;
+    cursor: pointer;
+    width: 100%;
+    padding:20px 0; 
+    text-align: center;
+    z-index: 1;
+    right: 0;
+    @include transition(all 0.2s ease);
+    background-image:url("img/menu.png");
+    background-position:70% center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight:bold;
+    font-size: 1.1em;
+    &:hover {
+      background-color: #009cc9;
+    }
+  }
+  .mobile-submenu {
+    display: none;
+    clear: both;
+  }
+  /* ==========================================================================
+   4.0 Footer
+   ========================================================================== */
+   .xd-footer {
+    padding:20px;
+    font-size: 0.8em;
+  }
   /* Body Wrappers */
-  body.v4master.xd{overflow: auto;width: auto; margin:0 auto}
-  body.v4master.xd #s4-bodyContainer{padding: 0;}
-  body.v4master.xd #ctl00_MSO_ContentDi {padding-top: 0; width: auto;}
-  
-
-  body.xd .inner-wrapper, 
-  body.xd .inner-wrapper{
-     font-size: 11px;
+  &.v4master  {
+    overflow: auto;width: auto; margin:0 auto;
+    #s4-bodyContainer{padding: 0;}
+    #ctl00_MSO_ContentDi {padding-top: 0; width: auto;}
   }
-  body.xd .inner-wrapper .columns,
-  body.xd .inner-wrapper .columns:before,
-  body.xd .inner-wrapper .columns:after {
-     -moz-box-sizing: border-box;
-     -webkit-box-sizing: border-box;
-      box-sizing: border-box; 
-  }
-  body.xd .inner-wrapper {
+  .inner-wrapper{
+    font-size: 11px;
     background: #efefef;
     color: #222222;
     padding: 0;
@@ -272,314 +331,79 @@ body.xd .xd-search input {
     line-height: 1.2;
     position: relative;
     cursor: default; 
+    .columns,
+    .columns:before,
+    .columns:after {
+        @include box-sizing(border-box);
+      }
+    /* Body Buttons and objetcs */  
+    a:hover   {cursor: pointer} 
+    a:focus   {outline: none}
+    object,embed {height: 100%}
+    /* Custom SharePoint Parts */
   }
-  
-  /* Body Buttons and objetcs */  
-  
-  body.xd .inner-wrapper a:hover {
-      cursor: pointer; 
-  } 
-  body.xd .inner-wrapper a:focus {
-      outline: none; 
-  }
-  body.xd .inner-wrapper object,
-  body.xd .inner-wrapper embed {
-      height: 100%; 
-  }
-
   /* Custom SharePoint Parts */
-  
-  body.xd .s4-ca{
-    margin-left:0px;
-  }
-  body.xd .xd-header .s4-notdlg{
-    display:inline-block  
-  }
-    body.xd #ctl00_MSO_ContentDiv, 
-  body.xd #s4-bodyContainer{
-    min-width: 320px
-  } 
-  body.xd #s4-leftpanel{
-    display:none
-  }
-    body.xd div.article, body.xd div.welcome{padding: 0}
+  div.article,
+  div.welcome{padding: 0}
   /* Header Search SharePoint Web Parts*/   
-
-  body.xd .ms-sbgo.ms-sbcell{
-    background-color:#fff
-  }
-  body.xd .xd-search .ms-sbplain{
-    background-image:none
-  }
-  
-  /* Paragraphs font size*/ 
-  
-  body.xd p{
-    font-size:1.2em
-  }   
-
+  .ms-sbgo.ms-sbcell  {background-color:#fff}
+  p {font-size:1.2em}
   /* Main Content & Arrows  */  
-  body.xd #carNext, body.xd #carPrev{
-    margin-left:0px;
-    margin-right:0px;
-  }
-  body.xd #carNext, 
-  body.xd #carPrev{
+  #carNext,
+  #carPrev{
+    margin-left:0;
+    margin-right:0;
     background-color:#009fd9;
     border:solid 2px #0088af;
     opacity: .9;
   }
-  
-  body.xd #carNext:hover, body.xd #carPrev:hover,
-  body.xd #carNext:active, 
-  body.xd #carPrev:active{
+  &:hover, &:active{
     background-color:#00B0E2;
     opacity: 1;
   }
-  body.xd .caroufredsel_wrapper{
+  .caroufredsel_wrapper{
     margin: 0 auto !important;
   }
-  body.xd  #main-content{
+  #main-content{
     width: 100%;
     position: relative; 
   }
-
-/* ==========================================================================
-   2.0 Header Styles
-   ========================================================================== */
-  body.xd .xd-header{
-    background-color:#009fd9;
-    padding:30px 0
-  }
-  
-  body.xd .xd-header .row {
-    max-width: 1280px;
-  }
-  
-  /* Logo description "experience design" */
-  body.xd .xd-header h1{
-    display:inline-block;
-    font-weight:lighter;
-    margin:0px; 
-    margin-top: 0px;
-  }
-  body.xd .xd-header h1 a{
-    color:#fff;
-    margin-left:20px;
-    font-family: "Segoe UI"; 
-      font-size: 1.2em;
-  }
-  
-  /* Logo IMG */
-  body.xd .xd-header .s4-notdlg img{
-    max-height:38px;
-    max-width:137px;
-  }
-  body.xd .xd-header .s4-clust.ms-viewselector-arrow{
-    display:none
-  }
-  /*body.xd .xd-title {background-color: transparent;font-size: 2em;padding: 1em 1em 0.5em;display:none;border:solid 1px red}*/
-    
-  /* Welcome wrapper */    
-
-  body.xd .xd-welcome{
-    clear:both;
-    overflow:hidden;
-    display:inline-block;
-    float:right;
-    text-align:right;
-    font-size:1.2em; color:#fff
-  }
-  body.xd .xd-welcome #auth{
-     margin-right:0px;
-     margin-top: 0px;
-     line-height: inherit;
-  }
-    
-    
-  body.xd .xd-welcome #auth .thumb{
-    margin-left: 20px;
-     line-height: inherit;
-  }
-  
-
-  body.xd .xd-welcome a{
-    color:#fff;   
-  } 
-  body.xd .xd-welcome > img {
-      margin-left: 20px;
-  }
-  body.xd img[id*="_PictureUrlImage"]{
+  img[id*="_PictureUrlImage"]{
     width: 60px; height: 60px;
   }
-  body.xd .xd-welcome .s4-trc-container-menu{
-    margin-top:22px;
-  }
-
-  body.xd .xd-welcome #zz16_Menu > span:before{
-    content:"Ã¢â€“Â¼";
-    display:inline-block;   
-      float: right;
-      font-size: 11px;
-      margin-right:0px;  
-  }
-  body.xd .xd-welcome .s4-clust.ms-viewselector-arrow > img{
-    display:none  
-  }
-  /* The word "Welcome" */    
-  body.xd .xd-welcome .welcome{
-    color:#fff;
-    margin-top:1px;
-    display:inline-block;
-    font-weight: bold;
-  }
-  /* Search */
-  body.xd .xd-search{
-    display:inline-block;
-    float:right;
-    display:none;
-  }
-  body.xd .xd-search input{
-    margin:0px;
-    padding:0 0 0 5px;
-    height:19px;
-    float:right;
-    background-color: transparent;
-    box-shadow: none;
-    border:none !important;
-    font-style:normal;
-    font-size:1em
-  }
-  body.xd .xd-search td img{
-    display:none  
-  } 
-  body.xd .xd-search td:first-child{
-    display:block
-  }
-  body.xd .xd-search td:nth-of-type(2){
-    background-color:#fff;
-  }
-  body.xd .xd-search td a{
-    height:20px;
-    width:20px;
-    display:inline-block;
-    background:url("img/Search-Find.png") -7px -5px;
-  }
-  
-  body.xd .s4-ca > div.s4-notdlg.social-bar, body.xd .s4-ca > div.s4-notdlg.xd-title {
+  .s4-ca > div.s4-notdlg.social-bar,
+  .s4-ca > div.s4-notdlg.xd-title {
     display:none
   }
-/* ==========================================================================
-   3.0 Menu
-   ========================================================================== */
-  .xd .menu-horizontal a.dynamic-children span.additional-background, 
-  .xd .menu-horizontal span.dynamic-children span.additional-background{
-    background-image:none;
-    /*background-image:url("img/drop-down-arrow.png");*/
-    background-position: right 5px;
-    padding-right: 15px;
-  } 
-  .xd .menu-horizontal a.dynamic-children span.additional-background:before,
-  .xd .menu-horizontal span.dynamic-children span.additional-background:before{
-      content:"▼";
-    display:inline-block;   
-      float: right;
-      font-size: 11px;
-      margin-right: -20px;      
-      }
-  .xd-menu .s4-tn ul.dynamic  {
-    border:none; 
-    border-top: 1px Solid #61C3E8;
 
-  }    
-  .xd-menu{   
-    background-color:#00b0e2;
-    overflow:visible;
+}
 
-    border-top:solid 1px #61C3E8;
-  }
-  .xd-menu li{
-    background-color:#00B0E2
-  }
-  .xd-menu .s4-tn li.static .menu-item{
-    height:100%;
-    color:#fff;
-    padding:17px 30px 15px;
-    text-transform:uppercase;
-    font-size:1.2em;
-    font-weight: bold;
 
-  }
-  .xd-menu .s4-tn li:first-child .menu-item{
-    color:#fff
-  }
-  .xd-menu .s4-tn li.static .menu-item:hover{
-    background-color:#009fd9;
-    text-decoration:none;
-    color:#fff
-  }
-  .xd-welcome .ms-welcomeMenu, .xd-welcome .s4-trc-container-menu{
-    background:none;
-    padding:0px;
-    margin:0px;
-    font-family:"Segoe UI"
-  }
 
-  /* Responsive Menu */
+
+
+
   
-  body.xd .menu-icon {
 
-    background: #0088af;
-    cursor: pointer;
-    width: 100%;
-    padding:20px 0; 
-    text-align: center;
-    z-index: 1;
-    right: 0;
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-    -webkit-transition-timing-function: ease;
-    -moz-transition-timing-function: ease;
-    -o-transition-timing-function: ease;
-    transition-timing-function: ease;
-    background-image:url("img/menu.png");
-    background-position:70% center;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-weight:bold;
-    font-size: 1.1em
-  }
-  body.xd .menu-icon:hover {
-    background-color: #009cc9;
-  }
-  body.xd .mobile-submenu {
-    display: none;
-    clear: both;
-  }
-  body.xd #zz15_TopNavigationMenuV4 {
-    display: none;
-  }
+  
 
-  #auth img{margin: 0}
 
-  body.xd .xd-menu .static.dynamic-children li{
-    background-color: #009FD9
-  }
-  body.xd .xd-menu .static.dynamic-children li a:hover{
-    background-color: #0088AF
-  }
-/* ==========================================================================
-   4.0 Footer
-   ========================================================================== */  
-  .xd-footer{
-    padding:20px;
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    5.0 Media Queries
    ========================================================================== */  
