@@ -74,7 +74,7 @@ var table = $('#main-content table'),
         titleHtml = $.trim(titleHtml);
       
         var thisParent = $(this).parent();
-        thisParent.before('<tr class="accordion-title" style="display:block; width:100%"><td>'+titleHtml+'</td></tr>');
+        thisParent.before('<tr class="accordion-title"><td>'+titleHtml+'</td></tr>');
         //thisParent.hide();
         
 
