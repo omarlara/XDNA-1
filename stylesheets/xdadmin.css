@@ -541,6 +541,8 @@ img[src="/_layouts/images/blank.gif"] {
     line-height: 30px;
     text-align: left;
     text-indent: 1em;
+    display: block;
+    width: auto;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title:before {
     content: '';
