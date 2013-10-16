@@ -439,6 +439,9 @@ img[src="/_layouts/images/blank.gif"] {
    		}
    	} **/
   }
+  html:not(.ms-dialog-nr) table {
+    table-layout: auto;
+  }
   html:not(.ms-dialog-nr) body.system .button {
     float: right;
   }

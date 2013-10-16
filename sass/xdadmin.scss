@@ -327,7 +327,10 @@ img[src="/_layouts/images/blank.gif"]{
 html:not(.ms-dialog-nr){
 
 @include tablet-portrait-and-below{
-	
+	table{
+		//IE Fix
+		table-layout: auto;
+	}
 	body.system .button{
 		float: right;
 	}
