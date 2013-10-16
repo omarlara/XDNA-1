@@ -8,7 +8,7 @@ html{
     background: #efefef;
   }
 
-  
+
 body.xd{
     .menu-icon{
         background: darken($blue, 10%);
@@ -375,7 +375,10 @@ body.xd{
   .s4-ca > div.s4-notdlg.xd-title {
     display:none
   }
-
+  .s4-tn{
+    max-width: 1280px;
+    margin:0 auto;
+  }
 }
 
 
