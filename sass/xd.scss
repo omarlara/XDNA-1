@@ -35,6 +35,9 @@ body.xd{
    Mobile
    ========================================================================== */
 	@include mobile-only{
+    .s4-ca{
+      margin-top: 70px;
+    }
     .menu-icon{
       display: block;
     }
@@ -161,8 +164,10 @@ body.xd{
        .thumb{
         margin-left: 20px;
          line-height: inherit;
+        
       }
       img{
+        min-height: 1px;
         margin: 0
       }
     }
@@ -292,20 +297,17 @@ body.xd{
     }
   }
   .menu-icon {
-    background: #0088af;
-    cursor: pointer;
     width: 100%;
-    padding:20px 0; 
-    text-align: center;
-    z-index: 1;
     right: 0;
     @include transition(all 0.2s ease);
     background-image:url("img/menu.png");
     background-position:70% center;
     background-repeat: no-repeat;
-    color: #fff;
-    font-weight:bold;
-    font-size: 1.1em;
+    font-size: 1.5em;
+    line-height: 3.8em;
+    font-weight: 300;
+    background: #fff;
+    color: #2e2e2e;
     &:hover {
       background-color: #009cc9;
     }

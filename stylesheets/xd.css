@@ -164,6 +164,8 @@ body.xd {
   body.xd #zz15_TopNavigationMenuV4 {
     display: none; }
   @media (max-width: 480px) {
+    body.xd .s4-ca {
+      margin-top: 70px; }
     body.xd .menu-icon {
       display: block; }
     body.xd .menu .ul.dynamic {
@@ -241,6 +243,7 @@ body.xd {
         margin-left: 20px;
         line-height: inherit; }
       body.xd .xd-welcome #auth img {
+        min-height: 1px;
         margin: 0; }
     body.xd .xd-welcome a {
       color: #fff; }
@@ -341,12 +344,7 @@ body.xd {
       font-size: 11px;
       margin-right: -20px; }
   body.xd .menu-icon {
-    background: #0088af;
-    cursor: pointer;
     width: 100%;
-    padding: 20px 0;
-    text-align: center;
-    z-index: 1;
     right: 0;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -355,9 +353,11 @@ body.xd {
     background-image: url("img/menu.png");
     background-position: 70% center;
     background-repeat: no-repeat;
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.1em; }
+    font-size: 1.5em;
+    line-height: 3.8em;
+    font-weight: 300;
+    background: #fff;
+    color: #2e2e2e; }
     body.xd .menu-icon:hover {
       background-color: #009cc9; }
   body.xd .mobile-submenu {
