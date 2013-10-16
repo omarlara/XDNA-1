@@ -398,6 +398,13 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     -o-background-size: cover;
     background-size: cover;
     background: #fcfcfc url(https://raw.github.com/carlosepp/XDNA/master/img/bg.jpg) no-repeat center center fixed; }
+    body.xd #main-content .welcome-content {
+      margin: 0;
+      padding-top: 20px; }
+    body.xd #main-content #gridBoard {
+      background: none; }
+    body.xd #main-content .panel {
+      background: none; }
   body.xd .xd-footer {
     padding: 20px;
     font-size: 0.8em; }
