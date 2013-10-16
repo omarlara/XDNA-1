@@ -342,7 +342,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     body.xd .xd-menu .s4-tn li.static .menu-item {
       height: 100%;
       color: #2F2F2F;
-      padding: 17px 30px 15px;
+      padding: 18px;
       text-transform: uppercase;
       font-size: 1.2em; }
       body.xd .xd-menu .s4-tn li.static .menu-item:hover {
@@ -350,7 +350,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
         text-decoration: none; }
     body.xd .xd-menu .s4-tn li {
       line-height: 6px;
-      font-weight: regular; }
+      font-weight: normal; }
     body.xd .xd-menu .static.dynamic-children li a:hover {
       background-color: #0088af; }
   body.xd .menu-horizontal a.dynamic-children span.additional-background,
