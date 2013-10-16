@@ -31,64 +31,6 @@ body.xd{
   #zz15_TopNavigationMenuV4{
     display: none;
   }
-  /* ==========================================================================
-   Mobile
-   ========================================================================== */
-	@include mobile-only{
-    
-    .menu-icon{
-      display: block;
-    }
-    .menu .ul.dynamic{
-        display: block !important;
-        left: auto !important;
-        top: auto !important;
-        position: static !important;
-        clear: both !important;
-        
-    }
-    ul.root.static{
-      @include clearfix;
-    }  
-		#zz15_TopNavigationMenuV4 .menu{
-      
-		
-			width: 100%;
-			ul{
-			
-				width: 100%;
-				> li{
-					width: 100%;
-
-
-				}
-				ul > li{
-					width: 100%;
-
-				}
-			}
-		}
-	}
-  /* ==========================================================================
-   Tablet
-   ========================================================================== */
-  @include tablet-landscape-and-below{
-    .s4-ca{
-      margin-top: 70px;
-    }
-  }
-
-
-
-
-
- @include tablet-landscape-and-up{
-    .menu-icon{
-      display: none;
-    }
-
-  }
-
 
 
   /* ==========================================================================
@@ -114,7 +56,17 @@ body.xd{
   }
 
 /* ==========================================================================
-   2.0 Header Styles
+   
+
+ooooo   ooooo                           .o8                     
+`888'   `888'                          "888                     
+ 888     888   .ooooo.   .oooo.    .oooo888   .ooooo.  oooo d8b 
+ 888ooooo888  d88' `88b `P  )88b  d88' `888  d88' `88b `888""8P 
+ 888     888  888ooo888  .oP"888  888   888  888ooo888  888     
+ 888     888  888    .o d8(  888  888   888  888    .o  888     
+o888o   o888o `Y8bod8P' `Y888""8o `Y8bod88P" `Y8bod8P' d888b 
+
+
    ========================================================================== */
   .xd-header {
     background-color: #009fd9;
@@ -148,7 +100,17 @@ body.xd{
     }
   }
   /* ==========================================================================
-   2.1 Welcome
+  
+
+oooooo   oooooo     oooo           oooo                                                  
+ `888.    `888.     .8'            `888                                                  
+  `888.   .8888.   .8'    .ooooo.   888   .ooooo.   .ooooo.  ooo. .oo.  .oo.    .ooooo.  
+   `888  .8'`888. .8'    d88' `88b  888  d88' `"Y8 d88' `88b `888P"Y88bP"Y88b  d88' `88b 
+    `888.8'  `888.8'     888ooo888  888  888       888   888  888   888   888  888ooo888 
+     `888'    `888'      888    .o  888  888   .o8 888   888  888   888   888  888    .o 
+      `8'      `8'       `Y8bod8P' o888o `Y8bod8P' `Y8bod8P' o888o o888o o888o `Y8bod8P' 
+
+
    ========================================================================== */
   
   .xd-welcome {
@@ -200,7 +162,16 @@ body.xd{
 
   }
   /* ==========================================================================
-   2.2 Search
+ 
+ .oooooo..o                                        oooo        
+d8P'    `Y8                                        `888        
+Y88bo.       .ooooo.   .oooo.   oooo d8b  .ooooo.   888 .oo.   
+ `"Y8888o.  d88' `88b `P  )88b  `888""8P d88' `"Y8  888P"Y88b  
+     `"Y88b 888ooo888  .oP"888   888     888        888   888  
+oo     .d8P 888    .o d8(  888   888     888   .o8  888   888  
+8""88888P'  `Y8bod8P' `Y888""8o d888b    `Y8bod8P' o888o o888o 
+                                                               
+  
    ========================================================================== */
   
   .xd-search {
@@ -235,7 +206,15 @@ body.xd{
     } 
   }
   /* ==========================================================================
-   3.0 Menu
+
+ooo        ooooo                                   
+`88.       .888'                                   
+ 888b     d'888   .ooooo.  ooo. .oo.   oooo  oooo  
+ 8 Y88. .P  888  d88' `88b `888P"Y88b  `888  `888  
+ 8  `888'   888  888ooo888  888   888   888   888  
+ 8    Y     888  888    .o  888   888   888   888  
+o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P' 
+
    ========================================================================== */
   .xd-menu {
     background-color: #fff;
@@ -326,8 +305,36 @@ body.xd{
     display: none;
     clear: both;
   }
+
+/**==========================================================================
+
+    .oooooo.                             .                             .   
+ d8P'  `Y8b                          .o8                           .o8   
+888           .ooooo.  ooo. .oo.   .o888oo  .ooooo.  ooo. .oo.   .o888oo 
+888          d88' `88b `888P"Y88b    888   d88' `88b `888P"Y88b    888   
+888          888   888  888   888    888   888ooo888  888   888    888   
+`88b    ooo  888   888  888   888    888 . 888    .o  888   888    888 . 
+ `Y8bood8P'  `Y8bod8P' o888o o888o   "888" `Y8bod8P' o888o o888o   "888" 
+
+
+==========================================================================**/
+
+  #main-content{
+    width: 100%;
+    position: relative; 
+    @include background-size(cover);
+    background: url(https://raw.github.com/carlosepp/XDNA/master/img/bg.jpg) no-repeat center center fixed
+  }
   /* ==========================================================================
-   4.0 Footer
+
+oooooooooooo                         .                      
+`888'     `8                       .o8                      
+ 888          .ooooo.   .ooooo.  .o888oo  .ooooo.  oooo d8b 
+ 888oooo8    d88' `88b d88' `88b   888   d88' `88b `888""8P 
+ 888    "    888   888 888   888   888   888ooo888  888     
+ 888         888   888 888   888   888 . 888    .o  888     
+o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b    
+
    ========================================================================== */
    .xd-footer {
     padding:20px;
@@ -384,10 +391,7 @@ body.xd{
   .caroufredsel_wrapper{
     margin: 0 auto !important;
   }
-  #main-content{
-    width: 100%;
-    position: relative; 
-  }
+  
   img[id*="_PictureUrlImage"]{
     width: 60px; height: 60px;
   }
@@ -403,32 +407,28 @@ body.xd{
 
 
 
-
-
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
-   5.0 Media Queries
+
+
+ooo        ooooo oooooooooooo oooooooooo.   ooooo       .o.       
+`88.       .888' `888'     `8 `888'   `Y8b  `888'      .888.      
+ 888b     d'888   888          888      888  888      .8"888.     
+ 8 Y88. .P  888   888oooo8     888      888  888     .8' `888.    
+ 8  `888'   888   888    "     888      888  888    .88ooo8888.   
+ 8    Y     888   888       o  888     d88'  888   .8'     `888.  
+o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o 
+                                                                  
+                                                                  
+                                                                  
+  .oooooo.                                      o8o                     
+ d8P'  `Y8b                                     `"'                     
+888      888    oooo  oooo   .ooooo.  oooo d8b oooo   .ooooo.   .oooo.o 
+888      888    `888  `888  d88' `88b `888""8P `888  d88' `88b d88(  "8 
+888      888     888   888  888ooo888  888      888  888ooo888 `"Y88b.  
+`88b    d88b     888   888  888    .o  888      888  888    .o o.  )88b 
+ `Y8bood8P'Ybd'  `V88V"V8P' `Y8bod8P' d888b    o888o `Y8bod8P' 8""888P' 
+  
+
    ========================================================================== */  
   
   /* Tablet (landscape) ----------- */
@@ -593,3 +593,61 @@ body.xd{
     
   }
   
+/* ==========================================================================
+   Mobile
+   ========================================================================== */
+  @include mobile-only{
+    
+    .menu-icon{
+      display: block;
+    }
+    .menu .ul.dynamic{
+        display: block !important;
+        left: auto !important;
+        top: auto !important;
+        position: static !important;
+        clear: both !important;
+        
+    }
+    ul.root.static{
+      @include clearfix;
+    }  
+    #zz15_TopNavigationMenuV4 .menu{
+      
+    
+      width: 100%;
+      ul{
+      
+        width: 100%;
+        > li{
+          width: 100%;
+
+
+        }
+        ul > li{
+          width: 100%;
+
+        }
+      }
+    }
+  }
+  /* ==========================================================================
+   Tablet
+   ========================================================================== */
+  @include tablet-landscape-and-below{
+    .s4-ca{
+      margin-top: 70px;
+    }
+  }
+
+
+
+
+
+ @include tablet-landscape-and-up{
+    .menu-icon{
+      display: none;
+    }
+
+  }
+
