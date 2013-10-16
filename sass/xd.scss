@@ -243,7 +243,6 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     }
     .s4-tn ul.dynamic  {
       border:none; 
-      border-top: 1px solid #61C3E8;
     }    
     .s4-tn {
       li.static .menu-item{
@@ -264,7 +263,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       }
     }
     .static.dynamic-children li{
-      background-color: #009FD9;
+
       & a:hover{
         background-color: #0088AF
       }

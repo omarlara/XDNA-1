@@ -338,8 +338,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       body.xd .xd-menu .menu li.selected .menu-item {
         color: #F9F9FB; }
     body.xd .xd-menu .s4-tn ul.dynamic {
-      border: none;
-      border-top: 1px solid #61C3E8; }
+      border: none; }
     body.xd .xd-menu .s4-tn li.static .menu-item {
       height: 100%;
       color: #2F2F2F;
@@ -352,10 +351,8 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     body.xd .xd-menu .s4-tn li {
       line-height: 6px;
       font-weight: regular; }
-    body.xd .xd-menu .static.dynamic-children li {
-      background-color: #009FD9; }
-      body.xd .xd-menu .static.dynamic-children li a:hover {
-        background-color: #0088af; }
+    body.xd .xd-menu .static.dynamic-children li a:hover {
+      background-color: #0088af; }
   body.xd .menu-horizontal a.dynamic-children span.additional-background,
   body.xd .menu-horizontal span.dynamic-children span.additional-background {
     background-image: none;
