@@ -28,7 +28,7 @@ body.xd{
     display: none ;
     clear: both;
   }
-  #zz15_TopNavigationMenuV4{
+  div[id*="TopNavigationMenuV4"]{
     display: none;
   }
 
@@ -331,7 +331,8 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       background: none;
     }
     .panel{
-      background: none;
+      background: #C6C7C9;
+      border:none;
     }
   }
   /* ==========================================================================

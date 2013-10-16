@@ -212,7 +212,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   body.xd .mobile-submenu {
     display: none;
     clear: both; }
-  body.xd #zz15_TopNavigationMenuV4 {
+  body.xd div[id*="TopNavigationMenuV4"] {
     display: none; }
   body.xd #ctl00_MSO_ContentDiv,
   body.xd #s4-bodyContainer {
@@ -401,7 +401,8 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     body.xd #main-content #gridBoard {
       background: none; }
     body.xd #main-content .panel {
-      background: none; }
+      background: #C6C7C9;
+      border: none; }
   body.xd .xd-footer {
     padding: 20px;
     font-size: 0.8em; }
