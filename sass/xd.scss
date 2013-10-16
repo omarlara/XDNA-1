@@ -243,6 +243,7 @@ body.xd{
 
     .menu li.selected{
       border-top: 4px solid $menuBorderColor;
+      line-height: 2px;
       .menu-item{
         color:#F9F9FB;
       }

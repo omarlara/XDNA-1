@@ -304,7 +304,8 @@ body.xd {
     body.xd .xd-menu .menu ul li:first-child .menu-item {
       color: #999; }
     body.xd .xd-menu .menu li.selected {
-      border-top: 4px solid #fe6601; }
+      border-top: 4px solid #fe6601;
+      line-height: 2px; }
       body.xd .xd-menu .menu li.selected .menu-item {
         color: #F9F9FB; }
     body.xd .xd-menu .s4-tn ul.dynamic {
