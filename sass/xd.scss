@@ -333,6 +333,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     .panel{
       background: #C6C7C9;
       border:1px solid #C6C7C9;
+      &:before{
+        display: none;
+      }
     }
   }
   /* ==========================================================================

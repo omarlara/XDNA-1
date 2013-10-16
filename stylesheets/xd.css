@@ -403,6 +403,8 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     body.xd #main-content .panel {
       background: #C6C7C9;
       border: 1px solid #C6C7C9; }
+      body.xd #main-content .panel:before {
+        display: none; }
   body.xd .xd-footer {
     padding: 20px;
     font-size: 0.8em; }
