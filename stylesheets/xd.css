@@ -298,9 +298,9 @@ body.xd {
     body.xd .xd-menu .s4-tn li.static > .menu-item {
       height: 100%;
       color: #7FD7F1;
-      padding: 17px 30px 15px;
+      padding: 17px;
       text-transform: uppercase;
-      font-size: .9em; }
+      font-size: 14px; }
     body.xd .xd-menu .menu ul li:first-child .menu-item {
       color: #999; }
     body.xd .xd-menu .menu li.selected {
@@ -321,7 +321,8 @@ body.xd {
         background-color: #f9f9f9;
         text-decoration: none; }
     body.xd .xd-menu .s4-tn li {
-      line-height: 6px; }
+      line-height: 6px;
+      font-weight: regular; }
     body.xd .xd-menu .static.dynamic-children li {
       background-color: #009FD9; }
       body.xd .xd-menu .static.dynamic-children li a:hover {
