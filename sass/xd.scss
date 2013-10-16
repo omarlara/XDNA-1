@@ -224,9 +224,9 @@ body.xd{
    3.0 Menu
    ========================================================================== */
   .xd-menu {
-    background-color: #00b0e2;
+    background-color: #fff;
     padding: 0 30px;
-    border-top: solid 1px #61C3E8;
+    border-top: solid 2px $menuBorderColor;
     overflow:visible;
 
     .s4-tn li.static > .menu-item {
@@ -238,6 +238,10 @@ body.xd{
     }
     .menu ul li:first-child .menu-item {
       color: white;
+    }
+
+    .menu li.selected{
+      border-top: 4px solid $menuBorderColor;
     }
     .s4-tn ul.dynamic  {
       border:none; 
