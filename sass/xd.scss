@@ -35,9 +35,7 @@ body.xd{
    Mobile
    ========================================================================== */
 	@include mobile-only{
-    .s4-ca{
-      margin-top: 70px;
-    }
+    
     .menu-icon{
       display: block;
     }
@@ -74,10 +72,21 @@ body.xd{
   /* ==========================================================================
    Tablet
    ========================================================================== */
-  @include tablet-landscape-and-up{
+  @include tablet-landscape-and-below{
+    .s4-ca{
+      margin-top: 70px;
+    }
+  }
+
+
+
+
+
+ @include tablet-landscape-and-up{
     .menu-icon{
       display: none;
     }
+
   }
 
 
@@ -304,12 +313,13 @@ body.xd{
     background-position:70% center;
     background-repeat: no-repeat;
     font-size: 1.5em;
-    line-height: 3.8em;
+    line-height: 3.3em;
     font-weight: 300;
     background: #fff;
     color: #2e2e2e;
+    height:3.3em;
     &:hover {
-      background-color: #009cc9;
+      background-color: #f9f9f9;
     }
   }
   .mobile-submenu {

@@ -164,8 +164,6 @@ body.xd {
   body.xd #zz15_TopNavigationMenuV4 {
     display: none; }
   @media (max-width: 480px) {
-    body.xd .s4-ca {
-      margin-top: 70px; }
     body.xd .menu-icon {
       display: block; }
     body.xd .menu .ul.dynamic {
@@ -185,6 +183,9 @@ body.xd {
           width: 100%; }
         body.xd #zz15_TopNavigationMenuV4 .menu ul ul > li {
           width: 100%; } }
+  @media only screen and (max-width: 1024px) {
+    body.xd .s4-ca {
+      margin-top: 70px; } }
   @media only screen and (min-width: 769px) {
     body.xd .menu-icon {
       display: none; } }
@@ -354,12 +355,13 @@ body.xd {
     background-position: 70% center;
     background-repeat: no-repeat;
     font-size: 1.5em;
-    line-height: 3.8em;
+    line-height: 3.3em;
     font-weight: 300;
     background: #fff;
-    color: #2e2e2e; }
+    color: #2e2e2e;
+    height: 3.3em; }
     body.xd .menu-icon:hover {
-      background-color: #009cc9; }
+      background-color: #f9f9f9; }
   body.xd .mobile-submenu {
     display: none;
     clear: both; }
