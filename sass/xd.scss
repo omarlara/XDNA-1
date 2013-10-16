@@ -237,10 +237,7 @@ body.xd{
       text-transform: uppercase;
       font-size: .9em;
     }
-    .menu ul li:first-child .menu-item {
-      color: white;
-    }
-
+ 
     .menu li.selected{
       border-top: 4px solid $menuBorderColor;
       .menu-item{
@@ -264,7 +261,9 @@ body.xd{
 
         }
       }
-
+      li{
+        line-height: 6px;
+      }
     }
     .static.dynamic-children li{
       background-color: #009FD9;

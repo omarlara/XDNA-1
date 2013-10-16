@@ -301,8 +301,6 @@ body.xd {
       padding: 17px 30px 15px;
       text-transform: uppercase;
       font-size: .9em; }
-    body.xd .xd-menu .menu ul li:first-child .menu-item {
-      color: white; }
     body.xd .xd-menu .menu li.selected {
       border-top: 4px solid #fe6601; }
       body.xd .xd-menu .menu li.selected .menu-item {
@@ -319,6 +317,8 @@ body.xd {
       body.xd .xd-menu .s4-tn li.static .menu-item:hover {
         background-color: #f9f9f9;
         text-decoration: none; }
+    body.xd .xd-menu .s4-tn li {
+      line-height: 6px; }
     body.xd .xd-menu .static.dynamic-children li {
       background-color: #009FD9; }
       body.xd .xd-menu .static.dynamic-children li a:hover {
